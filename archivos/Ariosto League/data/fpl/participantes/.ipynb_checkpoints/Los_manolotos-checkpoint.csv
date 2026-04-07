@@ -1,0 +1,571 @@
+Player,Team,Position,Fantasy_team,Is_starter,MP,GS,A,CS,GC,OG,PS,PM,YC,RC,S,B,BPS,I,C,T,II,GS2,EG,EA,EGI,EGC,GW
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,3,1,28,28,0,0,2.8,1,0,0,0,0.47,1
+Pedro Porro,TOT,DEF,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,1,28,50,59.3,21,13,1,0.09,0.32,0.41,0.96,1
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,11,12.2,13.4,6,3.2,1,0,0.02,0.02,1.59,1
+Dunk,BHA,DEF,Los manolotos,True,75,0,0,1,0,0,0,0,0,0,0,0,23,7,0.3,6,1.3,1,0.07,0,0.07,0.45,1
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,1,1,0,0,0,0,0,0,3,18.8,0.1,17,3.6,1,0.01,0,0.01,1.17,1
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,13,9.6,37.1,31,7.8,1,0.46,0.38,0.84,0.45,1
+Mitoma,BHA,MID,Los manolotos,True,88,1,0,1,0,0,0,0,0,0,0,0,27,48.2,4.1,80,13.2,1,0.97,0.04,1.01,0.45,1
+Kulusevski,TOT,MID,Los manolotos,True,11,0,0,0,0,0,0,0,0,0,0,0,0,2.4,1.3,22,2.6,0,0,0.17,0.17,0.12,1
+Elanga,NFO,MID,Los manolotos,True,53,0,0,0,0,0,0,0,0,0,0,0,13,10.4,25.1,9,4.5,1,0.02,0.16,0.18,0.55,1
+Havertz,ARS,FWD,Los manolotos,True,90,1,1,1,0,0,0,0,0,0,0,3,48,54.8,24.1,46,12.5,1,0.45,0.04,0.49,0.47,1
+João Pedro,BHA,FWD,Los manolotos,True,81,0,0,1,0,0,0,0,0,0,0,0,9,5,10.8,7,2.3,1,0.03,0.02,0.05,0.45,1
+Neto,ARS,GKP,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,7,0,17,47,0,0,4.7,1,0,0,0,1.3,1
+Daka,LEI,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Madueke,CHE,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Kerkez,BOU,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,1,0,0,0,5,12,12.7,2,2.7,1,0,0.01,0.01,1.3,1
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,3,3,27,28.2,0,0,2.8,1,0,0,0,1.28,2
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,23,25.2,21.5,1,4.8,1,0.03,0.11,0.14,1,2
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,9,11.8,4.2,4,2,1,0,0.02,0.02,1.39,2
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,11,16.2,11.1,0,2.7,1,0,0.01,0.01,1.43,2
+Luis Díaz,LIV,MID,Los manolotos,True,71,1,1,1,0,0,0,0,0,0,0,3,51,68.6,48.7,44,16.1,1,0.87,0.17,1.04,0.36,2
+Mitoma,BHA,MID,Los manolotos,True,89,0,1,0,1,0,0,0,0,0,0,1,20,16.6,13.5,6,3.6,1,0,0.58,0.58,1.32,2
+Madueke,CHE,MID,Los manolotos,True,90,3,0,0,2,0,0,0,0,0,0,3,76,110.6,15.4,88,21.4,1,0.54,0.11,0.65,1.92,2
+Kulusevski,TOT,MID,Los manolotos,True,66,0,1,1,0,0,0,0,0,0,0,0,21,25.6,48.8,8,8.2,1,0,0.11,0.11,1,2
+Elanga,NFO,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,11,17,40.7,29,8.7,1,0.22,0.24,0.46,0.14,2
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,-2,0,6.1,15,2,1,0.21,0.03,0.24,1.28,2
+João Pedro,BHA,FWD,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,36,45.6,16.4,53,11.5,1,0.53,0.12,0.65,1.43,2
+Neto,ARS,GKP,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,4,0,13,30.8,0,0,3.1,1,0,0,0,1.61,2
+Duran,AVL,FWD,Los manolotos,False,25,0,0,0,2,0,0,0,0,0,0,0,1,2.6,3.4,7,1.3,0,0.1,0.14,0.24,0.51,2
+Kerkez,BOU,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,0,0,4,14.8,2.9,2,2,1,0,0.01,0.01,1.61,2
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,7,15.4,0.2,0,1.6,1,0,0,0,2.65,2
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,3,0,8,33.6,0,0,3.4,1,0,0.01,0.01,1.83,3
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,4,16,15.9,23,5.5,1,0.21,0.17,0.38,1.57,3
+Kerkez,BOU,DEF,Los manolotos,True,65,0,0,0,2,0,0,0,0,0,0,0,3,8.2,19.6,4,3.2,1,0.01,0.06,0.07,1.71,3
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,9,17.2,0.8,2,2,1,0,0.01,0.01,1.57,3
+Luis Díaz,LIV,MID,Los manolotos,True,65,2,0,1,0,0,0,0,0,0,0,2,45,67.6,1.3,56,12.5,1,0.6,0.01,0.61,0.49,3
+Mitoma,BHA,MID,Los manolotos,True,84,0,0,0,1,0,0,0,0,0,0,0,13,5.8,27,12,4.5,1,0.04,0.14,0.18,2.08,3
+Madueke,CHE,MID,Los manolotos,True,85,0,0,0,1,0,0,0,0,0,0,0,-2,5,3.9,41,5,1,0.59,0.04,0.63,0.25,3
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,12.8,43.3,25,8.1,1,0.08,0.11,0.19,1.57,3
+Elanga,NFO,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,9,4,30.2,12,4.6,1,0.02,0.07,0.09,0.73,3
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,34,47,24.8,30,10.2,1,0.77,0.05,0.82,1.83,3
+Duran,AVL,FWD,Los manolotos,True,29,1,0,0,1,0,0,0,1,0,0,3,27,33.2,3.2,40,7.6,0,0.23,0,0.23,0.28,3
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+João Pedro,BHA,FWD,Los manolotos,False,90,1,0,0,1,0,0,0,1,0,0,3,39,46.8,22.4,33,10.2,1,0.32,0.12,0.44,2.08,3
+Muñoz,CRY,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,1,0,0,0,2,15.8,16.3,6,3.8,1,0,0.26,0.26,2.27,3
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,0,0,17,30.4,39.9,2,7.2,1,0,0.23,0.23,2.08,3
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,5,2,33,41,0,0,4.1,1,0,0,0,0.74,4
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,18,38,57.1,2,9.7,1,0,0.07,0.07,0.73,4
+Muñoz,CRY,DEF,Los manolotos,True,80,0,0,0,2,0,0,0,0,0,0,0,4,19.6,25.2,14,5.9,1,0.15,0.02,0.17,1.22,4
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,26,10.4,1.3,2,1.4,1,0.09,0.01,0.1,0.35,4
+Luis Díaz,LIV,MID,Los manolotos,True,60,0,0,1,0,0,0,0,0,0,0,0,6,3.4,3.8,8,1.5,1,0.11,0.03,0.14,0.14,4
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,3,11.4,6.6,60,7.8,1,0.65,0.02,0.67,0.35,4
+Madueke,CHE,MID,Los manolotos,True,60,0,0,1,0,0,0,0,0,0,0,0,11,3.2,14.4,8,2.6,1,0.11,0,0.11,1.55,4
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,2,10.6,12.6,31,5.4,1,0.16,0.11,0.27,0.73,4
+Elanga,NFO,MID,Los manolotos,True,29,0,1,0,0,0,0,0,1,0,0,0,8,18.2,10.6,21,5,0,0.23,0,0.23,0.2,4
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,9,19.2,5.4,36,6.1,1,0.14,0,0.14,0.74,4
+Duran,AVL,FWD,Los manolotos,True,21,1,0,0,0,0,0,0,0,0,0,1,27,29.2,0.5,15,4.5,0,0.33,0,0.33,0.23,4
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Kerkez,BOU,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,0,0,9,9.4,0.3,3,1.3,1,0.07,0,0.07,0.78,4
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,12,23.4,0.6,51,7.5,1,0.22,0.03,0.25,2.17,4
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,9,0,21,63,0,0,6.3,1,0,0,0,2.16,5
+Pedro Porro,TOT,DEF,Los manolotos,True,87,0,0,0,1,0,0,0,0,0,0,0,13,14.2,7.9,6,2.8,1,0.06,0.03,0.09,0.8,5
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,5,13.4,5.1,0,1.9,1,0,0.03,0.03,1.53,5
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,23,18,15.3,0,3.3,1,0,0.01,0.01,1.7,5
+Luis Díaz,LIV,MID,Los manolotos,True,71,2,0,1,0,0,0,0,0,0,0,3,59,78.6,15.8,60,15.4,1,0.59,0.09,0.68,0.54,5
+Mitoma,BHA,MID,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,21,15.6,34.7,8,5.8,1,0,0.22,0.22,1.53,5
+Madueke,CHE,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,12,9.6,16.4,31,5.7,1,0.16,0.01,0.17,0.85,5
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,9,13,38.2,48,9.9,1,0.38,0.11,0.49,0.8,5
+João Pedro,BHA,FWD,Los manolotos,True,19,0,0,0,0,0,0,0,0,0,0,0,3,1.4,1,4,0.6,0,0.02,0,0.02,0,5
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,15,0,17,3.2,1,0.06,0,0.06,2.16,5
+Duran,AVL,FWD,Los manolotos,True,28,1,0,0,0,0,0,0,0,0,0,0,26,32,0.8,21,5.4,0,1.03,0,1.03,0,5
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Elanga,NFO,MID,Los manolotos,False,45,0,0,0,2,0,0,0,0,0,0,0,3,0.6,0.5,0,0.1,1,0,0,0,0.39,5
+Kerkez,BOU,DEF,Los manolotos,False,90,0,0,0,3,0,0,0,0,0,0,0,7,18,26.6,1,4.6,1,0.01,0.09,0.1,2.06,5
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,3,0,0,0,0,0,0,0,1,31,0.4,2,3.3,1,0,0,0,3.52,5
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,1,0,1,10.8,0,0,1.1,1,0,0,0,0.32,6
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,1,0,0,0,30,22.2,27.7,17,6.7,1,0.12,0.09,0.21,0.96,6
+Kerkez,BOU,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,3,8.4,2.8,8,1.9,1,0.02,0.01,0.03,0.6,6
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,11,17.8,1.7,0,2,1,0,0.02,0.02,0.99,6
+Luis Díaz,LIV,MID,Los manolotos,True,72,0,0,0,1,0,0,0,0,0,0,0,6,2.8,13.9,17,3.4,1,0.12,0.05,0.17,0.62,6
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,0,4,0,0,0,0,0,0,0,18,12.8,27.8,18,5.9,1,0.03,0.13,0.16,4.16,6
+Madueke,CHE,MID,Los manolotos,True,62,0,1,0,2,0,0,0,0,0,0,0,13,1.2,1.2,8,1,1,0.23,0,0.23,0.88,6
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,3,47,62.6,102.8,43,20.8,1,0.43,0.39,0.82,0.96,6
+Elanga,NFO,MID,Los manolotos,True,45,0,0,0,1,0,0,0,0,0,0,0,2,0,2,15,1.7,0,0.07,0.01,0.08,0.98,6
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,0,25,35.6,8.5,100,14.4,1,1.89,0.04,1.93,0.32,6
+Duran,AVL,FWD,Los manolotos,True,26,0,0,0,1,0,0,0,0,0,0,0,7,8.4,10.3,0,1.9,0,0,0,0,0.63,6
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+Muñoz,CRY,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,12,15.2,14.2,39,6.8,1,0.18,0.07,0.25,0.89,6
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,4,0,0,0,1,0,0,0,-3,21.8,2.1,2,2.6,1,0,0.01,0.01,4.16,6
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,6,8,0,0,0.8,1,0,0,0,0.65,7
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,4,24.6,16,2,4.3,1,0.03,0.19,0.22,1.82,7
+Kerkez,BOU,DEF,Los manolotos,True,62,0,0,0,1,0,0,0,0,0,0,0,7,5.6,7.7,0,1.3,1,0,0.03,0.03,0.76,7
+Pinnock,BRE,DEF,Los manolotos,True,90,1,0,0,3,0,0,0,0,0,0,0,17,50.4,0.5,56,10.7,1,0.19,0,0.19,1.05,7
+Luis Díaz,LIV,MID,Los manolotos,True,17,0,0,0,0,0,0,0,0,0,0,0,4,6.4,16,9,3.1,0,0.07,0.01,0.08,0.15,7
+Mitoma,BHA,MID,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,27,36.4,40.4,23,10,1,0.11,0.2,0.31,1.37,7
+Madueke,CHE,MID,Los manolotos,True,89,1,0,0,1,0,0,0,0,0,0,3,34,44.4,39.3,80,16.4,1,0.33,0.22,0.55,0.59,7
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,3,0,0,0,1,0,0,0,3,9.8,15.5,17,4.2,1,0.05,0.19,0.24,1.82,7
+Gündogan,MCI,MID,Los manolotos,True,88,0,0,0,2,0,0,0,0,0,0,0,10,3.6,24.5,8,3.6,1,0.46,0.07,0.53,2.6,7
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,34,37.6,14.9,82,13.5,1,0.77,0.04,0.81,0.65,7
+Duran,AVL,FWD,Los manolotos,True,27,0,0,0,0,0,0,0,0,0,0,0,2,2.6,1.2,8,1.2,0,0,0.03,0.03,0.27,7
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+Muñoz,CRY,DEF,Los manolotos,False,16,0,0,0,1,0,0,0,0,0,0,0,2,4,0,4,0.8,1,0,0,0,0.25,7
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,5,17.4,0.8,2,2,1,0,0,0,1.37,7
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,2,0,0,11.8,0,0,1.2,1,0,0,0,1.82,8
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,10,16,43.5,19,7.9,1,0.11,0.15,0.26,0.78,8
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,20,16.6,0.4,4,2.1,1,0.09,0,0.09,2.02,8
+Pinnock,BRE,DEF,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,0,26,69,15.3,33,11.7,1,0.42,0.13,0.55,1.33,8
+Luis Díaz,LIV,MID,Los manolotos,True,24,0,0,0,0,0,0,0,0,0,0,0,4,3.2,1.3,11,1.6,0,0.07,0.01,0.08,0.36,8
+Mitoma,BHA,MID,Los manolotos,True,30,0,0,0,0,0,0,0,0,0,0,0,5,5.2,3.7,21,3,0,0.21,0.01,0.22,0.93,8
+Madueke,CHE,MID,Los manolotos,True,75,0,0,0,2,0,0,0,0,0,0,0,9,7.4,14.3,27,4.9,1,0.02,0.06,0.08,1.87,8
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,35,42.6,24.8,35,10.2,1,0.17,0.06,0.23,0.78,8
+Gündogan,MCI,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,13,9.2,50.7,43,10.3,1,0.42,0.15,0.56,0.97,8
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,4,3.6,3.3,10,1.7,1,0.04,0.02,0.06,1.82,8
+Duran,AVL,FWD,Los manolotos,True,15,0,0,0,0,0,0,0,0,0,0,0,2,0.2,0.5,4,0.5,0,0.02,0.01,0.03,0.24,8
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Muñoz,CRY,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,1,0,0,0,12,23.4,31.2,0,5.5,1,0,0.08,0.08,1.62,8
+Kerkez,BOU,DEF,Los manolotos,False,90,0,0,1,0,0,0,0,0,0,0,1,30,19.4,16.1,7,4.3,1,0.05,0.03,0.08,0.68,8
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,2,0,2,19.6,0,0,2,1,0,0,0,0.85,9
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,10,14.8,23.1,3,4.1,1,0.03,0.11,0.14,0.83,9
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,1,0,0,0,15,22,15.9,14,5.2,1,0.06,0.11,0.17,0.72,9
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,11,27.6,30.8,2,6,1,0,0.2,0.2,1.3,9
+Luis Díaz,LIV,MID,Los manolotos,True,62,0,1,0,2,0,0,0,0,0,0,0,9,19.2,12.2,8,3.9,1,0,0.39,0.39,0.8,9
+Mitoma,BHA,MID,Los manolotos,True,88,0,0,0,1,0,0,0,0,0,0,0,6,7,16.1,58,8.1,1,0.23,0.19,0.42,1.29,9
+Madueke,CHE,MID,Los manolotos,True,66,0,0,0,1,0,0,0,1,0,0,0,10,13,27.8,46,8.7,1,0.08,0.18,0.26,1.55,9
+Kulusevski,TOT,MID,Los manolotos,True,61,0,0,0,1,0,0,0,1,0,0,0,1,2,12.7,35,5,1,0.1,0.02,0.12,0.75,9
+Gündogan,MCI,MID,Los manolotos,True,4,0,0,0,0,0,0,0,0,0,0,0,5,2.2,1.2,0,0.3,0,0,0,0,0.04,9
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,3,4.4,25.3,17,4.7,1,0.17,0.47,0.64,0.85,9
+Duran,AVL,FWD,Los manolotos,True,33,0,0,0,1,0,0,0,0,0,0,0,0,5.6,1.8,22,2.9,0,0.29,0,0.29,0.12,9
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Kerkez,BOU,DEF,Los manolotos,False,80,0,0,0,1,0,0,0,0,0,0,0,10,13.6,29.8,2,4.5,1,0.02,0.09,0.11,1.81,9
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,3,0,11,22.8,0,0,2.3,1,0,0,0,0.53,10
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,5,5,4.6,8,1.8,1,0.04,0.02,0.06,1.86,10
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,1,0,0,0,4,20.4,12.7,13,4.6,1,0.38,0.01,0.39,1.53,10
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,39.6,0.6,0,4,1,0,0.01,0.01,1.37,10
+Luis Díaz,LIV,MID,Los manolotos,True,24,0,0,0,0,0,0,0,0,0,0,0,0,2.6,11.1,2,1.6,0,0,0.02,0.02,0.24,10
+Mitoma,BHA,MID,Los manolotos,True,86,0,0,0,2,0,0,0,0,0,0,0,9,7.8,31.5,19,5.8,1,0.11,0.2,0.31,1.65,10
+Madueke,CHE,MID,Los manolotos,True,70,0,0,0,1,0,0,0,0,0,0,0,1,0.6,2.9,12,1.6,1,0.53,0.03,0.56,1.76,10
+Kulusevski,TOT,MID,Los manolotos,True,90,0,1,0,1,0,0,0,0,0,0,0,18,34.4,36.4,6,7.7,1,0,0.37,0.37,1.86,10
+Gündogan,MCI,MID,Los manolotos,True,84,0,1,0,2,0,0,0,0,0,0,0,25,26.6,32.8,6,6.5,1,0,0.23,0.23,2.04,10
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,4,5.6,11.8,4,2.1,1,0,0.42,0.42,0.53,10
+Duran,AVL,FWD,Los manolotos,True,21,0,0,0,3,0,0,0,0,0,0,0,2,0,0.2,0,0,0,0,0,0,1.48,10
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+Kerkez,BOU,DEF,Los manolotos,False,90,0,2,0,1,0,0,0,0,0,0,2,37,48.6,27.6,8,8.4,1,0,0.42,0.42,1.56,10
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,2,0,17,20.2,0,0,2,1,0,0,0,1.28,11
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,16,37,58.9,4,10,1,0,0.17,0.17,1.74,11
+Muñoz,CRY,DEF,Los manolotos,True,88,0,0,0,2,0,0,0,0,0,0,0,7,22.2,11.4,38,7.2,1,0.52,0,0.52,1.83,11
+Kerkez,BOU,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,7,19,17.7,6,4.3,1,0,0.1,0.1,1.48,11
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,10,7,34.8,19,6.1,1,0.04,0.08,0.12,1.38,11
+Mitoma,BHA,MID,Los manolotos,True,89,0,0,0,1,0,0,0,0,0,0,0,9,11.6,17,27,5.6,1,0.22,0.27,0.49,2.06,11
+Madueke,CHE,MID,Los manolotos,True,67,0,0,0,1,0,0,0,1,0,0,0,9,3.2,16.1,11,3,1,0.2,0.31,0.51,0.82,11
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,12,12.2,40,8,6,1,0,0.34,0.34,1.74,11
+Gündogan,MCI,MID,Los manolotos,True,71,0,0,1,0,0,0,0,0,0,0,0,13,4.6,9.7,6,2,1,0,0.01,0.01,1.46,11
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,2,12,13.2,2,2.7,1,0,0.01,0.01,1.28,11
+Duran,AVL,FWD,Los manolotos,True,25,0,0,0,1,0,0,0,0,0,0,0,3,2.2,0.3,2,0.5,0,0,0,0,0.84,11
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,7,20.6,11.9,4,3.7,1,0,0.13,0.13,2.61,11
+João Pedro,BHA,FWD,Los manolotos,False,25,1,1,0,0,0,0,0,0,0,0,3,38,52.4,15.3,23,9.1,0,0.53,0.36,0.89,0.19,11
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,22,5.2,0,0,0.5,1,0,0,0,0.33,12
+Pedro Porro,TOT,DEF,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,2,42,60.2,6.1,17,8.3,1,0.31,0.01,0.32,2.14,12
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,17,21.3,6,4.4,1,0.04,0.05,0.09,3.11,12
+Kerkez,BOU,DEF,Los manolotos,True,80,0,0,0,2,0,0,0,0,0,0,0,14,19.4,28,10,5.7,1,0,0.24,0.24,0.91,12
+Luis Díaz,LIV,MID,Los manolotos,True,28,0,0,0,0,0,0,0,0,0,0,0,4,9.6,22.3,28,6,0,0.15,0.08,0.23,0.05,12
+Mitoma,BHA,MID,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,28,35.4,3.1,23,6.2,1,0.42,0.03,0.45,1.63,12
+Madueke,CHE,MID,Los manolotos,True,84,0,0,1,0,0,0,0,0,0,0,0,10,12.8,23.9,58,9.5,1,0.47,0.05,0.52,0.32,12
+Gündogan,MCI,MID,Los manolotos,True,90,0,0,0,4,0,0,0,0,0,0,0,18,19,36.8,17,7.3,1,0.1,0.1,0.2,2.51,12
+Kulusevski,TOT,MID,Los manolotos,True,90,0,1,1,0,0,0,0,0,0,0,0,30,33,36.1,25,9.4,1,0.12,0.47,0.59,2.14,12
+João Pedro,BHA,FWD,Los manolotos,True,63,1,1,1,0,0,0,0,0,0,0,3,50,55.6,26.8,39,12.1,1,0.29,0.59,0.88,0.73,12
+Duran,AVL,FWD,Los manolotos,True,21,0,0,0,0,0,0,0,0,0,0,0,3,4.4,10.3,7,2.2,0,0.02,0,0.02,0.24,12
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,1,0,0,0,0,0,0,0,0,29,28.8,10,6,4.5,1,0.03,0,0.03,1.2,12
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,3,0,6,23.8,0,0,2.4,1,0,0,0,1.54,13
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,11,8.6,19.4,4,3.2,1,0.07,0.07,0.14,1.38,13
+Pinnock,BRE,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,7,24.6,12.2,6,4.3,1,0,0.02,0.02,1.06,13
+Dunk,BHA,DEF,Los manolotos,True,18,0,0,0,0,0,0,0,0,0,0,0,10,5.2,1.7,4,1.1,0,0.1,0.02,0.12,0.05,13
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,1,1,0,0,0,0,0,0,0,0,13,2,13.1,4,1.9,1,0,0.11,0.11,0.77,13
+Mitoma,BHA,MID,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,3,33,42.8,40,26,10.9,1,0.57,0.1,0.67,1.01,13
+Madueke,CHE,MID,Los manolotos,True,19,0,1,0,0,0,0,0,1,0,0,0,10,18.2,11,19,4.8,0,0.07,0.01,0.08,0.47,13
+Kulusevski,TOT,MID,Los manolotos,True,22,0,0,0,0,0,0,0,0,0,0,0,3,1.6,0.8,0,0.2,0,0,0.01,0.01,0,13
+I.Sarr,CRY,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,13,11.4,28.6,40,8,1,0.17,0.83,1,0.04,13
+João Pedro,BHA,FWD,Los manolotos,True,71,0,0,0,1,0,0,0,0,0,0,0,12,7.6,12.7,30,5,1,0.1,0.04,0.14,0.96,13
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,0,28,31.4,4.7,24,6,1,0.66,0.01,0.67,1.54,13
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+Duran,AVL,FWD,Los manolotos,False,24,0,0,0,1,0,0,0,0,0,0,0,7,3,1.4,19,2.3,0,0.42,0,0.42,0.67,13
+Walker,MCI,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,7,14,13.3,2,2.9,1,0,0.08,0.08,3.35,13
+Muñoz,CRY,DEF,Los manolotos,False,90,1,0,0,1,0,0,0,0,0,0,3,20,62.6,12.7,47,12.2,1,0.88,0.02,0.9,0.04,13
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,2,0,25,20,0,0,2,1,0,0,0,0.22,14
+Pedro Porro,TOT,DEF,Los manolotos,True,28,0,0,0,0,0,0,0,0,0,0,0,5,11.4,1.3,7,2,0,0.06,0,0.06,2.16,14
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,21,4.4,3.3,6,1.4,1,0.18,0.01,0.19,0.49,14
+Walker,MCI,DEF,Los manolotos,True,45,0,0,0,0,0,0,0,0,0,0,0,3,6.4,0.3,0,0.7,0,0,0,0,0.24,14
+Luis Díaz,LIV,MID,Los manolotos,True,23,0,0,0,1,0,0,0,0,0,0,0,1,0.2,1.2,11,1.2,0,0.06,0.01,0.07,0.85,14
+Madueke,CHE,MID,Los manolotos,True,71,1,1,0,1,0,0,0,0,0,0,3,38,62,17.8,120,20,1,1.18,0.15,1.33,1.56,14
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,9,15.6,26.8,44,8.6,1,0.04,0.11,0.15,3.31,14
+I.Sarr,CRY,MID,Los manolotos,True,89,0,0,1,0,0,0,0,1,0,0,0,5,1.2,16,4,2.1,1,0,0.05,0.05,0.49,14
+Duran,AVL,FWD,Los manolotos,True,25,0,0,0,0,0,0,0,1,0,0,0,2,10,21.7,43,7.5,0,0.53,0.02,0.55,0.27,14
+João Pedro,BHA,FWD,Los manolotos,True,79,0,1,0,2,0,0,0,0,0,0,0,20,22.6,12.7,30,6.5,1,0.32,0.02,0.34,0.63,14
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,2,4.8,3.1,35,4.3,1,0.25,0.02,0.27,0.22,14
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+Mitoma,BHA,MID,Los manolotos,False,90,0,0,0,3,0,0,0,0,0,0,0,13,7.4,23.7,2,3.3,1,0.04,0.14,0.18,0.66,14
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,3,0,0,0,1,0,0,0,-3,9.2,1.2,2,1.2,1,0,0.01,0.01,0.66,14
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,3,0,0,0,1,0,0,0,-5,10.8,11.9,2,2.5,1,0,0.06,0.06,2.43,14
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,5,11.2,0,0,1.1,1,0,0,0,0.16,15
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,1,0,4,0,0,0,0,0,0,0,12,38,29.7,4,7.2,1,0.06,0.18,0.24,2.83,15
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,9,15.4,11.3,6,3.3,1,0.02,0.12,0.14,1.31,15
+Walker,MCI,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,6,16.8,4.4,0,2.1,1,0,0.03,0.03,1.34,15
+I.Sarr,CRY,MID,Los manolotos,True,76,0,0,0,2,0,0,0,0,0,0,0,8,7.2,1.7,10,1.9,1,0.06,0.12,0.18,1.45,15
+Mitoma,BHA,MID,Los manolotos,True,88,0,0,0,1,0,0,0,0,0,0,0,6,13.2,32.1,10,5.5,1,0.14,0.18,0.32,0.68,15
+Madueke,CHE,MID,Los manolotos,True,4,0,0,0,1,0,0,0,0,0,0,0,3,2,0.2,4,0.6,0,0,0,0,0.97,15
+Kulusevski,TOT,MID,Los manolotos,True,78,1,0,0,3,0,0,0,0,0,0,0,23,34.4,1.3,23,5.9,1,0.05,0.04,0.09,2.04,15
+Havertz,ARS,FWD,Los manolotos,True,73,0,1,0,1,0,0,0,0,0,0,0,9,9.8,14.8,19,4.4,1,0.34,0.01,0.35,0.16,15
+João Pedro,BHA,FWD,Los manolotos,True,70,0,0,1,0,0,0,0,0,0,0,0,7,1.6,11.8,12,2.5,1,0.27,0.01,0.28,0.32,15
+Duran,AVL,FWD,Los manolotos,True,57,1,0,0,0,0,0,0,0,0,0,3,33,38.8,2.4,35,7.6,1,0.65,0.01,0.66,0.24,15
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+Luis Díaz,LIV,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+Muñoz,CRY,DEF,Los manolotos,False,90,1,0,0,2,0,0,0,0,0,0,0,14,42,1.2,17,6,1,0.14,0.01,0.15,1.45,15
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,8,17.4,0.4,0,1.8,1,0,0,0,1.48,15
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,21,4.2,0,0,0.4,1,0,0,0,0.09,16
+Pedro Porro,TOT,DEF,Los manolotos,True,62,0,0,1,0,0,0,0,0,0,0,0,22,4.4,13.3,0,1.8,0,0,0.01,0.01,0.71,16
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,1,0,0,0,-1,26.8,2.9,25,5.5,1,0.21,0.02,0.23,2.31,16
+Walker,MCI,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,-1,14,3.3,0,1.7,1,0,0.03,0.03,2.08,16
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,0,1,16.7,11,2.9,1,0.64,0.04,0.68,1.22,16
+Madueke,CHE,MID,Los manolotos,True,90,0,1,0,1,0,0,0,0,0,0,1,25,24.2,33.4,58,11.6,1,0.48,0.11,0.59,1.61,16
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,0,35,41.8,30.5,51,12.3,1,0.37,0.09,0.46,0.84,16
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,20,18.6,46.8,41,10.6,1,0.17,0.15,0.32,2.31,16
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,13,6.6,39.1,18,6.4,1,0.1,0.18,0.28,2.31,16
+Duran,AVL,FWD,Los manolotos,True,73,1,0,1,0,0,0,0,1,0,0,0,21,23.2,2.7,30,5.6,1,0.08,0.01,0.09,0.98,16
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,8,7,26,23,5.6,1,0.06,0.09,0.15,0.09,16
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+J.Murphy,NEW,MID,Los manolotos,False,63,2,0,1,0,0,0,0,1,0,0,1,41,69.8,26.9,44,14.1,1,0.59,0.1,0.69,0.19,16
+Muñoz,CRY,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,1,0,0,0,0,17.4,25.3,19,6.2,1,0.19,0.09,0.28,1,16
+Pinnock,BRE,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,11,26.2,0.3,4,3.1,1,0,0.02,0.02,2.23,16
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,5,0,13,36.2,0,0,3.6,1,0,0,0,1.59,17
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,6,0,0,0,0,0,0,0,-12,17.2,31.8,0,4.9,1,0,0.15,0.15,4.6,17
+Dunk,BHA,DEF,Los manolotos,True,90,0,1,0,1,0,0,0,0,0,0,0,20,27.8,1.1,23,5.2,1,0.09,0.01,0.1,1.31,17
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,27,17.4,11,0,2.8,1,0,0,0,0.26,17
+Doku,MCI,MID,Los manolotos,True,6,0,0,0,0,0,0,0,0,0,0,0,6,2,1,0,0.3,0,0,0,0,0,17
+Luis Díaz,LIV,MID,Los manolotos,True,86,2,0,0,3,0,0,0,0,0,0,1,49,76,24.2,73,17.3,1,0.86,0.14,1,1.12,17
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,0,6,0,0,0,0,0,0,0,28,39.2,14.1,44,9.7,1,0.4,0.06,0.46,4.6,17
+Mitoma,BHA,MID,Los manolotos,True,84,0,0,0,1,0,0,0,0,0,0,0,12,11,4,36,5.1,1,0.08,0.02,0.1,0.77,17
+Duran,AVL,FWD,Los manolotos,True,79,1,0,1,0,0,0,0,0,0,0,1,35,43.6,3.2,47,9.4,1,0.94,0,0.94,0.61,17
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,4,6.6,27.3,20,5.4,1,0,0.16,0.16,1.31,17
+Havertz,ARS,FWD,Los manolotos,True,57,1,0,0,1,0,0,0,0,0,0,1,34,42.4,13.2,37,9.3,1,0.88,0.01,0.89,1.53,17
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Madueke,CHE,MID,Los manolotos,False,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,4,0.4,0,0,0,0,0.32,17
+Muñoz,CRY,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Pinnock,BRE,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,19,2.4,0,0,0.2,1,0,0,0,0.16,18
+Pedro Porro,TOT,DEF,Los manolotos,True,9,0,0,0,0,0,0,0,0,0,0,0,4,2.4,11.8,0,1.4,0,0,0.06,0.06,0.03,18
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,24,27.8,32,17,7.7,1,0.12,0.07,0.19,1.47,18
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,25,10,11.9,1,2.3,1,0.02,0.05,0.07,0.93,18
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,17,22.8,2,21,4.6,1,0.11,0.01,0.12,1.12,18
+Mitoma,BHA,MID,Los manolotos,True,66,0,0,1,0,0,0,0,0,0,0,0,12,5,27.3,16,4.8,1,0.06,0.21,0.27,0.57,18
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,3,4.6,28.9,13,4.7,1,0.02,0.09,0.11,1.12,18
+Doku,MCI,MID,Los manolotos,True,74,0,1,0,1,0,0,0,0,0,0,0,18,28,28.1,10,6.6,1,0,0.09,0.09,0.51,18
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,1,0,0,0,0,1,0,0,2,33,42,21,62,12.5,1,1.08,0.08,1.16,0.16,18
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,11,7,14.7,20,4.2,1,0.12,0.08,0.2,0.93,18
+Duran,AVL,FWD,Los manolotos,True,31,0,0,0,3,0,0,0,0,1,0,0,-9,0,0.8,2,0,1,0,0,0,0.29,18
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Madueke,CHE,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Walker,MCI,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Luis Díaz,LIV,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,7,11,0,0,1.1,1,0,0,0,0.29,19
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,19,39.6,34.7,2,7.6,1,0,0.17,0.17,0.72,19
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,6,15.2,11.8,38,6.5,1,0.51,0.09,0.6,0.94,19
+Trippier,NEW,DEF,Los manolotos,True,57,0,0,0,0,0,0,0,0,0,0,0,13,9.4,15.2,0,2.5,1,0,0.04,0.04,0.34,19
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,23.8,2,0,2.6,1,0,0.01,0.01,1.98,19
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,14,39.8,0.3,0,4,1,0,0.01,0.01,1.78,19
+Luis Díaz,LIV,MID,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,1,34,36.4,27.8,56,12,1,0.33,0.07,0.4,0.36,19
+Mitoma,BHA,MID,Los manolotos,True,32,0,0,0,0,0,0,0,0,0,0,0,3,2.6,11.6,8,2.2,0,0,0.05,0.05,0.29,19
+Kulusevski,TOT,MID,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,19,27.8,47.4,16,9.1,1,0.42,0.33,0.75,0.72,19
+Madueke,CHE,MID,Los manolotos,True,76,0,0,0,2,0,0,0,0,0,0,0,5,7.8,14.8,39,6.2,1,0.19,0.07,0.26,1.58,19
+João Pedro,BHA,FWD,Los manolotos,True,90,0,2,0,2,0,0,0,0,0,0,1,28,35,34.9,24,9.4,1,0.18,0.12,0.3,1.78,19
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Doku,MCI,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Duran,AVL,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,3,0,16,24.6,0,0,2.5,1,0,0,0,1.52,20
+Trippier,NEW,DEF,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,18,28.8,53.5,8,9,1,0,0.24,0.24,1.24,20
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,9,10.2,7.2,2,1.9,1,0,0.03,0.03,1.59,20
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,27,41.8,32.3,5,7.9,1,0.06,0.25,0.31,2.53,20
+Madueke,CHE,MID,Los manolotos,True,4,0,0,0,0,0,0,0,0,0,0,0,2,0,0.3,2,0.2,0,0,0,0,0.04,20
+Luis Díaz,LIV,MID,Los manolotos,True,59,0,0,0,1,0,0,0,0,0,0,0,3,3.8,11.4,8,2.3,1,0.16,0.01,0.17,0.55,20
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,22.4,49,21,9.2,1,0.03,0.19,0.22,2.53,20
+Mitoma,BHA,MID,Los manolotos,True,28,0,0,0,0,0,0,0,0,0,0,0,7,3.6,1.3,4,0.9,0,0,0.12,0.12,0.17,20
+Mavididi,LEI,MID,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,0,13,41.6,6.2,43,9.1,1,0.23,0.01,0.24,1.56,20
+João Pedro,BHA,FWD,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,3,38,37.4,2.7,27,6.7,1,0.79,0.03,0.82,0.88,20
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Duran,AVL,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,8,12.2,0,0,1.2,1,0,0,0,0.78,21
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,4,11.6,16.8,7,3.5,1,0.03,0.05,0.08,1.45,21
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,30,22.6,26.7,8,5.7,1,0,0.06,0.06,1.7,21
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,4,15.8,2.1,0,1.8,1,0,0.01,0.01,0.95,21
+Dunk,BHA,DEF,Los manolotos,True,27,0,0,0,0,0,0,0,0,0,0,0,5,8,0.8,0,0.9,0,0,0,0,0,21
+Luis Díaz,LIV,MID,Los manolotos,True,74,0,0,0,1,0,0,0,1,0,0,0,7,1.4,28,13,4.2,1,0.02,0.05,0.07,0.31,21
+Mitoma,BHA,MID,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,2,31,41,23.8,30,9.5,1,0.18,0.05,0.23,0.29,21
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,9,20.4,50.8,41,11.2,1,0.27,0.05,0.32,1.45,21
+Mavididi,LEI,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,10,19.8,41.3,26,8.7,1,0.13,0.25,0.38,1.82,21
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,-8,0,3.3,47,5,1,0.4,0.01,0.41,0.78,21
+João Pedro,BHA,FWD,Los manolotos,True,77,0,0,1,0,0,0,0,1,0,0,0,4,6,4.8,43,5.4,1,0.18,0.07,0.25,0.29,21
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Duran,AVL,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Botman,NEW,DEF,Los manolotos,False,90,0,0,1,0,0,0,0,0,0,0,0,30,17.2,1.4,2,2.1,1,0,0.01,0.01,1.62,21
+McNeil,EVE,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,2,0,4,15,0,0,1.5,1,0,0,0,1.04,22
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,25,13.6,25.8,4,4.3,1,0,0.12,0.12,0.28,22
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,1,16,5.1,0,2.1,1,0,0.04,0.04,1.95,22
+Botman,NEW,DEF,Los manolotos,True,45,0,0,0,2,0,0,0,0,0,0,0,-3,4.6,0.5,4,0.9,1,0,0.01,0.01,1.17,22
+Mitoma,BHA,MID,Los manolotos,True,90,1,1,0,1,0,0,0,0,0,0,2,38,58.8,24.8,39,12.3,1,0.8,0.28,1.08,1.48,22
+Mavididi,LEI,MID,Los manolotos,True,70,0,0,0,2,0,0,0,0,0,0,0,7,3.8,1.3,17,2.2,1,0.04,0.01,0.05,1.78,22
+Luis Díaz,LIV,MID,Los manolotos,True,64,0,0,1,0,0,0,0,0,0,0,0,7,8.4,18.8,59,8.6,1,0.84,0.19,1.03,0.44,22
+Kovačić,MCI,MID,Los manolotos,True,71,1,1,1,0,0,0,0,0,0,0,2,51,65.4,44.9,11,12.1,1,0.1,0.66,0.76,0.57,22
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,0,3,0,0,0,0,0,0,2,36,46.2,57.9,19,12.3,1,0.11,0.25,0.36,1.95,22
+Havertz,ARS,FWD,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,1,27,32.2,17.4,24,7.4,1,0.2,0.03,0.23,1.04,22
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,5,3,3.4,10,1.6,1,0,0.01,0.01,1.48,22
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+Duran,AVL,FWD,Los manolotos,False,10,0,0,0,0,0,0,0,0,0,0,0,3,0,0.3,0,0,0,0,0.01,0.01,0.41,22
+Bassey,FUL,DEF,Los manolotos,False,90,0,0,1,0,0,0,0,0,0,0,0,25,10,3.6,12,2.6,1,0.29,0.02,0.31,0.47,22
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,0,0,12,17.4,1.8,0,1.9,1,0,0.01,0.01,1.48,22
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,4,2,28,24,0,0,2.4,1,0,0,0,0.74,23
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,2,32,46.8,40.3,24,11.1,1,0.17,0.52,0.69,1.56,23
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,0,2,0,0,0,0,0,0,0,24,30.6,21.6,8,6,1,0.02,0.64,0.66,1.53,23
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,13,18.6,2.1,0,2.1,1,0,0.02,0.02,0.25,23
+Luis Díaz,LIV,MID,Los manolotos,True,85,0,0,1,0,0,0,0,0,0,0,0,8,3.6,7.5,14,2.5,1,0,0.03,0.03,0.23,23
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,1,0,11.3,18,2.9,1,0.07,0.07,0.14,0.85,23
+Kovačić,MCI,MID,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,14,13.4,29.3,4,4.7,1,0.05,0.02,0.07,1.8,23
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,13.6,32.5,23,6.9,1,0.07,0.05,0.12,1.56,23
+Havertz,ARS,FWD,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,-6,7.4,1.4,36,4.5,1,0.53,0,0.53,0.74,23
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,1,2,5.6,29,3.7,1,0.2,0.06,0.26,0.85,23
+Duran,AVL,FWD,Los manolotos,True,24,0,0,0,1,0,0,0,0,0,0,0,0,0.4,1.8,9,1.1,0,0.09,0.01,0.1,0.46,23
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Botman,NEW,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Mavididi,LEI,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,1,0,0,0,0,0,0,0,12,29.8,5.6,0,3.5,1,0,0.09,0.09,0.85,23
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,3,0,11,25.8,0,0,2.6,1,0,0,0,0.81,24
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,21,32,4.2,3,3.9,1,0.02,0.01,0.03,2.06,24
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,1,0,0,0,0,0,0,0,2,36,32,11.1,6,4.9,1,0.1,0.24,0.34,1.12,24
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,7,15,1.6,4,2.1,1,0.15,0.02,0.17,0.75,24
+Luis Díaz,LIV,MID,Los manolotos,True,177,0,0,1,1,0,0,0,0,0,0,0,13,13.4,17.4,46,7.7,2,0.72,0.11,0.83,2.45,24
+Mitoma,BHA,MID,Los manolotos,True,45,0,0,0,3,0,0,0,0,0,0,0,-1,0.6,2,4,0.7,1,0,0.01,0.01,0.99,24
+Bailey,AVL,MID,Los manolotos,True,45,0,0,0,1,0,0,0,0,0,0,0,1,3.6,3.3,13,2,0,0.06,0.02,0.08,0.18,24
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,2,1.2,12.6,27,4.1,1,0.27,0.09,0.36,2.06,24
+Hee Chan,WOL,MID,Los manolotos,True,11,0,1,0,0,0,0,0,0,0,0,0,11,0,3.5,0,0.3,0,0,0,0,0.26,24
+Havertz,ARS,FWD,Los manolotos,True,89,1,1,0,1,0,0,0,0,0,0,3,44,55.4,14.7,35,10.5,1,0.49,0.25,0.74,0.81,24
+João Pedro,BHA,FWD,Los manolotos,True,45,0,0,0,3,0,0,0,0,0,0,0,10,5.6,29.3,5,4,1,0.05,0.18,0.23,0.99,24
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Botman,NEW,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Dunk,BHA,DEF,Los manolotos,False,90,0,0,0,7,1,0,0,0,0,0,0,-19,9.6,1.2,0,1.1,1,0,0.01,0.01,3.41,24
+Wilson,NEW,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,2,1,30,16.2,0,0,1.6,1,0,0,0,0.22,25
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,25,25.4,50.3,4,8,1,0,0.15,0.15,1.52,25
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,8,18.8,15.3,19,5.3,1,0.06,0.03,0.09,0.96,25
+Disasi,AVL,DEF,Los manolotos,True,180,0,0,0,3,0,0,0,1,0,0,0,21,31.4,16.9,6,5.4,2,0,0.25,0.25,2.81,25
+Bassey,FUL,DEF,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,0,26,42.4,0.8,72,11.5,1,0.16,0,0.16,0.42,25
+Luis Díaz,LIV,MID,Los manolotos,True,79,1,1,0,1,0,0,0,0,0,0,2,37,33.2,3.8,25,6.2,1,0.16,0.11,0.27,1.47,25
+Mitoma,BHA,MID,Los manolotos,True,90,1,0,1,0,0,0,0,0,0,0,2,33,42,2.8,32,7.7,1,0.21,0.02,0.23,0.54,25
+Kulusevski,TOT,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,1,5.4,14.2,39,5.9,1,0.33,0.07,0.4,1.52,25
+Smith Rowe,FUL,MID,Los manolotos,True,81,1,0,0,1,0,0,0,0,0,0,2,30,31.8,8,75,11.5,1,0.56,0.03,0.59,0.39,25
+Wilson,NEW,FWD,Los manolotos,True,17,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0.62,25
+João Pedro,BHA,FWD,Los manolotos,True,17,0,0,0,0,0,0,0,0,0,0,0,-8,0,3.8,7,0.5,0,0.33,0.01,0.34,0,25
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Bailey,AVL,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,13,16.6,0.3,0,1.7,1,0,0,0,1.07,26
+Muñoz,CRY,DEF,Los manolotos,True,90,1,0,1,0,0,0,0,1,0,0,2,31,41.2,4.5,25,7.1,1,0.11,0.01,0.12,0.21,26
+Pedro Porro,TOT,DEF,Los manolotos,True,25,0,0,0,0,0,0,0,0,0,0,0,4,6.8,0.8,0,0.8,0,0,0,0,0.13,26
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,6,15,1.9,2,1.9,1,0,0.02,0.02,1.29,26
+Christie,BOU,MID,Los manolotos,True,59,0,0,0,1,0,0,0,0,0,0,0,5,10,25.2,6,4.1,1,0.13,0.01,0.14,1.28,26
+Luis Díaz,LIV,MID,Los manolotos,True,78,0,0,1,0,0,0,0,0,0,0,0,12,8.6,1.8,27,3.7,1,0.03,0.02,0.05,0.63,26
+Smith Rowe,FUL,MID,Los manolotos,True,57,0,0,0,1,0,0,0,0,0,0,0,3,0,3.6,6,0.8,1,0.01,0.01,0.02,0.24,26
+Kulusevski,TOT,MID,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,32,47.4,33.7,19,10,1,0.05,0.07,0.12,1.15,26
+Mitoma,BHA,MID,Los manolotos,True,78,1,0,1,0,0,0,0,0,0,0,0,26,43.8,6.2,26,7.6,1,0.94,0.02,0.96,0.13,26
+Wilson,NEW,FWD,Los manolotos,True,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0.5,0,0.04,0,0.04,0.58,26
+João Pedro,BHA,FWD,Los manolotos,True,90,1,1,1,0,0,0,0,0,0,0,3,51,52.6,26.5,29,10.8,1,0.57,0.02,0.59,0.13,26
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Disasi,AVL,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,2,0,24,16.4,0.1,0,1.7,1,0,0,0,0.4,27
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,21,26.8,63.1,2,9.2,1,0,0.35,0.35,2.12,27
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,0,1,0,0,0,1,0,0,0,6,21.6,15,1,3.8,1,0.03,0.05,0.08,0.38,27
+Bassey,FUL,DEF,Los manolotos,True,14,0,0,0,0,0,0,0,0,0,0,0,5,7.8,0.3,0,0.8,0,0,0,0,0.13,27
+Luis Díaz,LIV,MID,Los manolotos,True,86,0,1,1,0,0,0,0,0,0,0,2,30,35,57.8,15,10.8,1,0.37,0.23,0.6,0.23,27
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,-5,4.8,3.7,12,2.1,1,0.62,0.09,0.71,1.46,27
+Tavernier,BOU,MID,Los manolotos,True,45,0,0,0,1,0,0,0,0,0,0,0,5,7.8,12.4,11,3.1,0,0.07,0.03,0.1,0.64,27
+Kulusevski,TOT,MID,Los manolotos,True,24,0,0,0,0,0,0,0,0,0,0,0,3,1.4,0.1,2,0.4,0,0,0,0,0.05,27
+Adama,FUL,MID,Los manolotos,True,66,0,1,0,1,0,0,0,0,0,0,2,31,30.2,34.3,17,8.2,1,0.01,0.25,0.26,1.16,27
+Wilson,NEW,FWD,Los manolotos,True,68,0,0,0,2,0,0,0,0,0,0,0,0,0,0.9,16,1.2,1,0.18,0.01,0.19,0.67,27
+João Pedro,BHA,FWD,Los manolotos,True,71,1,0,0,1,0,0,0,0,0,0,2,33,32,1.8,27,6.1,1,0.79,0.02,0.81,1.1,27
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27
+James,CHE,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27
+Disasi,AVL,DEF,Los manolotos,False,90,0,0,0,4,0,0,0,0,0,0,0,-8,8.6,2,4,1.5,1,0.07,0.01,0.08,4.31,27
+Havertz,ARS,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,5,0,15,39.8,0.1,0,4,1,0,0,0,1.52,28
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,24,17.8,15.3,30,6.3,1,0.44,0.03,0.47,1.48,28
+Pedro Porro,TOT,DEF,Los manolotos,True,86,0,0,0,2,0,0,0,0,0,0,0,7,21,47.7,2,7.1,1,0,0.2,0.2,2.13,28
+Disasi,AVL,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,23,27.6,11.2,4,4.3,1,0,0.01,0.01,0.83,28
+Trippier,NEW,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,2,29,17.6,32.3,2,5.2,1,0.02,0.03,0.05,0.45,28
+Doku,MCI,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,18,20.2,17.3,22,6,1,0.06,0.05,0.11,0.73,28
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,1,0,1,0,0,0,0,0,0,1,32,36.2,74.7,47,15.8,1,0.21,0.81,1.02,0.36,28
+Smith Rowe,FUL,MID,Los manolotos,True,81,0,0,0,1,0,0,0,0,0,0,0,3,1.6,3.1,5,1,1,0.08,0,0.08,0.41,28
+Mitoma,BHA,MID,Los manolotos,True,85,0,0,0,1,0,0,0,0,0,0,0,2,2.2,4.3,6,1.3,1,0,0.05,0.05,0.84,28
+Wilson,NEW,FWD,Los manolotos,True,11,0,0,0,0,0,0,0,0,0,0,0,4,1.2,0,0,0.1,0,0,0,0,0.06,28
+João Pedro,BHA,FWD,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,3,37,41.8,17.8,53,11.3,1,1.12,0.26,1.38,0.9,28
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+Bassey,FUL,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,0,0,0,0,10,20,2.3,0,2.2,1,0,0,0,1.54,28
+Ings,WHU,FWD,Los manolotos,False,6,0,0,0,0,0,0,0,0,0,0,0,3,0.2,0.8,2,0.3,0,0,0,0,0,28
+Kulusevski,TOT,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,2,0,25,23.8,0,0,2.4,1,0,0,0,0.36,29
+Lindelof,MUN,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,22,20.2,10.3,2,3.3,1,0,0.02,0.02,1.17,29
+Pedro Porro,TOT,DEF,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,25,13.8,1.5,0,1.5,1,0,0.01,0.01,0.95,29
+Walker-Peters,SOU,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,3,8.2,8.9,4,2.1,1,0,0.07,0.07,0.36,29
+Doku,MCI,MID,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,9,15.2,3.6,12,3.1,1,0,0.14,0.14,2.04,29
+Enciso,IPS,MID,Los manolotos,True,79,0,0,0,3,0,0,0,0,0,0,0,6,3,1.8,4,0.9,1,0.02,0.01,0.03,1.01,29
+Smith Rowe,FUL,MID,Los manolotos,True,71,0,0,1,0,0,0,0,0,0,0,0,13,7,7.8,5,2,1,0.05,0.13,0.18,0.74,29
+Mitoma,BHA,MID,Los manolotos,True,82,0,0,0,2,0,0,0,1,0,0,0,8,8.8,15,38,6.2,1,0.41,0.07,0.48,1.72,29
+Ings,WHU,FWD,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+João Pedro,BHA,FWD,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,0,1,19.1,17,3.7,1,0.27,0.13,0.4,1.72,29
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Muñoz,CRY,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Wilson,NEW,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Luis Díaz,LIV,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,2,0,11,21.2,0.1,0,2.1,1,0,0,0,0.99,30
+Muñoz,CRY,DEF,Los manolotos,True,75,0,0,0,1,0,0,0,0,0,0,0,3,7.2,3.3,0,1.1,1,0,0.04,0.04,0.67,30
+Pedro Porro,TOT,DEF,Los manolotos,True,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0.3,0,0,0,0,0.01,0.01,0,30
+W.Fofana,CHE,DEF,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Luis Díaz,LIV,MID,Los manolotos,True,85,0,1,1,0,0,0,0,0,0,0,3,37,41.8,78.6,26,14.6,1,0.27,0.27,0.54,0.67,30
+Doku,MCI,MID,Los manolotos,True,77,0,0,1,0,0,0,0,0,0,0,0,14,10.8,34.3,18,6.3,1,0,0.59,0.59,0.02,30
+Kudus,WHU,MID,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Anderson,NFO,MID,Los manolotos,True,66,0,0,1,0,0,0,0,0,0,0,0,10,7.4,3,2,1.2,1,0,0.02,0.02,0.61,30
+Mitoma,BHA,MID,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,15,17.4,16.3,40,7.4,1,0.25,0.04,0.29,1.25,30
+Wilson,NEW,FWD,Los manolotos,True,24,0,0,0,0,0,0,0,0,0,0,0,5,3.2,11.3,9,2.4,0,0.11,0.01,0.12,0.4,30
+João Pedro,BHA,FWD,Los manolotos,True,71,0,0,0,1,0,0,0,0,0,0,0,7,10.6,2.8,23,3.6,1,0.1,0.02,0.12,0.8,30
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Lindelof,MUN,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Richarlison,TOT,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Bassey,FUL,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,7,13.2,0,0,1.3,1,0,0,0,1.09,31
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,18,32,40.8,1,7.4,1,0.02,0.26,0.28,1.04,31
+Muñoz,CRY,DEF,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,0,18,44.8,11.8,21,7.8,1,0.05,0.01,0.06,1,31
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,14,20.2,0.6,2,2.3,1,0,0,0,1.5,31
+Luis Díaz,LIV,MID,Los manolotos,True,35,1,0,0,0,0,0,0,0,0,0,0,27,40.6,27.3,23,9.1,0,0.23,0.12,0.35,0.18,31
+Mitoma,BHA,MID,Los manolotos,True,62,0,0,0,2,0,0,0,0,0,0,0,8,2.6,17.1,6,2.6,1,0.03,0.01,0.04,0.44,31
+Doku,MCI,MID,Los manolotos,True,33,0,0,0,0,0,0,0,0,0,0,0,9,3.2,0.7,0,0.4,0,0,0.01,0.01,0.5,31
+Kudus,WHU,MID,Los manolotos,True,83,0,1,0,2,0,0,0,1,0,0,0,7,22.8,41.6,4,6.8,1,0,0.14,0.14,2.04,31
+Enciso,IPS,MID,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,3,6.6,12.2,4,2.3,1,0,0.02,0.02,2.71,31
+Wilson,NEW,FWD,Los manolotos,True,18,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0.2,0,0,0,0,0.23,31
+João Pedro,BHA,FWD,Los manolotos,True,27,0,0,0,0,0,0,0,0,0,0,0,2,1.6,14.8,2,1.8,0,0,0.03,0.03,0.17,31
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Pau,AVL,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Richarlison,TOT,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Van de Ven,TOT,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,9,11.2,0.1,0,1.1,1,0,0,0,0.24,32
+Muñoz,CRY,DEF,Los manolotos,True,180,0,0,0,10,0,0,0,1,0,0,0,-20,41.4,31.1,12,8.5,2,0.2,0.09,0.29,5.2,32
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,11,12.8,2,0,1.5,1,0,0.03,0.03,1.46,32
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,1,0,0,0,-1,9.6,4.5,2,1.6,1,0,0.28,0.28,1.5,32
+Luis Díaz,LIV,MID,Los manolotos,True,90,1,0,0,1,0,0,0,0,0,0,2,31,50.6,31.1,57,13.9,1,1,0.2,1.2,1.5,32
+Doku,MCI,MID,Los manolotos,True,3,0,0,0,0,0,0,0,0,0,0,0,4,0.2,1,5,0.6,0,0.07,0,0.07,0,32
+Kudus,WHU,MID,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,6,10.8,5.1,46,6.2,1,0.18,0.01,0.19,1.78,32
+Anderson,NFO,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,16,19.8,11,0,3.1,1,0,0.01,0.01,1.36,32
+Richarlison,TOT,FWD,Los manolotos,True,15,1,0,0,1,0,0,0,0,0,0,0,27,31,0.3,37,6.8,0,0.94,0,0.94,0.58,32
+João Pedro,BHA,FWD,Los manolotos,True,90,2,0,0,2,0,0,0,0,0,0,3,72,78.2,60.7,50,18.9,1,1.72,0.24,1.96,1.5,32
+Wilson,NEW,FWD,Los manolotos,True,30,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0.67,32
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+Pedro Porro,TOT,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+Mitoma,BHA,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+Disasi,AVL,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+Raya,ARS,GKP,Los manolotos,True,180,0,0,1,2,0,0,0,0,0,2,0,39,24.4,0,0,2.5,2,0,0,0,1.92,33
+Muñoz,CRY,DEF,Los manolotos,True,180,0,0,1,2,0,0,0,1,0,0,0,31,27,44.4,20,9.1,2,0.2,0.56,0.76,1.94,33
+Disasi,AVL,DEF,Los manolotos,True,29,0,0,0,1,0,0,0,0,0,0,0,-2,3.2,0,0,0.3,0,0,0,0,0.57,33
+Todibo,WHU,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,12,24.2,0.4,0,2.5,1,0,0,0,0.64,33
+Garnacho,MUN,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,9,12,39.3,27,7.8,1,0.02,0.41,0.43,0.25,33
+Doku,MCI,MID,Los manolotos,True,28,0,1,0,0,0,0,0,0,0,0,0,26,26.6,20.1,14,6.1,0,0,0.25,0.25,0.07,33
+Luis Díaz,LIV,MID,Los manolotos,True,90,0,0,1,0,0,0,0,0,0,0,0,16,13.6,51,12,7.7,1,0.13,0.37,0.5,0.22,33
+Kudus,WHU,MID,Los manolotos,True,74,0,0,1,0,0,0,0,0,0,0,0,16,2.6,16.3,20,3.9,1,0.17,0.2,0.37,0.37,33
+Mitoma,BHA,MID,Los manolotos,True,25,1,0,0,1,0,0,0,0,0,0,0,17,29.6,1.4,22,5.3,0,0.71,0.01,0.72,0.32,33
+Richarlison,TOT,FWD,Los manolotos,True,90,1,0,0,2,0,0,0,0,0,0,0,13,29,1.3,78,10.8,1,1.46,0,1.46,0.48,33
+João Pedro,BHA,FWD,Los manolotos,True,60,0,0,0,4,0,0,0,0,1,0,0,-6,1.4,17,9,2.7,1,0.03,0.2,0.23,1.58,33
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33
+Pedro Porro,TOT,DEF,Los manolotos,False,90,0,1,0,2,0,0,0,0,0,0,1,32,54.2,108,4,16.6,1,0.03,0.35,0.38,0.48,33
+Wilson,NEW,FWD,Los manolotos,False,14,0,0,0,0,0,0,0,0,0,0,0,3,0,0.3,2,0.2,0,0,0.01,0.01,0.15,33
+Bassey,FUL,DEF,Los manolotos,False,90,0,0,0,2,0,0,0,1,0,0,0,2,20.8,1,0,2.2,1,0,0.01,0.01,0.9,33
+Raya,ARS,GKP,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Krafth,NEW,DEF,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,14,22,1.9,43,6.7,1,0.12,0.01,0.13,1.27,34
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,8,13.2,4.1,6,2.3,1,0.03,0.02,0.05,0.63,34
+Luis Díaz,LIV,MID,Los manolotos,True,75,1,0,0,1,0,0,0,0,0,0,0,25,33.2,12.2,33,7.8,1,0.76,0.01,0.77,0.46,34
+Mitoma,BHA,MID,Los manolotos,True,28,1,0,0,1,0,0,0,0,0,0,0,28,38.2,0.8,37,7.6,0,0.52,0,0.52,0.52,34
+Anderson,NFO,MID,Los manolotos,True,60,0,0,0,1,0,0,0,1,0,0,0,11,5.6,3,25,3.4,1,0.03,0.05,0.08,1.05,34
+Kudus,WHU,MID,Los manolotos,True,90,1,0,0,3,0,0,0,0,0,0,0,27,41.8,2.5,41,8.5,1,0.3,0.03,0.33,1.31,34
+Garnacho,MUN,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,6,5,13.6,58,7.7,1,0.87,0.08,0.95,0.53,34
+Wilson,NEW,FWD,Los manolotos,True,13,0,0,0,0,0,0,0,0,0,0,0,1,2,4,4,1,0,0,0.02,0.02,0,34
+Richarlison,TOT,FWD,Los manolotos,True,23,0,0,0,1,0,0,0,1,0,0,0,2,0,0.3,2,0.1,0,0,0.02,0.02,0.39,34
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Pedro Porro,TOT,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Muñoz,CRY,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,2,2.2,0,0,0.2,1,0,0.01,0.01,0.97,35
+Lewis,MCI,DEF,Los manolotos,True,7,0,0,0,0,0,0,0,0,0,0,0,2,0,1.3,0,0.1,0,0,0.01,0.01,0,35
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,12,32,28.3,27,8.7,1,0.11,0.1,0.21,0.71,35
+Dunk,BHA,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,12,19,1.4,0,2,1,0,0.01,0.01,1.87,35
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,10,16.4,16.1,2,3.5,1,0,0.07,0.07,0.96,35
+Mitoma,BHA,MID,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+El Khannouss,LEI,MID,Los manolotos,True,83,0,1,1,0,0,0,0,0,0,0,0,20,23.6,64.9,26,11.5,1,0.28,0.11,0.39,0.5,35
+Kudus,WHU,MID,Los manolotos,True,90,0,0,0,1,0,0,0,1,0,0,0,13,13.4,33.4,6,5.3,1,0.04,0.11,0.15,0.77,35
+Garnacho,MUN,MID,Los manolotos,True,90,1,1,0,4,0,0,0,1,0,0,3,43,61.6,60.3,22,14.4,1,0.15,0.39,0.54,2.8,35
+Wilson,NEW,FWD,Los manolotos,True,16,0,0,0,0,0,0,0,0,0,0,0,3,2,0,17,1.9,0,0.03,0,0.03,0.52,35
+Richarlison,TOT,FWD,Los manolotos,True,67,0,0,0,1,0,0,0,0,0,0,0,3,0,0.3,10,0.6,1,0.14,0,0.14,0.47,35
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Pedro Porro,TOT,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Luis Díaz,LIV,MID,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,3,0,7,25.8,0,0,2.6,1,0,0,0,2.56,36
+Pedro Porro,TOT,DEF,Los manolotos,True,57,0,0,0,2,0,0,0,0,0,0,0,3,8.4,29,8,4.5,1,0.08,0.38,0.46,2.51,36
+Muñoz,CRY,DEF,Los manolotos,True,90,0,1,1,0,0,0,0,0,0,0,2,39,35,35.8,31,10.2,1,0.2,0.24,0.44,0.68,36
+Lewis,MCI,DEF,Los manolotos,True,75,0,0,1,0,0,0,0,0,0,0,0,22,4.8,11.4,8,2.4,1,0,0.06,0.06,0.1,36
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,5,21.8,3.3,0,2.5,1,0,0.02,0.02,1.12,36
+Luis Díaz,LIV,MID,Los manolotos,True,78,1,0,0,2,0,0,0,0,0,0,1,29,41.8,11,56,10.9,1,1.28,0.04,1.32,2.21,36
+Mitoma,BHA,MID,Los manolotos,True,10,0,0,0,0,0,0,0,0,0,0,0,4,3.8,3.3,4,1.1,0,0,0,0,0.08,36
+Gordon,NEW,MID,Los manolotos,True,64,0,0,1,0,0,0,0,0,0,0,0,7,0,2.9,6,0.8,1,0,0.02,0.02,0.55,36
+Kudus,WHU,MID,Los manolotos,True,72,0,1,1,0,0,0,0,0,0,0,0,11,11.6,14.2,16,4.2,1,0.13,0.02,0.15,0.73,36
+Garnacho,MUN,MID,Los manolotos,True,31,0,0,0,0,0,0,0,0,0,0,0,2,6.2,29.8,15,5.1,0,0.12,0.03,0.15,0.29,36
+Wilson,NEW,FWD,Los manolotos,True,1,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0.1,0,0,0,0,0,36
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+Richarlison,TOT,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+Raya,ARS,GKP,Los manolotos,True,90,0,0,1,0,0,0,0,1,0,5,1,28,31,10,0,4.1,1,0,0.01,0.01,1.86,37
+Bassey,FUL,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,10,16.6,0.7,0,1.7,1,0,0,0,2.87,37
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,2,0,0,0,0,0,0,0,0,14.2,22.5,14,5.1,1,0.05,0.05,0.1,1.52,37
+Lewis,MCI,DEF,Los manolotos,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Luis Díaz,LIV,MID,Los manolotos,True,27,0,0,0,2,0,0,0,0,0,0,0,1,0.4,1.3,12,1.4,0,0.02,0.04,0.06,1.19,37
+J.Ayew,LEI,MID,Los manolotos,True,63,0,0,1,0,0,0,0,0,0,0,0,14,8.2,11.4,5,2.5,1,0.13,0.01,0.14,0.98,37
+Gordon,NEW,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,6,2.2,16.5,6,2.5,1,0,0.15,0.15,0.64,37
+Kudus,WHU,MID,Los manolotos,True,78,0,0,0,2,0,0,0,0,0,0,0,6,8,24.5,16,4.9,1,0.15,0.1,0.25,1.88,37
+Garnacho,MUN,MID,Los manolotos,True,20,0,0,0,1,0,0,0,0,0,0,0,4,2.2,0.3,2,0.5,0,0,0.02,0.02,0.26,37
+Richarlison,TOT,FWD,Los manolotos,True,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0.06,37
+Wilson,NEW,FWD,Los manolotos,True,63,0,0,0,1,0,0,0,0,0,0,0,2,2.2,22.6,8,3.3,1,0,0.03,0.03,0.57,37
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Pedro Porro,TOT,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Raya,ARS,GKP,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,1,0,6,10,0,0,1,1,0,0,0,0.63,38
+Pedro Porro,TOT,DEF,Los manolotos,True,90,0,0,0,4,0,0,0,1,0,0,0,-3,10.8,10.6,0,2.1,1,0,0.06,0.06,2.27,38
+Muñoz,CRY,DEF,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,1,17,0.8,2,2,1,0,0.01,0.01,2.17,38
+Davis,IPS,DEF,Los manolotos,True,90,0,0,0,3,0,0,0,0,0,0,0,-2,11,37.2,6,5.4,1,0,0.12,0.12,1.01,38
+Luis Díaz,LIV,MID,Los manolotos,True,68,0,0,0,1,0,0,0,0,0,0,0,11,11,13,25,4.9,1,0.73,0.04,0.77,1.44,38
+Merino,ARS,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,5,5.2,10.8,18,3.4,1,0.24,0.01,0.25,0.63,38
+Gordon,NEW,MID,Los manolotos,True,45,0,0,0,0,0,0,0,0,0,0,0,5,0,1.9,1,0.2,1,0.02,0.02,0.04,0.24,38
+Kudus,WHU,MID,Los manolotos,True,17,1,0,0,0,0,0,0,0,0,0,1,27,36.4,1,17,5.4,0,0.08,0.01,0.09,0.32,38
+Minteh,BHA,MID,Los manolotos,True,90,0,0,0,1,0,0,0,0,0,0,0,11,14.4,34.2,40,8.9,1,0.12,0.32,0.44,1.95,38
+Richarlison,TOT,FWD,Los manolotos,True,24,0,0,0,2,0,0,0,0,0,0,0,0,1,0.1,0,0.1,0,0,0,0,0.95,38
+Wilson,NEW,FWD,Los manolotos,True,20,0,0,0,0,0,0,0,0,0,0,0,3,0.4,0.4,0,0.1,0,0,0.01,0.01,0.43,38
+Neto,ARS,GKP,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38
+Bassey,FUL,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38
+João Pedro,BHA,FWD,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38
+Dunk,BHA,DEF,Los manolotos,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38

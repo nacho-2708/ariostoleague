@@ -1,0 +1,571 @@
+Player,Team,Position,Fantasy_team,Is_starter,MP,GS,A,CS,GC,OG,PS,PM,YC,RC,S,B,BPS,I,C,T,II,GS2,EG,EA,EGI,EGC,GW
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,3,1,30,19.6,0,0,2,1,0,0,0,1.01,1
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,0,7,2.8,6,1.6,1,0,0.07,0.07,0.77,1
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Barco,BHA,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Ramsey,AVL,MID,Los Santiagueños ⭐️,True,28,0,1,0,0,0,0,0,0,0,0,0,18,18.4,12.3,7,3.8,0,0.06,0.13,0.19,1.17,1
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,16,15,24,15,5.4,1,0.02,0.06,0.08,0.47,1
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,63,0,0,1,0,0,0,0,0,0,0,0,11,4,3.8,0,0.8,1,0,0,0,1.5,1
+Kluivert,BOU,MID,Los Santiagueños ⭐️,True,26,0,0,0,0,0,0,0,1,0,0,0,0,1.8,6.7,6,1.5,0,0,0.02,0.02,0.28,1
+Minteh,BHA,MID,Los Santiagueños ⭐️,True,45,0,1,0,0,0,0,0,0,0,0,0,18,25,31.4,8,6.4,1,0,0.65,0.65,0.25,1
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,17,19,15.3,61,9.5,1,0.34,0.15,0.49,1.02,1
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,33,0,0,0,1,0,0,0,0,0,0,0,9,13.8,16.2,17,4.7,0,0.06,0.02,0.08,0.25,1
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Walker,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Alex Moreno,NFO,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,3,3.8,0,0,0.4,1,0,0,0,0.29,2
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,0,0,6,16.4,16.4,2,3.5,1,0,0.03,0.03,1.92,2
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,32,0,0,0,0,0,0,0,0,0,0,0,4,7.2,4.9,0,1.2,0,0,0.02,0.02,1.07,2
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,1,0,2,0,0,0,0,0,0,0,12,24.2,21.8,6,5.2,1,0,0.02,0.02,2.09,2
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+McGinn,AVL,MID,Los Santiagueños ⭐️,True,64,0,0,1,0,0,0,0,0,0,0,0,10,0.6,2,0,0.3,1,0,0.01,0.01,0.36,2
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,1,0,0,0,4,9.4,34.2,20,6.4,1,0.26,0.6,0.86,1.28,2
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,68,1,0,0,1,0,0,0,0,0,0,3,32,35.8,7.2,27,7,1,0.53,0.03,0.56,0.34,2
+Brereton Díaz,SOU,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,12,7,30.4,4,4.1,1,0,0.06,0.06,2.45,2
+Minteh,BHA,MID,Los Santiagueños ⭐️,True,89,0,0,0,1,0,0,0,0,0,0,0,4,8.8,29.3,29,6.7,1,0.08,0.24,0.32,1.32,2
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,67,1,0,0,5,0,0,0,0,0,0,0,34,39.6,26.8,44,11,1,0.93,0.2,1.13,1.24,2
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,2,0,12,19.2,0,0,1.9,1,0,0,0,0.73,3
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,2,0,0,0,0,0,0,0,0,0,0,0,3,0.8,0.2,0,0.1,0,0,0,0,0.09,3
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,0,25,12.9,25,6.3,1,0.08,0.02,0.1,1.73,3
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,73,0,0,0,1,0,0,0,0,0,0,0,10,4.8,2.4,6,1.3,1,0.03,0.01,0.04,0.13,3
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,73,0,0,0,1,0,0,0,0,0,0,0,9,10,16.8,25,5.2,1,0.18,0.08,0.26,1.18,3
+Minteh,BHA,MID,Los Santiagueños ⭐️,True,71,0,1,0,1,0,0,0,1,0,0,0,12,2.2,0.8,23,2.6,1,0.4,0.01,0.41,1.13,3
+Tavernier,BOU,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,6,21,30.8,81,13.3,1,0.66,0.22,0.88,1.97,3
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,71,0,0,0,1,0,0,0,0,0,0,0,14,1.8,3.7,10,1.6,1,0.17,0.01,0.18,0.36,3
+McGinn,AVL,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,1,0,0,0,7,1.6,5.8,10,1.7,1,0.09,0.01,0.1,0.45,3
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,15,5,36.5,14,5.6,1,0.24,0.34,0.58,1.04,3
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,5,1,26,55.8,10,0,6.6,1,0,0.01,0.01,0.96,4
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,8,7.6,17.4,3,2.8,1,0.03,0.14,0.17,0.96,4
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,23,0,0,0,0,0,0,0,0,0,0,0,5,8.8,21.5,2,3.2,0,0.03,0.02,0.05,0.14,4
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,73,0,0,1,0,0,0,0,0,0,0,0,27,7,8.2,13,2.8,1,0.12,0.34,0.46,1.12,4
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,26,0,0,0,0,0,0,0,0,0,0,0,2,1.8,5.2,0,0.7,0,0,0.02,0.02,0.15,4
+Minteh,BHA,MID,Los Santiagueños ⭐️,True,67,0,0,1,0,0,0,0,1,0,0,0,6,5.6,34.1,12,5.2,1,0,0.2,0.2,0.21,4
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,72,0,1,1,0,0,0,0,0,0,0,1,23,31.2,40,19,9,1,0.22,0.66,0.88,0.42,4
+McGinn,AVL,MID,Los Santiagueños ⭐️,True,89,0,0,0,2,0,0,0,0,0,0,0,18,8.4,24.9,9,4.2,1,0.09,0.32,0.41,0.81,4
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,45,1,0,0,0,0,0,0,0,0,0,2,25,40,21.9,25,8.7,0,0.17,0.2,0.37,0.37,4
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,0,0,4.8,13,1.7,1,0.17,0.03,0.2,0.73,4
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,10,14.2,8.9,47,7,1,0.18,0.02,0.2,1.21,4
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Gusto,CHE,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,1,0,-2,11,0,0,1.1,1,0,0,0,0.65,5
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,77,0,0,0,2,0,0,0,0,0,0,0,17,27.8,54.4,18,10,1,0.09,0.68,0.77,0.6,5
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,25,19.6,3.3,0,2.3,1,0,0.07,0.07,1.01,5
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,73,0,0,0,2,0,0,0,0,0,0,0,7,8.8,12.3,0,2.1,1,0,0.02,0.02,1.69,5
+Minteh,BHA,MID,Los Santiagueños ⭐️,True,28,0,0,0,1,0,0,0,0,0,0,0,5,8.6,23.6,2,3.4,0,0,0.06,0.06,0.67,5
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,83,1,0,0,1,0,0,0,0,0,0,1,27,37.2,6.8,27,7.1,1,0.41,0.02,0.43,1.24,5
+Amad,MUN,MID,Los Santiagueños ⭐️,True,75,0,0,1,0,0,0,0,0,0,0,0,7,6,30.2,24,6,1,0.05,0.11,0.16,0.87,5
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,90,1,0,0,3,0,0,0,0,0,0,3,34,44,28.9,47,12,1,0.43,0.14,0.57,2.29,5
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,87,1,0,0,1,0,0,0,0,0,0,0,26,39,4.8,55,9.9,1,1.61,0.07,1.68,0.8,5
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,0,3,0,0,0,1,0,0,3,34,43.6,52.7,13,10.9,1,0.03,0.22,0.25,1.73,5
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Gusto,CHE,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,1,0,3,0,6,22.4,0,0,2.2,1,0,0,0,1.57,6
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,13,20.8,5.1,0,2.6,1,0,0.03,0.03,1.57,6
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,6,21,3.6,0,2.5,1,0,0,0,1.11,6
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,70,0,0,0,4,0,0,0,0,0,0,0,-2,18,17.2,4,3.9,1,0,0.04,0.04,4.03,6
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,77,0,0,0,1,0,0,0,0,0,0,0,5,10,7.2,9,2.6,1,0.03,0.04,0.07,0.67,6
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,1,0,0,0,-2,18.8,1.3,0,2,1,0,0.01,0.01,4.59,6
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,87,0,0,1,0,0,0,0,0,0,0,0,13,11.6,38,9,5.9,1,0.15,0.05,0.2,0.78,6
+Amad,MUN,MID,Los Santiagueños ⭐️,True,5,0,0,0,0,0,0,0,0,0,0,0,7,4,1.3,4,0.9,0,0,0.02,0.02,0.57,6
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,76,0,0,0,1,0,0,0,0,0,0,0,5,1.8,4.9,30,3.7,1,0.25,0.02,0.27,0.67,6
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,0,29,46.2,16.3,77,14,1,1.33,0.01,1.34,0.96,6
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,13,9.2,12.3,24,4.6,1,0.05,0.01,0.06,2.54,6
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+March,BHA,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,2,0,1,15.4,0,0,1.5,1,0,0,0,2.6,7
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,28,0,0,0,1,0,0,0,0,0,0,0,-1,1,0.6,0,0.2,0,0,0,0,0.86,7
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,8,17.8,17,10,4.5,1,0.09,0.11,0.2,0.85,7
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,45,0,0,0,2,0,0,0,0,0,0,0,-1,9.8,19.3,2,3.1,1,0,0.15,0.15,0.95,7
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,45,0,0,0,0,0,0,0,0,0,0,0,7,9.4,1.2,0,1.1,1,0,0,0,0.15,7
+Trippier,NEW,DEF,Los Santiagueños ⭐️,True,70,0,0,1,0,0,0,0,0,0,0,2,28,16.8,36.1,2,5.5,1,0,0.12,0.12,0.63,7
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,25,0,0,0,1,0,0,0,0,0,0,0,4,4,3.1,0,0.7,0,0,0.01,0.01,0.23,7
+Carvalho,BRE,MID,Los Santiagueños ⭐️,True,13,1,0,0,1,0,0,0,0,0,0,0,23,33.4,0.8,35,6.9,0,0.89,0.02,0.91,0.36,7
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,61,0,0,1,0,0,0,0,0,0,0,0,2,6.6,2,10,1.9,1,0,0.04,0.04,0.14,7
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,1,0,3,0,0,0,0,0,0,0,19,17.2,15,4,3.6,1,0,0.29,0.29,1.82,7
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,0,5,0,0,0,0,0,0,3,44,40.6,14.3,38,9.3,1,0.44,0.27,0.71,4.25,7
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+March,BHA,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,1,0,5,12.4,0,0,1.2,1,0,0,0,0.97,8
+Walker,MCI,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,27,20.4,2.3,5,2.8,1,0.19,0.01,0.2,2.02,8
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,1,0,0,0,0,0,0,0,0,0,0,0,3,4.2,0,0,0.4,0,0,0,0,0.13,8
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,10,16.4,7.8,12,3.6,1,0.07,0.04,0.11,1.94,8
+Amad,MUN,MID,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,79,0,0,0,3,0,0,0,1,0,0,0,7,6,2.9,2,1.1,1,0,0.01,0.01,1.62,8
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,25,0,0,0,0,0,0,0,0,0,0,0,9,4.6,11.7,9,2.5,0,0.03,0.17,0.2,0.55,8
+Richarlison,TOT,FWD,Los Santiagueños ⭐️,True,9,0,0,0,0,0,0,0,0,0,0,0,4,0.4,0.2,0,0.1,0,0,0,0,0,8
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,80,0,0,0,1,0,0,0,0,0,0,0,-1,5.6,12.3,6,2.4,1,0.08,0.03,0.11,0.78,8
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,66,0,0,0,1,0,0,0,0,0,0,0,9,6,17,1,2.4,1,0.04,0.19,0.23,1,8
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+March,BHA,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Trippier,NEW,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,2,0,23,19.6,0,0,2,1,0,0,0,0.21,9
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,True,71,0,0,1,0,0,0,0,0,0,0,0,18,2.8,2.8,4,1,1,0,0.01,0.01,0.65,9
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,83,0,0,0,1,0,0,0,0,0,0,0,15,30,5,0,3.5,1,0,0.2,0.2,2.01,9
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,77,0,0,0,1,0,0,0,0,0,0,0,7,4,13.1,15,3.2,1,0.29,0.03,0.32,1.92,9
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,79,0,1,1,0,0,0,0,1,0,0,0,15,20,28.9,24,7.3,1,0.19,0.23,0.42,0.83,9
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,78,0,1,1,0,0,0,0,0,0,0,0,21,19,16.2,9,4.4,1,0.34,0.02,0.36,0.34,9
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,67,0,0,0,2,0,0,0,0,0,0,0,7,2.8,15.3,5,2.3,1,0.16,0.04,0.2,1.24,9
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,1,0,0,1,28,31.4,42.8,36,11,1,0.18,0.27,0.45,1.92,9
+Richarlison,TOT,FWD,Los Santiagueños ⭐️,True,28,0,0,0,0,0,0,0,1,0,0,0,-1,0.6,0.7,4,0.5,0,0,0,0,0.08,9
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,4,6,2.8,14,2.3,1,0.02,0.01,0.03,0.83,9
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,0,2,0,0,0,0,0,0,3,44,51.2,50.8,65,16.7,1,0.22,0.33,0.55,1.31,9
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Kiwior,ARS,DEF,Los Santiagueños ⭐️,False,36,0,0,0,1,0,0,0,0,0,0,0,-1,5.6,0.5,0,0.6,0,0,0,0,0.45,9
+Walker,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,4,0,12,35.4,0,0,3.5,1,0,0,0,2.04,10
+Livramento,NEW,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,1,27,19,21.4,0,4,1,0,0.02,0.02,1.05,10
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,45,0,0,0,0,0,0,0,1,0,0,0,0,3,16.3,8,2.7,1,0,0.06,0.06,0.72,10
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,21,31.2,2.3,4,3.8,1,0,0.02,0.02,1.11,10
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,81,0,0,0,1,0,0,0,0,0,0,0,19,21.8,57,26,10.5,1,0.12,0.29,0.41,0.18,10
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,8,17.8,14.1,28,6,1,0.34,0.02,0.36,1.65,10
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,5,0,0,0,0,0,0,0,0,0,0,0,6,4.2,10.5,2,1.7,0,0,0.41,0.41,0.33,10
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,10,8,2.4,17,2.7,1,0.06,0.01,0.07,1.98,10
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,2,1,0,1,0,0,0,0,0,0,3,71,71,0.3,64,13.5,1,1.52,0,1.52,1.86,10
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,1,0,2,0,0,0,0,0,0,1,29,27.2,40.8,13,8.1,1,0.11,0.22,0.33,2.51,10
+Richarlison,TOT,FWD,Los Santiagueños ⭐️,True,25,0,1,0,0,0,0,0,0,0,0,0,15,18,20.6,6,4.5,0,0,0.49,0.49,0.45,10
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+Kiwior,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,86,1,0,0,2,0,0,0,1,0,0,0,12,56.6,20.6,23,10,1,0.22,0.08,0.3,1.65,10
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,2,0,11,25,0,0,2.5,1,0,0,0,2.29,11
+Chalobah,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,14,27.2,10.8,0,3.8,1,0,0,0,1.83,11
+Livramento,NEW,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,12,11.8,3.4,0,1.5,1,0,0.01,0.01,0.63,11
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,2,31,25.2,21.2,4,5,1,0.02,0.23,0.25,0.77,11
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,2,26,28.4,50.7,6,8.5,1,0.11,0.23,0.34,1.28,11
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,88,1,0,1,0,0,0,0,0,0,0,3,40,47.2,38.7,29,11.5,1,0.18,0.05,0.23,1.5,11
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,65,0,0,0,1,0,0,0,0,0,0,0,-2,0,3.5,4,0.4,1,0.18,0,0.18,2.03,11
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,10,1,0,0,0,0,0,0,0,0,0,1,22,32.2,0.5,21,5.4,0,0.27,0,0.27,0.04,11
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,1,0,0,1,0,0,0,1,0,0,3,35,44.4,35.3,17,9.7,1,0.06,0.52,0.58,0.99,11
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,6,18.2,1.6,46,6.6,1,0.38,0.02,0.4,1.74,11
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,89,1,1,1,0,0,0,0,0,0,0,3,45,56.6,28.8,22,10.7,1,0.06,0.42,0.48,0.48,11
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+Beto,EVE,FWD,Los Santiagueños ⭐️,False,15,0,0,0,0,0,0,0,0,0,0,0,5,5,0,2,0.7,0,0,0,0,0.35,11
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+Gusto,CHE,DEF,Los Santiagueños ⭐️,False,81,0,0,0,1,0,0,0,0,0,0,0,8,15,26.8,15,5.7,1,0.44,0.03,0.47,0.95,11
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,4,0,0,0,0,0,3,0,-4,23.4,0,0,2.3,1,0,0,0,2.51,12
+Livramento,NEW,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,9,29.6,40.8,6,7.6,1,0,0.16,0.16,0.91,12
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,66,0,0,1,0,0,0,0,0,0,0,0,23,9.6,1.7,2,1.3,1,0,0.01,0.01,0.16,12
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,14,24.8,11.5,0,3.6,1,0,0.01,0.01,1.59,12
+O'Riley,BHA,MID,Los Santiagueños ⭐️,True,14,0,0,0,1,0,0,0,0,0,0,0,4,2.6,0.5,4,0.7,0,0.03,0,0.03,0.89,12
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,81,0,1,1,0,0,0,0,0,0,0,0,29,35.8,67.5,24,12.7,1,0.26,0.15,0.41,0.27,12
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,58,0,0,0,2,0,0,0,0,0,0,0,3,3.4,3.7,2,0.9,1,0,0.02,0.02,0.76,12
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,45,0,0,0,1,0,0,0,0,0,0,0,6,5.4,7.3,10,2.3,0,0,0.05,0.05,0.7,12
+Wilson,NEW,FWD,Los Santiagueños ⭐️,True,22,0,0,0,0,0,0,0,0,0,0,0,4,2,1.1,0,0.3,0,0,0,0,0.28,12
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,0,0,21,21.8,21.5,19,6.2,1,0.12,0.05,0.17,2.14,12
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,2,1,0,1,0,0,0,0,0,0,3,68,87.2,13.5,56,15.7,1,0.77,0.05,0.82,0.97,12
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Gusto,CHE,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Neto,CHE,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,5,0,11,35.2,0,0,3.5,1,0,0,0,3.35,13
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,55,0,0,0,2,0,0,0,0,0,0,0,-6,8.4,1.8,9,1.9,1,0.05,0.01,0.06,0.8,13
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,4,0,0,0,0,0,0,0,0,0,0,0,3,0.4,4.3,0,0.5,0,0,0.01,0.01,0.42,13
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,55,0,0,0,0,0,0,0,0,0,0,0,8,7.4,1.9,0,0.9,1,0,0.01,0.01,0.38,13
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,73,1,0,0,2,0,0,0,0,0,0,1,38,45.8,23.8,24,9.4,1,0.82,0.33,1.15,0.8,13
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,85,0,0,0,1,0,0,0,0,0,0,0,17,9.2,18,2,2.9,1,0,0.09,0.09,0.63,13
+O'Riley,BHA,MID,Los Santiagueños ⭐️,True,71,0,0,0,1,0,0,0,1,0,0,0,6,2.2,5.6,19,2.7,1,0.04,0.41,0.45,0.96,13
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,68,0,0,0,1,0,0,0,0,0,0,0,2,2,2.4,4,0.8,0,0,0.02,0.02,1.76,13
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,8,3.6,7.1,5,1.6,1,0.03,0.05,0.08,1.15,13
+Wilson,NEW,FWD,Los Santiagueños ⭐️,True,15,0,0,0,1,0,0,0,1,0,0,0,-3,0,0.3,0,0,0,0,0,0,0.15,13
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,4,0,0,0,0,0,0,0,8,12.6,29.5,5,4.7,1,0.11,0.07,0.18,3.29,13
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+Livramento,NEW,DEF,Los Santiagueños ⭐️,False,90,0,0,0,1,0,0,0,0,0,0,0,13,17.8,2.1,4,2.4,1,0,0.02,0.02,1.76,13
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,3,0,31,27.8,0,0,2.8,1,0,0,0,1.04,14
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,0,16.6,21.3,5,4.3,1,0.04,0.2,0.24,1.67,14
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,5,17.4,3.7,0,2.1,1,0,0.01,0.01,2.16,14
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,0,26,44.6,26.6,4,7.5,1,0,0.31,0.31,1.56,14
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,89,0,0,1,0,0,0,0,0,0,0,0,21,12.4,38.1,13,6.4,1,0.12,0.32,0.44,0.22,14
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,70,0,0,0,1,0,0,0,0,0,0,0,13,12.6,3.3,2,1.8,1,0,0.01,0.01,1.27,14
+O'Riley,BHA,MID,Los Santiagueños ⭐️,True,80,0,0,0,2,1,0,0,0,0,0,0,5,6.6,45.2,7,5.9,1,0.1,0.24,0.34,0.63,14
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,16,0,0,0,1,0,0,0,0,0,0,0,3,0.6,0.4,0,0.1,0,0,0,0,0.64,14
+Wilson,NEW,FWD,Los Santiagueños ⭐️,True,3,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0.08,14
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,6,2,12.3,19,3.3,1,0.18,0.04,0.22,3.31,14
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,4,0,0,0,0,0,0,0,8,9.4,2.8,13,2.5,1,0.09,0.01,0.1,1.02,14
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+Neto,CHE,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,1,0,6,12.4,0,0,1.2,1,0,0,0,1.34,15
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,19.2,31.3,2,5.3,1,0,0.13,0.13,1.63,15
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,45,0,0,0,1,0,0,0,0,0,0,0,7,7.8,2.1,9,1.9,0,0.03,0.01,0.04,1.43,15
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,24,0,0,0,0,0,0,0,0,0,0,0,8,8.4,0.9,0,0.9,0,0,0.01,0.01,0,15
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,78,0,0,0,1,0,0,0,0,0,0,0,10,10.2,42.7,6,5.9,1,0,0.18,0.18,0.16,15
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,59,0,0,0,1,0,0,0,0,0,0,0,3,0.6,1.8,0,0.2,1,0,0,0,1.68,15
+Doku,MCI,MID,Los Santiagueños ⭐️,True,11,0,0,0,0,0,0,0,0,0,0,0,3,6.4,1.3,2,1,0,0,0.01,0.01,0.11,15
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,72,1,0,0,3,0,0,0,0,0,0,0,26,32,16,29,7.7,1,0.17,0.3,0.47,0.57,15
+Neto,CHE,MID,Los Santiagueños ⭐️,True,85,0,0,0,2,0,0,0,1,0,0,0,12,12.4,33.9,29,7.5,1,0.07,0.34,0.41,1.93,15
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,1,0,0,4,0,0,0,0,0,0,0,35,45.4,21.6,39,10.6,1,0.94,0,0.94,2.83,15
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,0,0,10,12.4,46.8,10,6.9,1,0.04,0.25,0.29,1.01,15
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+Wilson,NEW,FWD,Los Santiagueños ⭐️,False,17,0,0,0,1,0,0,0,0,0,0,0,1,0,0.3,8,0.8,0,0,0,0,0.66,15
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,1,0,5,13.4,0,0,1.3,1,0,0,0,2.08,16
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,0,23,13.8,16.9,0,3.1,1,0,0.08,0.08,1.82,16
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,77,0,0,0,1,0,0,0,0,0,0,0,6,23.6,3.4,0,2.7,1,0,0.01,0.01,0.95,16
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,15,27,38.3,7,7.2,1,0.03,0.27,0.3,1.61,16
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,61,0,0,1,0,0,0,0,0,0,0,0,4,5.2,10.3,28,4.4,1,0.42,0.06,0.48,0.09,16
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,True,21,0,0,0,1,0,0,0,0,0,0,0,4,4.2,10.3,0,1.5,0,0,0.02,0.02,0.94,16
+Summerville,WHU,MID,Los Santiagueños ⭐️,True,15,0,0,0,1,0,0,0,0,0,0,0,3,7,0.3,0,0.7,0,0,0,0,0.64,16
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,26,0,0,0,0,0,0,0,0,0,0,0,10,10.2,16.3,36,6.3,0,0.15,0.23,0.38,0,16
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,81,0,1,1,0,0,0,0,0,0,0,0,12,0,0.2,10,0.9,1,0.28,0,0.28,0.83,16
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,0,2,0,0,0,0,0,0,3,45,52.6,30.4,52,13.5,1,0.41,0.12,0.53,1.2,16
+Onuachu,SOU,FWD,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+Neto,CHE,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,4,0,8,33.6,0,0,3.4,1,0,0,0,1.67,17
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,32,0,1,0,0,0,0,0,0,0,0,0,20,32.2,12.3,0,4.5,0,0,0.01,0.01,0.06,17
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,23,4.2,11.3,9,2.5,1,0.25,0.03,0.28,1.03,17
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,1,2.8,3.5,3,0.9,1,0.14,0.02,0.16,1.24,17
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,22.4,1.2,0,2.4,1,0,0.01,0.01,0.94,17
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,19,10.8,35.3,7,5.3,1,0.09,0.23,0.32,1.59,17
+Enciso,IPS,MID,Los Santiagueños ⭐️,True,22,0,0,0,0,0,0,0,0,0,0,0,6,5.4,1,23,2.9,0,0.13,0,0.13,0.72,17
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,26,0,0,0,0,0,0,0,0,0,0,0,3,7.2,4.7,10,2.2,0,0.04,0.62,0.66,0.17,17
+Neto,CHE,MID,Los Santiagueños ⭐️,True,75,0,0,1,0,0,0,0,0,0,0,0,5,3.2,3,22,2.8,1,0.09,0.03,0.12,0.71,17
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,1,1,0,6,0,0,0,0,0,0,0,43,57.4,21.2,41,12,1,0.47,0.17,0.64,4.6,17
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,3,43,51.4,45.4,22,11.9,1,0.14,0.31,0.45,0.81,17
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Smith Rowe,FUL,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Osula,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+Spence,TOT,DEF,Los Santiagueños ⭐️,False,90,0,0,0,6,0,0,0,0,0,0,0,-2,39.2,2.3,0,4.2,1,0,0.01,0.01,4.6,17
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,2,0,8,16.8,0,0,1.7,1,0,0,0,0.63,18
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,3,39,19.2,34.3,10,6.4,1,0.13,0.21,0.34,1.4,18
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,8,21.2,11,6,3.8,1,0.02,0.03,0.05,0.86,18
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,6,13.2,12.3,0,2.6,1,0,0.01,0.01,1.78,18
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,12,13.8,30.8,45,9,1,0.25,0.13,0.38,0.16,18
+Guedes,WOL,MID,Los Santiagueños ⭐️,True,73,0,0,1,0,0,0,0,0,0,0,0,-1,0,5.6,3,0.8,1,0.04,0.03,0.07,0.3,18
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,16,14.6,5.4,23,4.3,1,0.03,0.01,0.04,1.47,18
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,12,0,0,0,0,0,0,0,0,0,0,0,5,0,1.8,8,1,0,0.13,0.01,0.14,0.19,18
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,0,0,9,7.8,18.8,11,3.8,1,0.03,0.1,0.13,1.78,18
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,2,3.8,4.9,23,3.2,1,0.12,0.07,0.19,1.12,18
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,1,1,0,0,0,0,0,0,0,3,58,69.8,21.8,18,11,1,0.04,0.37,0.41,0.44,18
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+F.Kadıoğlu,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+Osula,NEW,FWD,Los Santiagueños ⭐️,False,1,0,0,0,0,0,0,0,0,0,0,0,3,2,0,2,0.4,0,0,0,0,0,18
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,1,0,3,0,22,27.6,0,0,2.8,1,0,0,0,1.3,19
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,77,0,0,0,1,0,0,0,1,0,0,0,1,17,18.8,10,4.6,1,0.02,0.1,0.12,0.29,19
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,13,0,0,0,0,0,0,0,1,0,0,0,1,1,0.8,0,0.2,0,0,0,0,0,19
+Lacroix,CRY,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,10,13.8,0.4,4,1.8,1,0.04,0.01,0.05,0.94,19
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,5,0,0,0,0,0,0,0,0,0,0,0,4,2,0.3,2,0.4,0,0,0,0,0,19
+Guedes,WOL,MID,Los Santiagueños ⭐️,True,45,0,0,0,0,0,0,0,0,0,0,0,1,2.2,11.6,6,2,0,0.01,0.03,0.04,0.95,19
+Neto,CHE,MID,Los Santiagueños ⭐️,True,13,0,0,0,0,0,0,0,0,0,0,0,4,1.2,0.8,2,0.4,0,0.02,0,0.02,0,19
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,87,0,0,0,1,0,0,0,0,0,0,0,15,6.8,24.9,3,3.5,1,0.03,0.18,0.21,0.29,19
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,15.2,44.1,34,9.3,1,0.35,0.6,0.95,0.94,19
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,45,0,0,0,2,0,0,0,0,0,0,0,1,2.4,3.3,10,1.6,1,0.1,0.04,0.14,1.3,19
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,2,0.2,11.7,21,3.3,1,0.16,0.02,0.18,0.72,19
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,False,90,0,0,0,2,0,0,0,0,0,0,0,4,12.8,12.8,6,3.2,1,0.02,0.01,0.03,1.92,19
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,False,90,0,0,0,5,0,0,0,0,0,0,0,-8,14.6,21.8,4,4,1,0.15,0.02,0.17,3.15,19
+Osula,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,3,0,14,31.6,0,0,3.2,1,0,0,0,1.37,20
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,1,0,0,0,6,9,2.7,2,1.4,1,0,0.01,0.01,1.52,20
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,8,14.4,29.3,4,4.8,1,0,0.1,0.1,1.08,20
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,12,17.8,2.8,0,2.1,1,0,0.03,0.03,0.41,20
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,4,10.6,4.5,5,2,1,0.04,0.01,0.05,2.82,20
+Jones,LIV,MID,Los Santiagueños ⭐️,True,60,0,0,0,1,0,0,0,0,0,0,0,5,0.6,3.7,0,0.4,1,0,0.02,0.02,0.55,20
+Guedes,WOL,MID,Los Santiagueños ⭐️,True,74,0,0,0,2,0,0,0,0,0,0,0,9,4.6,22.7,11,3.8,1,0.11,0.07,0.18,1.14,20
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,5,6,27.8,33,6.7,1,0.24,0.08,0.32,1.08,20
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,26,0,0,0,0,0,0,0,0,0,0,0,2,0.2,1.8,6,0.8,0,0,0.02,0.02,0.17,20
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,14,21.8,4,4,1,0,0.11,0.11,1.24,20
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,1,0,0,2,0,0,0,0,0,0,3,31,43.4,1.7,49,9.4,1,0.46,0.12,0.58,2.53,20
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Broja,EVE,FWD,Los Santiagueños ⭐️,False,31,0,0,0,0,0,0,0,0,0,0,0,4,0,1.6,8,0.9,1,0.04,0.01,0.05,1.06,20
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,False,90,0,0,0,4,0,0,0,0,0,0,0,0,10.2,1.9,3,1.5,1,0.02,0.02,0.04,1.91,20
+Cunha,WOL,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,3,0,9,26,0,0,2.6,1,0,0,0,2.58,21
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,1,0,2,0,0,0,1,0,0,0,17,29.4,11.5,2,4.3,1,0,0.12,0.12,1.9,21
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,3,31,24.2,10.6,2,3.7,1,0,0,0,1.14,21
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,82,0,0,0,1,0,0,0,0,0,0,0,14,24.2,34.3,0,5.9,1,0,0.06,0.06,1.48,21
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,3,27,34,67.5,29,13.1,1,0.38,0.57,0.95,0.78,21
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,0,0,27,30,33.8,21,8.5,1,0.09,0.52,0.61,1.7,21
+Jones,LIV,MID,Los Santiagueños ⭐️,True,15,0,0,0,0,0,0,0,0,0,0,0,5,0.6,2.8,12,1.5,0,0,0.04,0.04,0,21
+Neto,CHE,MID,Los Santiagueños ⭐️,True,9,0,0,0,0,0,0,0,0,0,0,0,5,2.4,0.3,0,0.3,0,0,0,0,0.17,21
+Osula,NEW,FWD,Los Santiagueños ⭐️,True,12,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0.1,0,0,0,0,0.82,21
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,1,0,0,0,0,0,0,2,0,0.1,20,1.2,1,0.25,0,0.25,1.45,21
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,45,0,0,0,2,0,0,0,0,0,0,0,6,7.8,23.1,35,6.6,0,0.3,0.07,0.37,1.45,21
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Gusto,CHE,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Enciso,IPS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,4,0,32,29.8,0,0,3,1,0,0,0,0.58,22
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,10,24.6,16.7,4,4.5,1,0.04,0.02,0.06,1.32,22
+Gusto,CHE,DEF,Los Santiagueños ⭐️,True,13,0,0,0,0,0,0,0,0,0,0,0,7,4.8,0.8,0,0.6,0,0,0,0,0.22,22
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,83,0,0,0,3,0,0,0,0,0,0,0,0,5.4,11.9,4,2.1,1,0,0.06,0.06,1.93,22
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,3,15.8,0.4,2,1.8,1,0,0,0,1.33,22
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,10,5.8,27,7,4,1,0.04,0.15,0.19,1.04,22
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,21,1,0,0,0,0,0,0,0,0,0,0,24,35.4,1.4,21,5.8,0,0.27,0.02,0.29,0.38,22
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,67,0,0,1,0,0,0,0,0,0,0,0,6,1.4,3.7,6,1.1,1,0,0.01,0.01,0.13,22
+Jones,LIV,MID,Los Santiagueños ⭐️,True,10,0,0,0,0,0,0,0,0,0,0,0,2,3.4,11.8,0,1.5,0,0,0.03,0.03,0.08,22
+Neto,CHE,MID,Los Santiagueños ⭐️,True,61,0,0,0,1,0,0,0,0,0,0,0,8,5.8,16.6,12,3.4,1,0,0.08,0.08,0.63,22
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,9,7.6,13.4,30,5.1,1,0.35,0.15,0.5,3.15,22
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+Osula,NEW,FWD,Los Santiagueños ⭐️,False,1,0,0,0,2,0,0,0,0,0,0,0,3,0,0.1,0,0,0,0,0,0,0.22,22
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,3,2,28,46.2,10,0,5.6,1,0,0,0,1.8,23
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,45,1,0,0,0,0,0,0,0,0,0,0,19,37,4.3,19,6,0,0.1,0.01,0.11,0.29,23
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,True,53,0,0,0,1,0,0,0,1,0,0,0,-3,2.8,0.2,2,0.5,1,0.02,0,0.02,1.69,23
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,37,0,0,0,0,0,0,0,0,0,0,0,7,14,0.8,0,1.5,1,0,0,0,0.2,23
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,80,0,0,1,0,0,0,0,0,0,0,0,18,4,2.6,4,1.1,1,0,0.01,0.01,0.3,23
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,14,31.2,40.3,2,7.4,1,0,0.11,0.11,0.85,23
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,45,0,0,0,0,0,0,0,0,0,0,0,2,2,1.2,16,1.9,0,0.05,0.05,0.1,0.04,23
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,71,0,0,0,1,0,0,0,0,0,0,0,8,5.8,1.5,4,1.1,1,0,0.15,0.15,1.17,23
+Malen,AVL,MID,Los Santiagueños ⭐️,True,25,0,0,0,1,0,0,0,0,0,0,0,3,3,0.5,7,1.1,0,0.03,0,0.03,0.46,23
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,45,0,0,0,0,0,0,0,0,0,0,0,2,2.2,0.8,4,0.7,1,0.24,0,0.24,0.45,23
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,9.8,15.8,24,5,1,0.13,0.03,0.16,1,23
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Osula,NEW,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,5,0,0,0,0,0,2,0,-9,13,0,0,1.3,1,0,0,0,1,24
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,1,0,0,0,0,0,0,-4,11.4,1.5,4,1.7,1,0,0.01,0.01,1.67,24
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,1,0,0,0,0,0,0,0,0,0,0,0,3,0,0.8,0,0.1,0,0,0,0,0,24
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,69,0,0,0,1,0,0,0,0,0,0,0,3,2.4,1.8,6,1,1,0.02,0.03,0.05,2.04,24
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,83,1,0,0,1,0,0,0,1,0,0,0,29,35,2.3,19,5.6,1,0.14,0.04,0.18,0.81,24
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,90,0,0,0,7,0,0,0,0,0,0,0,14,12.4,13.5,19,4.5,1,0.14,0.05,0.19,3.41,24
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,1,6,7.7,6,2,1,0.41,0.24,0.65,1.07,24
+Malen,AVL,MID,Los Santiagueños ⭐️,True,45,0,0,0,1,0,0,0,0,0,0,0,4,9.4,2.5,30,4.2,0,0.2,0.01,0.21,0.18,24
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,6,1,0,0,0,0,0,0,0,0,0,0,24,37.6,14.7,7,5.9,0,0.02,0.02,0.04,0,24
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,1,0,0,2,31,48.6,16.7,52,11.7,1,0.45,0.24,0.69,0.45,24
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,71,0,0,0,3,0,0,0,0,0,0,0,6,4,43,7,5.4,1,0.02,0.33,0.35,0.76,24
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Mings,AVL,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,1,2,38,32,10,0,4.2,1,0,0.01,0.01,0.48,25
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,14,0,0,0,0,0,0,0,0,0,0,0,5,2.8,0.6,6,0.9,0,0,0,0,0.05,25
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,164,0,1,0,3,0,0,0,0,0,0,0,28,33.8,4.6,12,5.1,1,0.17,0.1,0.27,2.79,25
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,9,11.8,4.3,2,1.8,1,0,0.02,0.02,1.66,25
+Malen,AVL,MID,Los Santiagueños ⭐️,True,85,0,0,0,1,0,0,0,0,0,0,0,9,6.6,13.1,23,4.2,1,0.08,0.03,0.11,1.13,25
+Nkunku,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,11,2.4,9.3,4,1.6,1,0,0.12,0.12,1.42,25
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,0,3,45,43.4,36.5,51,13.1,1,0.18,0.57,0.75,0.22,25
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,16,15.2,39.9,8,6.3,1,0.05,0.73,0.78,0.22,25
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,11,10,21.8,10,4.2,1,0.24,0.08,0.32,0.96,25
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,75,3,0,1,0,0,0,0,0,0,0,3,88,100,17.3,49,16.6,1,0.71,0.16,0.87,0.48,25
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,1,0,0,2,0,0,0,0,0,0,3,38,38.8,24.5,30,9.3,1,0.47,0.17,0.64,1.66,25
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,False,90,0,0,0,1,0,0,0,0,0,0,0,17,31.2,16.2,0,4.7,1,0,0.17,0.17,2.23,25
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,90,0,0,1,0,0,0,0,0,0,0,0,27,16,0.6,2,1.9,1,0,0.01,0.01,0.48,25
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,2,0,2,16,0,0,1.6,1,0,0,0,0.71,26
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,True,55,0,0,0,1,0,0,0,0,0,0,0,5,9.8,14.8,14,3.9,1,0.09,0.04,0.13,1.04,26
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,59,0,0,0,1,0,0,0,0,0,0,0,9,11.8,1.8,2,1.6,1,0,0.01,0.01,1.78,26
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,23,0,0,0,0,0,0,0,0,0,0,0,3,3.6,0.8,0,0.4,0,0,0,0,0.09,26
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,78,1,0,1,0,0,0,0,0,0,0,0,24,43.6,12.8,40,9.6,1,0.69,0,0.69,0.13,26
+Nkunku,CHE,MID,Los Santiagueños ⭐️,True,75,0,0,0,1,0,0,0,1,0,0,0,5,14.6,26.9,13,5.5,1,0.04,0.2,0.24,1.82,26
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,80,0,0,0,1,0,0,0,0,0,0,0,5,7.6,22.7,9,3.9,1,0.01,0.11,0.12,1.07,26
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,12,11.8,51.9,11,7.5,1,0.08,0.22,0.3,1.07,26
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,74,0,0,1,0,0,0,0,0,0,0,0,8,5.2,6,0,1.1,1,0,0.02,0.02,0.17,26
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,76,0,0,0,2,0,0,0,0,0,0,0,10,10.6,22.9,32,6.6,1,0.13,0.11,0.24,0.55,26
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,88,1,0,1,0,0,0,0,0,0,0,3,40,44.2,50.9,29,12.4,1,0.71,0.24,0.95,0.62,26
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,False,69,0,0,0,2,0,0,0,0,0,0,0,9,33,1.3,0,3.4,1,0,0.01,0.01,1.76,26
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,90,0,0,0,2,0,0,0,0,0,0,0,15,26.2,16.3,0,4.3,1,0,0.03,0.03,0.71,26
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,6,3,35,52.6,0,0,5.3,1,0,0,0,1.33,27
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,1,29,24.8,20.7,0,4.6,1,0,0.07,0.07,0.38,27
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,45,0,0,0,1,0,0,0,1,0,0,0,-2,2.4,0,2,0.4,0,0,0,0,0.42,27
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,71,0,0,0,1,0,0,0,0,0,0,0,4,3.4,5.3,2,1.1,1,0,0.01,0.01,1.1,27
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,89,0,1,0,1,0,0,0,0,0,0,0,11,31.8,24.7,23,8,1,0.39,0.22,0.61,1.39,27
+Nkunku,CHE,MID,Los Santiagueños ⭐️,True,82,1,1,1,0,0,0,0,0,0,0,1,41,53,25.5,66,14.5,1,0.42,0.15,0.57,0.72,27
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,76,0,0,1,0,0,0,0,0,0,0,0,16,7.8,13.4,17,3.8,1,0.07,0.06,0.13,0.25,27
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,84,0,0,1,0,0,0,0,0,0,0,0,15,5.8,19.4,2,2.7,1,0,0.23,0.23,0.3,27
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,85,2,0,0,1,0,0,0,0,0,0,3,46,74,41.9,83,19.9,1,1.86,0.21,2.07,0.35,27
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,73,0,0,1,0,0,0,0,0,0,0,0,11,6.2,11.1,4,2.1,1,0.05,0.02,0.07,0.83,27
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,17,14.4,18.2,51,8.4,1,0.35,0.09,0.44,1.69,27
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,45,0,0,0,0,0,0,0,1,0,0,0,-1,0.4,12.8,8,2.1,1,0.1,0.03,0.13,0.06,27
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,90,0,0,1,0,0,0,0,0,0,0,0,25,18.2,10.8,0,2.9,1,0,0.01,0.01,1.33,27
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,3,0,8,21.8,0,0,2.2,1,0,0,0,0.73,28
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,13,14,3.6,0,1.8,1,0,0.01,0.01,1.38,28
+Tsimikas,LIV,DEF,Los Santiagueños ⭐️,True,45,0,0,0,1,0,0,0,1,0,0,0,10,15.8,17.4,0,3.3,1,0,0.03,0.03,0.25,28
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,13,14,4.9,6,2.5,1,0,0.02,0.02,0.9,28
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,14,27.4,4.2,0,3.2,1,0,0.03,0.03,0.73,28
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,76,0,0,0,1,0,0,0,0,0,0,0,13,9.4,14.1,6,3,1,0,0.06,0.06,0.69,28
+Nkunku,CHE,MID,Los Santiagueños ⭐️,True,88,0,0,1,0,0,0,0,0,0,0,0,9,9,4.8,52,6.6,1,0.15,0.1,0.25,0.1,28
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,57,0,0,0,1,0,0,0,0,0,0,0,-4,1.6,5.1,6,1.3,1,0,0.03,0.03,0.27,28
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,1,22,21.2,46.8,41,10.9,1,0.42,0.47,0.89,1.52,28
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,3,37,53.6,30.3,36,12,1,1.35,0.46,1.81,1.48,28
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,21,0,0,0,1,0,0,0,0,0,0,0,3,2.4,3.5,4,1,0,0,0.01,0.01,0.27,28
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,57,0,0,0,1,0,0,0,0,0,0,0,-2,3.6,2.8,4,1,1,0,0.05,0.05,0.27,28
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,90,0,0,0,2,0,0,0,0,0,0,0,5,6.6,13.4,27,4.7,1,0.12,0.01,0.13,2.2,28
+Cunha,WOL,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,2,0,7,22.4,0,0,2.2,1,0,0,0,2.04,29
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,1,0,0,2,0,0,0,0,0,0,0,23,50,37,7,9.4,1,0.06,0.04,0.1,1.72,29
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,1,0,0,0,0,0,0,0,11.4,1.8,0,1.3,1,0,0.01,0.01,2.04,29
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,10,20.6,3.5,4,2.8,1,0,0.03,0.03,1,29
+Mazraoui,MUN,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,25,12.4,12.4,0,2.5,1,0,0.02,0.02,1.17,29
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,89,0,1,1,0,0,0,0,1,0,0,0,21,26.2,37.8,21,8.5,1,0.09,0.21,0.3,0.36,29
+Tavernier,BOU,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,0,0,8,4,17.4,23,4.4,1,0.16,0.06,0.22,0.83,29
+Georginio,BHA,MID,Los Santiagueños ⭐️,True,74,0,1,0,2,0,0,0,0,0,0,0,13,3,11.8,2,1.7,1,0,0.05,0.05,1.48,29
+Nwaneri,ARS,MID,Los Santiagueños ⭐️,True,11,0,0,0,0,0,0,0,0,0,0,0,2,0.2,0,0,0,0,0,0,0,0.1,29
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,-3,10.4,1,31,4.2,1,0.61,0,0.61,0.97,29
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,85,1,1,0,2,0,0,0,0,0,0,3,48,40.4,27.3,22,9,1,0.1,0.15,0.25,2.04,29
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Calafiori,ARS,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Cunha,WOL,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,20,5.8,0,0,0.6,1,0,0,0,0.07,30
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,1,17.2,30.1,2,4.9,1,0.02,0.14,0.16,1.25,30
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,18,34,17.8,4,5.6,1,0,0.14,0.14,1.18,30
+Quansah,LIV,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Ramsey,AVL,MID,Los Santiagueños ⭐️,True,64,0,0,1,0,0,0,0,0,0,0,0,7,8.6,1.2,6,1.6,1,0,0.01,0.01,0.49,30
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,15,7.6,33.5,15,5.6,1,0.28,0.28,0.56,0.99,30
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,0,17,22.4,41.8,33,9.7,1,0.25,0.21,0.46,1.6,30
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,13.4,24.6,14,5.2,1,0,0.08,0.08,0.67,30
+Kulusevski,TOT,MID,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,6,2.4,0.5,2,0.5,1,0,0.01,0.01,1.09,30
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,3,34,34.8,3.2,70,10.8,1,1.45,0.04,1.49,0.07,30
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Mings,AVL,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Cunha,WOL,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,2,0,24,20.4,0,0,2,1,0,0,0,0.91,31
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,80,0,0,0,2,0,0,0,0,0,0,0,4,1.8,2.6,7,1.1,1,0.07,0.02,0.09,0.54,31
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,11,15.4,2.8,2,2,1,0,0.01,0.01,2.12,31
+Udogie,TOT,DEF,Los Santiagueños ⭐️,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,19,0,0,0,0,0,0,0,0,0,0,0,2,0,0.6,4,0.3,0,0.23,0,0.23,0,31
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,0,23,43.2,13.4,46,10.3,1,1.26,0.05,1.31,0.47,31
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,6,11.8,2.5,4,1.8,1,0,0.01,0.01,1,31
+Ramsey,AVL,MID,Los Santiagueños ⭐️,True,28,0,0,0,0,0,0,0,0,0,0,0,5,7.2,32.9,8,4.8,0,0,0.18,0.18,0.41,31
+Madueke,CHE,MID,Los Santiagueños ⭐️,True,58,0,0,0,0,0,0,0,0,0,0,0,3,1.8,2.3,19,2.3,1,0.07,0.01,0.08,0.53,31
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,86,0,0,1,0,0,0,0,0,0,0,0,9,10.6,12.1,20,4.3,1,0.22,0.01,0.23,0.71,31
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,15,22.4,3.2,40,6.6,1,0.15,0.02,0.17,0.91,31
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Digne,AVL,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Cunha,WOL,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,70,0,1,0,2,0,0,0,0,0,0,0,12,21,13,0,3.4,1,0,0.14,0.14,1.68,32
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,1,0,0,0,8,14.2,15,4,3.3,1,0,0.08,0.08,1.5,32
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,26,8.8,11.8,5,2.6,1,0.04,0.01,0.05,0.31,32
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,56,0,0,0,1,0,0,0,0,0,0,0,-2,3.8,1.3,39,4.4,1,0.41,0.03,0.44,1.45,32
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,180,3,1,1,1,0,0,0,0,0,0,4,90,114.8,21.4,84,22,2,1.01,0.23,1.24,2.72,32
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,165,0,1,0,10,0,0,0,0,0,0,0,19,25.4,27,14,6.6,2,0.48,0.19,0.67,5.13,32
+Malen,AVL,MID,Los Santiagueños ⭐️,True,24,1,0,0,0,0,0,0,0,0,0,0,24,37.8,12.1,19,6.9,0,0.23,0.01,0.24,0.06,32
+Madueke,CHE,MID,Los Santiagueños ⭐️,True,67,0,1,0,2,0,0,0,0,0,0,0,25,10.8,47.9,40,9.9,1,0.25,0.14,0.39,0.9,32
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,74,0,0,0,3,0,0,0,0,0,0,0,-3,0,1.7,4,0,1,0.46,0.02,0.48,1.8,32
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,20,1,0,0,1,0,0,0,0,0,0,2,36,43.2,21.3,20,8.5,0,0.54,0.15,0.69,0.95,32
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,81,1,0,0,2,0,0,0,0,0,0,1,36,46.4,27.9,59,13.3,1,1.03,0.26,1.29,1.68,32
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,19,0,0,0,0,0,0,0,0,0,1,0,5,10,0,0,1,0,0,0,0,0.13,32
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,28,0,0,0,1,0,0,0,1,0,0,0,1,3.8,26.5,2,3.2,0,0,0.12,0.12,0.12,32
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,False,90,0,0,0,2,0,0,0,0,0,0,0,19,28,25.4,2,5.5,1,0,0.15,0.15,1.78,32
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,True,180,0,0,1,1,0,0,0,0,0,4,0,32,36.2,0,0,3.7,2,0,0,0,2.67,33
+Mings,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,10,11,0.3,4,1.5,1,0.04,0,0.04,1,33
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,78,0,1,1,0,0,0,0,0,0,0,2,39,31.4,14.6,6,5.2,1,0,0.01,0.01,0.73,33
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,0,4,0,0,0,1,0,0,0,-5,13.8,14.4,4,3.2,1,0,0.2,0.2,2.17,33
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,175,0,2,1,2,0,0,0,0,0,0,0,51,60.4,106.8,64,23.2,2,0.21,0.68,0.89,1.82,33
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,75,0,1,0,4,0,0,0,0,0,0,0,17,22.4,15.9,9,4.7,1,0.05,0.19,0.24,2.11,33
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,117,0,0,1,0,0,0,0,1,0,0,0,12,9,33.6,22,6.5,1,0.25,0.49,0.74,1.08,33
+Malen,AVL,MID,Los Santiagueños ⭐️,True,12,0,0,0,1,0,0,0,0,0,0,0,9,5.2,1.3,13,1.7,0,0.09,0,0.09,0.42,33
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,23,0,0,0,0,0,0,0,0,0,0,0,2,0,1.5,4,0.6,0,0,0,0,0,33
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,0,3,28,10,23.8,9,4.3,1,0.03,0.11,0.14,1.25,33
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,180,0,0,1,1,0,0,0,0,0,0,0,9,7.8,40,51,9.9,2,0.9,0.23,1.13,2.67,33
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33
+Kulusevski,TOT,MID,Los Santiagueños ⭐️,False,66,0,0,0,2,0,0,0,0,0,0,0,8,8,14.1,29,5.1,1,0.08,0.02,0.1,0.48,33
+Khusanov,MCI,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33
+Palmer,IPS,GKP,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,2,0,3,12.6,0,0,1.3,1,0,0,0,2.85,34
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,7,14,5,19,3.8,1,0.19,0.04,0.23,1.27,34
+S.Bueno,WOL,DEF,Los Santiagueños ⭐️,True,6,0,0,0,0,0,0,0,0,0,0,0,5,7.6,0.3,0,0.8,0,0,0,0,0.05,34
+Smith,BOU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,1,0,0,0,4,19.2,22.6,0,4.2,1,0,0.14,0.14,2.52,34
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,3,0,0,0,0,0,0,0,6,15.8,24.2,21,6.1,1,0.14,0.06,0.2,1.31,34
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,90,1,0,0,1,0,0,0,0,0,0,3,30,63.2,50.3,36,15,1,0.34,0.21,0.55,0.63,34
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,76,0,0,1,0,0,0,0,0,0,0,0,15,5.4,37.8,32,7.5,1,0.14,0.21,0.35,0.1,34
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,11,11.8,21,2,3.5,1,0,0.05,0.05,0.44,34
+Kulusevski,TOT,MID,Los Santiagueños ⭐️,True,45,0,0,0,2,0,0,0,0,0,0,0,3,9.2,0.3,4,1.4,0,0.02,0,0.02,1.14,34
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,67,1,0,0,4,0,0,0,0,0,0,0,28,33,0.5,43,7.7,1,0.26,0,0.26,1.88,34
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,88,1,2,1,0,0,0,0,0,0,0,3,76,85.8,61.3,67,21.4,1,0.56,0.21,0.77,1.1,34
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,23,5.8,0,0,0.6,1,0,0,0,0.4,35
+Digne,AVL,DEF,Los Santiagueños ⭐️,True,19,0,0,0,0,0,0,0,0,0,0,0,5,7.8,0.5,0,0.8,0,0,0,0,0.15,35
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,2,23,30.4,16.8,11,5.8,1,0.04,0.07,0.11,0.77,35
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,56,0,0,0,1,0,0,0,1,0,0,0,-7,3.8,12.1,6,2.2,1,0,0.08,0.08,0.21,35
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,0,2,0,0,0,0,0,0,3,30,22.4,19.3,7,4.9,1,0.12,0.18,0.3,0.97,35
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,11.6,23.7,48,8.3,1,0.26,0.22,0.48,0.69,35
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,18.8,30.7,31,8.1,1,0.6,0.41,1.01,0.71,35
+Kulusevski,TOT,MID,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,5,9.8,15.8,8,3.4,1,0,0.06,0.06,0.84,35
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,0,19,22.6,26.8,17,6.6,1,0.18,0.41,0.59,1.05,35
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,84,0,0,0,1,0,0,0,0,0,0,0,1,0,8.6,13,1.8,1,0.08,0.1,0.18,0.71,35
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,82,0,0,1,0,0,0,0,0,0,0,0,4,0,2.3,12,1.2,1,0.12,0.03,0.15,0.4,35
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,False,90,0,0,0,1,0,0,0,0,0,0,0,11,16,3.2,6,2.5,1,0.14,0.02,0.16,1.87,35
+Smith,BOU,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,19,2,0,0,0.2,1,0,0,0,0.1,36
+Digne,AVL,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,1,27,16,15.2,0,3.1,1,0,0.13,0.13,0.8,36
+Akanji,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,26,17.2,12.2,33,6.2,1,0.46,0.18,0.64,0.1,36
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,82,0,0,0,3,0,0,0,0,0,0,0,-1,28,3.5,23,5.5,1,0.04,0.03,0.07,1.03,36
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,0,2,0,0,0,0,0,0,0,26,11.8,39.5,23,7.4,1,0.16,0.16,0.32,2.56,36
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,6,12.2,29.7,48,9,1,0.37,0.14,0.51,0.69,36
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,16,6.6,9.3,14,3,1,0.2,0.06,0.26,1.57,36
+Kulusevski,TOT,MID,Los Santiagueños ⭐️,True,18,0,0,0,0,0,0,0,0,0,0,0,1,0,0,5,0.3,1,0.04,0,0.04,0.18,36
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,77,0,1,1,0,0,0,0,0,0,0,0,18,17.2,34.1,23,7.4,1,0.63,0.33,0.96,0.58,36
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,58,0,0,0,1,0,0,0,1,0,0,0,2,0,28.6,16,4.4,1,0.11,0.16,0.27,0.91,36
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,6,0,0,0,0,0,0,0,0,0,0,0,3,0,0,15,1.5,0,0.13,0,0.13,0,36
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,False,90,0,1,1,0,0,0,0,0,0,0,3,36,33.4,23.8,6,6.3,1,0,0.22,0.22,2.28,36
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,False,90,0,0,1,0,0,0,0,0,0,0,1,28,25.6,3.7,2,3.1,1,0,0.02,0.02,0.91,36
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,1,0,1,0,5,10,0,0,1,1,0,0,0,1.06,37
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,10,0,0,0,0,0,0,0,0,0,0,0,4,3.2,0.3,0,0.4,0,0,0,0,0.14,37
+Akanji,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,11,11.4,2,2,1.5,1,0,0.01,0.01,1.06,37
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,0,0,2,0,0,0,0,0,0,0,8,25,5.3,2,3.2,1,0,0.02,0.02,1.96,37
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,90,0,1,1,0,0,0,0,0,0,0,0,21,24.6,46.1,9,8,1,0.03,0.04,0.07,1.64,37
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,75,0,0,0,1,0,0,0,0,0,0,0,4,4.4,1.5,13,1.9,1,0.21,0.03,0.24,0.59,37
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,True,62,0,1,0,2,0,0,0,0,0,0,0,18,22.8,14.3,40,7.7,1,0.33,0.33,0.66,1.18,37
+Neto,CHE,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,5,5.8,18.5,19,4.3,1,0.02,0.05,0.07,0.29,37
+Martinelli,ARS,MID,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,3,4.6,2.1,18,2.5,1,0.12,0.05,0.17,1.86,37
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,23,0,0,0,1,0,0,0,0,0,0,0,8,7.4,25.3,21,5.4,0,0.21,0.03,0.24,0.56,37
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,90,1,0,1,0,0,0,0,0,0,0,2,38,33.2,15.4,14,6.3,1,0.12,0.24,0.36,0.78,37
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Digne,AVL,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37
+Solanke,TOT,FWD,Los Santiagueños ⭐️,False,16,0,0,0,0,0,0,0,0,0,0,0,3,1.4,0.4,0,0.2,0,0,0,0,0.1,37
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,False,90,0,0,0,2,0,0,0,0,0,0,0,14,36.6,24,24,8.5,1,0.11,0.19,0.3,2.24,37
+Ederson M.,MCI,GKP,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,3,0,26,27,0,0,2.7,1,0,0,0,1.74,38
+Sessegnon,FUL,DEF,Los Santiagueños ⭐️,True,16,0,0,0,0,0,0,0,0,0,0,0,10,9.8,29.1,6,4.5,0,0,0.28,0.28,0.03,38
+Akanji,MCI,DEF,Los Santiagueños ⭐️,True,90,0,0,1,0,0,0,0,0,0,0,0,26,9.6,1.7,9,2,1,0.41,0.01,0.42,1.74,38
+Wan-Bissaka,WHU,DEF,Los Santiagueños ⭐️,True,90,0,1,0,1,0,0,0,0,0,0,0,23,33,20.6,0,5.4,1,0,0.04,0.04,0.79,38
+Ødegaard,ARS,MID,Los Santiagueños ⭐️,True,15,1,0,0,0,0,0,0,0,0,0,1,26,35.2,3.2,9,4.7,0,0.06,0.03,0.09,0,38
+Barnes,NEW,MID,Los Santiagueños ⭐️,True,87,0,0,0,1,0,0,0,0,0,0,0,6,2,12.3,19,3.3,1,0.08,0.02,0.1,0.66,38
+Neto,CHE,MID,Los Santiagueños ⭐️,True,77,0,1,1,0,0,0,0,0,0,0,0,10,14.6,13.4,10,3.8,1,0.33,0.01,0.34,0.74,38
+Martinelli,ARS,MID,Los Santiagueños ⭐️,True,70,0,0,0,1,0,0,0,0,0,0,0,11,19,42.8,48,11,1,0.74,0.23,0.97,0.63,38
+Solanke,TOT,FWD,Los Santiagueños ⭐️,True,65,1,0,0,2,0,0,0,0,0,0,1,32,45.2,0.3,17,6.3,1,0.79,0,0.79,1.32,38
+Cunha,WOL,FWD,Los Santiagueños ⭐️,True,90,0,0,0,1,0,0,0,0,0,0,0,8,14,16.7,61,9.2,1,0.38,0.08,0.46,1.43,38
+Marmoush,MCI,FWD,Los Santiagueños ⭐️,True,81,0,0,1,0,0,0,0,0,0,0,0,11,2.4,12.8,26,4.1,1,0.35,0.02,0.37,1.29,38
+Ortega Moreno,MCI,GKP,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38
+Digne,AVL,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38
+I.Sarr,CRY,MID,Los Santiagueños ⭐️,False,90,1,0,0,1,0,0,0,0,0,0,2,27,44,10.9,34,8.9,1,0.68,0.1,0.78,2.17,38
+Estupiñan,BHA,DEF,Los Santiagueños ⭐️,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38

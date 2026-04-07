@@ -39,6 +39,8 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-brand: var(--brand);
+  --color-brand-light: var(--brand-light);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -49,72 +51,58 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
+  /* Brand — violeta del logo #3e1a5b */
+  --brand:       oklch(0.27 0.155 308);
+  --brand-light: oklch(0.37 0.155 308);
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Base */
+  --background:        oklch(1 0 0);
+  --foreground:        oklch(0.15 0.02 308);
+  --card:              oklch(1 0 0);
+  --card-foreground:   oklch(0.15 0.02 308);
+  --popover:           oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.02 308);
+
+  /* Primary = brand violet */
+  --primary:           oklch(0.27 0.155 308);
+  --primary-foreground: oklch(0.98 0 0);
+
+  /* Secondary = faint violet surface */
+  --secondary:         oklch(0.96 0.01 308);
+  --secondary-foreground: oklch(0.27 0.155 308);
+
+  /* Muted */
+  --muted:             oklch(0.96 0.008 308);
+  --muted-foreground:  oklch(0.50 0.05 308);
+
+  /* Accent = hover highlight */
+  --accent:            oklch(0.93 0.03 308);
+  --accent-foreground: oklch(0.27 0.155 308);
+
+  /* Utility */
+  --destructive: oklch(0.577 0.245 27.325);
+  --border:      oklch(0.90 0.02 308);
+  --input:       oklch(0.90 0.02 308);
+  --ring:        oklch(0.27 0.155 308);
+
+  /* Charts */
+  --chart-1: oklch(0.27 0.155 308);
+  --chart-2: oklch(0.50 0.18 308);
+  --chart-3: oklch(0.65 0.14 308);
+  --chart-4: oklch(0.75 0.09 308);
+  --chart-5: oklch(0.90 0.03 308);
+
+  --radius: 0.625rem;
+
+  /* Sidebar */
+  --sidebar:                    oklch(0.27 0.155 308);
+  --sidebar-foreground:         oklch(0.98 0 0);
+  --sidebar-primary:            oklch(0.98 0 0);
+  --sidebar-primary-foreground: oklch(0.27 0.155 308);
+  --sidebar-accent:             oklch(0.35 0.155 308);
+  --sidebar-accent-foreground:  oklch(0.98 0 0);
+  --sidebar-border:             oklch(0.35 0.1 308);
+  --sidebar-ring:               oklch(0.98 0 0);
 }
 
 @layer base {
