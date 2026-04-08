@@ -9,6 +9,7 @@ create table players (
   name       text not null,
   position   text not null check (position in ('GKP', 'DEF', 'MID', 'FWD')),
   club       text not null,
+  fpl_code   integer,
   created_at timestamptz default now(),
   unique(name, position, club)
 );

@@ -25,6 +25,7 @@ const POSITION_MAP: Record<number, string> = { 1: 'GKP', 2: 'DEF', 3: 'MID', 4: 
 
 type BootstrapElement = {
   id: number
+  code: number
   first_name: string
   second_name: string
   web_name: string
@@ -160,11 +161,11 @@ export async function syncGW(gw: number, seasonName = '2025/26'): Promise<SyncRe
       const name = element.web_name
       const isStarter = pick.position <= 11
 
-      // Upsert jugador en tabla players
+      // Upsert jugador en tabla players (fpl_code = elements[].code para fotos en el CDN)
       const { data: player, error: playerError } = await supabase
         .from('players')
         .upsert(
-          { name, position, club },
+          { name, position, club, fpl_code: element.code },
           { onConflict: 'name,position,club', ignoreDuplicates: false }
         )
         .select('id')
@@ -181,7 +182,7 @@ export async function syncGW(gw: number, seasonName = '2025/26'): Promise<SyncRe
           .single()
 
         if (!existing) continue
-        // Usar existing.id
+        await supabase.from('players').update({ fpl_code: element.code }).eq('id', existing.id)
         await upsertPlayerGW(supabase, existing.id, managerId, season.id, gw, isStarter, live.stats)
       } else {
         await upsertPlayerGW(supabase, player.id, managerId, season.id, gw, isStarter, live.stats)
