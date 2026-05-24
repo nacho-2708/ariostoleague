@@ -8,7 +8,7 @@ const TABS = [
   { label: "Tabla", href: "/standings", icon: Trophy },
   { label: "Fixtures", href: "/fixtures", icon: CalendarDays },
   { label: "Managers", href: "/managers", icon: Users },
-  { label: "Stats", href: "/stats", icon: BarChart3 },
+  { label: "Stats", href: "/stats/records", icon: BarChart3 },
   { label: "Foro", href: "/forum", icon: MessageCircle },
 ]
 
@@ -22,7 +22,10 @@ export default function MobileTabs() {
     <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-white shadow-[0_-1px_12px_rgba(0,0,0,0.06)] md:hidden">
       <div className="flex h-16 items-center justify-around">
         {TABS.map((tab) => {
-          const active = pathname.startsWith(tab.href)
+          const active =
+            tab.href === "/stats/records"
+              ? pathname.startsWith("/stats")
+              : pathname.startsWith(tab.href)
           const Icon = tab.icon
           return (
             <Link

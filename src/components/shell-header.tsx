@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "Standings", href: "/standings", icon: Trophy },
   { label: "Fixtures", href: "/fixtures", icon: CalendarDays },
   { label: "Managers", href: "/managers", icon: Users },
-  { label: "Stats", href: "/stats", icon: BarChart3 },
+  { label: "Stats", href: "/stats/records", icon: BarChart3 },
   { label: "Foro", href: "/forum", icon: MessageCircle },
 ]
 
@@ -47,7 +47,10 @@ export default function ShellHeader({ seasons }: { seasons: Season[] }) {
         {/* Nav desktop */}
         <nav className="hidden items-center md:flex">
           {NAV_ITEMS.map((item) => {
-            const active = pathname.startsWith(item.href)
+            const active =
+              item.href === "/stats/records"
+                ? pathname.startsWith("/stats")
+                : pathname.startsWith(item.href)
             return (
               <Link
                 key={item.href}

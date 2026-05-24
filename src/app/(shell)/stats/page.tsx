@@ -1,8 +1,15 @@
-export default function StatsPage() {
-  return (
-    <div>
-      <h1 className="text-2xl font-bold">Stats</h1>
-      <p className="mt-1 text-sm text-muted-foreground">Próximamente</p>
-    </div>
-  )
+import { redirect } from "next/navigation"
+
+export default async function StatsRootPage({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | undefined>>
+}) {
+  const p = await searchParams
+  const qs = new URLSearchParams()
+  for (const [k, v] of Object.entries(p)) {
+    if (v) qs.set(k, v)
+  }
+  const s = qs.toString()
+  redirect(s ? `/stats/records?${s}` : "/stats/records")
 }
