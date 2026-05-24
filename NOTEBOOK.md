@@ -42,6 +42,8 @@ Cosas no obvias de las herramientas que usamos. Esto sirve para no volver a trop
 
 - **El contador de uso de Claude Code tiene lag.** No confiar en el porcentaje como señal precisa. Usar `/compact` proactivamente antes de que se vea crítico.
 
+- **`ls` no es lo mismo que `git ls-files`.** Un archivo puede existir en disco y NO estar trackeado por git si el `.gitignore` lo excluye. Para saber qué tiene git en el index, usar siempre `git ls-files`, no asumir desde `ls`. _Anotado: 2026-05-24._
+
 ---
 
 ## 💡 Ideas a explorar
@@ -62,6 +64,6 @@ Cosas que necesito resolver pero no tengo respuesta todavía.
 
 ## ✅ Resueltas
 
-Archivo histórico de cosas que estuvieron acá y se resolvieron. Útil o repetir discusiones.
+Archivo histórico de cosas que estuvieron acá y se resolvieron. Útil para auditoría y para no repetir discusiones.
 
 _(vacío por ahora)_
