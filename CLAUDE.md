@@ -133,13 +133,16 @@ Lo que está hecho:
 - Integración con FPL Draft API (sync route protegida)
 - Datos históricos importados a Supabase desde Excel (vía SQL sueltos en `archivos/`)
 - Components de UI básicos: header, mobile-tabs, season-selector, standings-table, manager-charts
+- Workflow CI de keep-alive para Supabase (`.github/workflows/supabase-keepalive.yml`) que pinguea la DB lunes y jueves para evitar el pause del free tier
+- Template `.env.local.example` para que `cp .env.local.example .env.local` del README funcione
 
 Lo que queda:
-- Verificar plan de Supabase y costos operativos
+- Verificar costos operativos de Supabase (plan free tier confirmado activo al 2026-05-24)
 - Definir si migrar SQL sueltos a Supabase CLI migrations
 - Completar módulo de Foro
 - Construir asistente de CM para Instagram (módulo 3)
 - Refinamiento de UI / pulir páginas existentes
+- Completar `team_name` para las temporadas faltantes en `team_seasons` (solo 24 / hasta 60 rows pobladas)
 
 ---
 
