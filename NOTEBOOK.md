@@ -24,7 +24,9 @@ Cosas que funcionan pero deberían arreglarse en algún momento. No urgentes.
 
 ## 🧭 Decisiones tomadas
 
-Decisiones de diseño/arquitectura/proceso, con su porqué. Esto es lo más valioso del notebook a 6 meses vista — te recuerda p-05-24 — Consolidar documentación en un solo `CLAUDE.md`** — Tener `.cursorrules` + `CLAUDE.md` + `AGENTS.md` se contradecía solo. Migrado todo a `CLAUDE.md`; lo viejo archivado en `archivos/legacy/`. Razón: una sola fuente de verdad para Claude Code y Cursor.
+Decisiones de diseño/arquitectura/proceso, con su porqué. Esto es lo más valioso del notebook a 6 meses vista — te recuerda por qué hiciste lo que hiciste.
+
+- **2026-05-24 — Consolidar documentación en un solo `CLAUDE.md`** — Tener `.cursorrules` + `CLAUDE.md` + `AGENTS.md` se contradecía solo. Migrado todo a `CLAUDE.md`; lo viejo archivado en `archivos/legacy/`. Razón: una so y Cursor.
 
 - **2026-05-24 — Mergear branch `2026-04-07-wond` a main directamente** — La branch tenía 4 commits de trabajo continuo (stats subnav + helpers), sin trabajo paralelo en main. Merge fast-forward, sin conflictos. Razón: cerrar el ciclo abierto antes de seguir.
 
@@ -34,7 +36,7 @@ Decisiones de diseño/arquitectura/proceso, con su porqué. Esto es lo más vali
 
 Cosas no obvias de las herramientas que usamos. Esto sirve para no volver a tropezar con la misma piedra.
 
-- **Next 16 tiene breaking changes respecto al training de Claude por defecto.** Cuando Claude Code (o cualquier instancia de Claude) toque routing, server components, async params, o cualquier API de Next, hay que pedirle explícitamente que consulte los docs locales en `node_modules/next/dist/docs/`. Esto está en `CLAUDE.md` pero lo repetim fuente de bugs más probable del proyecto.
+- **Next 16 tiene breaking changes respecto al training de Claude por defecto.** Cuando Claude Code (o cualquier instancia de Claude) toque routing, server components, async params, o cualquier API de Next, hay que pedirle explícitamente que consulte los docs locales en `node_modules/next/dist/docs/`. Esto está en `CLAUDE.md` pero lo repetimos acá porque es la fuente de bugs más probable del proyecto.
 
 - **Supabase free tier pausa proyectos después de 7 días de inactividad.** Si dejás de tocar el proyecto una semana, hay que ir al dashboard a reanudarlo manualmente. No es destructivo (los datos siguen), pero molesta.
 
