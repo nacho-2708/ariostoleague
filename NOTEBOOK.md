@@ -44,6 +44,10 @@ Cosas no obvias de las herramientas que usamos. Esto sirve para no volver a trop
 
 - **`ls` no es lo mismo que `git ls-files`.** Un archivo puede existir en disco y NO estar trackeado por git si el `.gitignore` lo excluye. Para saber qué tiene git en el index, usar siempre `git ls-files`, no asumir desde `ls`. _Anotado: 2026-05-24._
 
+- **Prompts con bloques grandes de texto literal se truncan.** Cuando el prompt incluye >30-40 líneas de contenido para escribir literal (especificaciones de archivos, plantillas), el contenido se trunca en uno o más puntos sin previo aviso. La forma de evitarlo es usar modo plan en Claude Code: el paso de planificación revisa el input antes de tocar archivos y detecta truncados. _Anotado: 2026-05-24._
+
+- **`git check-ignore -v` exit code 0 no significa que el archivo esté ignorado.** El exit code es 0 cuando encuentra una regla aplicable, incluida una regla de negación (`!`). Para confirmar si un archivo está ignorado, mirar la regla que aparece en el output: si empieza con `!`, NO está ignorado. Verificación cruzada: `git status` — si aparece como "untracked", no está ignorado. _Anotado: 2026-05-24._
+
 ---
 
 ## 💡 Ideas a explorar
