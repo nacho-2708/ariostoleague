@@ -1,4 +1,5 @@
 import { createAdminClient } from '@/lib/supabase/admin'
+import { getLeagueFixtures } from '@/lib/fpl-api'
 
 const FPL_API = 'https://draft.premierleague.com/api'
 export const LEAGUE_ID = 1722
@@ -247,4 +248,103 @@ export async function syncAllGWs(upToGW: number, seasonName = '2025/26'): Promis
     all.push(...results)
   }
   return all
+}
+
+// ─── Finalización de temporada ───────────────────────────────────────────────
+// Estas funciones existen porque el sync regular solo escribe `player_gameweeks`
+// y `players`. Cuando una temporada termina y deja de ser `is_current`, las
+// páginas históricas leen de `fixtures` y `team_seasons`, así que hay que
+// poblar esas tablas desde la FPL API antes de flipear is_current=false.
+
+async function loadSeasonAndManagers(seasonName: string) {
+  const supabase = createAdminClient()
+
+  const { data: season } = await supabase
+    .from('seasons')
+    .select('id')
+    .eq('name', seasonName)
+    .single()
+  if (!season) throw new Error(`Temporada ${seasonName} no encontrada en DB`)
+
+  const { data: managers } = await supabase
+    .from('managers')
+    .select('id, alias')
+  if (!managers) throw new Error('No se pudieron obtener managers')
+
+  return { supabase, season, managerByAlias: new Map(managers.map((m) => [m.alias, m.id])) }
+}
+
+export async function backfillFixtures(seasonName = '2025/26') {
+  const { supabase, season, managerByAlias } = await loadSeasonAndManagers(seasonName)
+
+  const gwGroups = await getLeagueFixtures()
+
+  const rows = gwGroups.flatMap((group) =>
+    group.fixtures.map((f) => {
+      const m1 = managerByAlias.get(f.team1_alias)
+      const m2 = managerByAlias.get(f.team2_alias)
+      if (!m1 || !m2) {
+        throw new Error(`Manager no mapeado: ${f.team1_alias} / ${f.team2_alias}`)
+      }
+      return {
+        season_id:   season.id,
+        gameweek:    f.gw,
+        manager1_id: m1,
+        manager2_id: m2,
+        score1:      f.score1,
+        score2:      f.score2,
+      }
+    })
+  )
+
+  // Idempotencia: limpiar fixtures previos de esta temporada antes de insertar
+  const { error: delError } = await supabase.from('fixtures').delete().eq('season_id', season.id)
+  if (delError) throw delError
+
+  const { error: insError } = await supabase.from('fixtures').insert(rows)
+  if (insError) throw insError
+
+  return { fixturesInserted: rows.length }
+}
+
+export async function backfillTeamSeasons(seasonName = '2025/26') {
+  const { supabase, season, managerByAlias } = await loadSeasonAndManagers(seasonName)
+
+  // Deducir alias → team_name desde la lista de fixtures (cada entry aparece en varios partidos)
+  const gwGroups = await getLeagueFixtures()
+  const aliasToTeamName = new Map<string, string>()
+  for (const group of gwGroups) {
+    for (const f of group.fixtures) {
+      if (f.team1_alias) aliasToTeamName.set(f.team1_alias, f.team1)
+      if (f.team2_alias) aliasToTeamName.set(f.team2_alias, f.team2)
+    }
+  }
+
+  const rows = Array.from(aliasToTeamName.entries()).map(([alias, team_name]) => {
+    const managerId = managerByAlias.get(alias)
+    if (!managerId) throw new Error(`Manager no mapeado: ${alias}`)
+    return { manager_id: managerId, season_id: season.id, team_name }
+  })
+
+  const { error } = await supabase
+    .from('team_seasons')
+    .upsert(rows, { onConflict: 'manager_id,season_id' })
+  if (error) throw error
+
+  return { teamSeasonsUpserted: rows.length }
+}
+
+export async function finalizeSeason(seasonName: string, championAlias: string) {
+  const { supabase, managerByAlias } = await loadSeasonAndManagers(seasonName)
+
+  const championId = managerByAlias.get(championAlias)
+  if (!championId) throw new Error(`Campeón ${championAlias} no encontrado en managers`)
+
+  const { error } = await supabase
+    .from('seasons')
+    .update({ is_current: false, champion_id: championId, has_full_data: true })
+    .eq('name', seasonName)
+  if (error) throw error
+
+  return { seasonFinalized: seasonName, championAlias }
 }

@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getGameInfo } from '@/lib/fpl-api'
-import { syncGW as doSyncGW, syncAllGWs as doSyncAllGWs } from '@/lib/fpl-sync'
+import {
+  syncGW as doSyncGW,
+  syncAllGWs as doSyncAllGWs,
+  backfillFixtures,
+  backfillTeamSeasons,
+  finalizeSeason,
+} from '@/lib/fpl-sync'
 
 // Protección básica con secret — configurar SYNC_SECRET en .env.local
 function isAuthorized(req: NextRequest): boolean {
@@ -24,9 +30,19 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const { gw, all, season = '2025/26' } = body
+  const { gw, all, season = '2025/26', action, championAlias } = body
 
   try {
+    if (action === 'finalize-season') {
+      if (!championAlias) {
+        return NextResponse.json({ error: 'championAlias requerido' }, { status: 400 })
+      }
+      const fixturesResult = await backfillFixtures(season)
+      const teamSeasonsResult = await backfillTeamSeasons(season)
+      const finalizeResult = await finalizeSeason(season, championAlias)
+      return NextResponse.json({ ok: true, ...fixturesResult, ...teamSeasonsResult, ...finalizeResult })
+    }
+
     if (all) {
       // Sincronizar todas las GWs hasta la actual
       const gameInfo = await getGameInfo()

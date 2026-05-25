@@ -2,6 +2,9 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { getLeagueFixtures, getGameInfo, aliasToSlug } from "@/lib/fpl-api"
+import { getHistoricGameweekGroups } from "@/lib/historic-fixtures"
+import { createClient } from "@/lib/supabase/server"
+import type { GameweekGroup } from "@/lib/fpl-api"
 
 export default async function GameweekPage({
   params,
@@ -11,24 +14,42 @@ export default async function GameweekPage({
   searchParams: Promise<{ season?: string }>
 }) {
   const { gw: gwParam } = await params
-  const { season } = await searchParams
+  const { season: seasonParam } = await searchParams
   const gw = parseInt(gwParam, 10)
 
   if (isNaN(gw) || gw < 1 || gw > 38) notFound()
 
-  const [gwGroups, gameInfo] = await Promise.all([
-    getLeagueFixtures(),
-    getGameInfo(),
-  ])
+  const supabase = await createClient()
+  const { data: seasons } = await supabase
+    .from("seasons")
+    .select("id, name, is_current")
+    .eq("has_full_data", true)
+    .order("start_year", { ascending: false })
+
+  if (!seasons?.length) notFound()
+
+  const selectedName = seasonParam ?? seasons[0].name
+  const season = seasons.find((s) => s.name === selectedName) ?? seasons[0]
+
+  let gwGroups: GameweekGroup[]
+  let currentGw: number | null = null
+
+  if (season.is_current) {
+    const [groups, gameInfo] = await Promise.all([getLeagueFixtures(), getGameInfo()])
+    gwGroups = groups
+    currentGw = gameInfo.currentGw
+  } else {
+    gwGroups = await getHistoricGameweekGroups(season.id)
+  }
 
   const group = gwGroups.find((g) => g.gw === gw)
   if (!group) notFound()
 
-  const prevGw = gw > 1 ? gw - 1 : null
-  const nextGw = gw < 38 ? gw + 1 : null
-  const qs = season ? `?season=${encodeURIComponent(season)}` : ""
-  const currentGw = gameInfo.currentGw
-  const isCurrent = gw === currentGw
+  const availableGws = new Set(gwGroups.map((g) => g.gw))
+  const prevGw = gw > 1 && availableGws.has(gw - 1) ? gw - 1 : null
+  const nextGw = gw < 38 && availableGws.has(gw + 1) ? gw + 1 : null
+  const qs = `?season=${encodeURIComponent(season.name)}`
+  const isCurrent = currentGw != null && gw === currentGw
 
   return (
     <div className="space-y-6">
@@ -44,7 +65,7 @@ export default async function GameweekPage({
             Todos los fixtures
           </Link>
           <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            Temporada 2025/26
+            Temporada {season.name}
           </p>
           <h1 className="mt-1 text-3xl font-bold tracking-tight">Jornada {gw}</h1>
         </div>
@@ -81,7 +102,7 @@ export default async function GameweekPage({
           const draw = f.score1 === f.score2
           const matchSlug = `${aliasToSlug(f.team1_alias)}-vs-${aliasToSlug(f.team2_alias)}`
           const matchHref = group.finished
-            ? `/fixtures/${gw}/${matchSlug}?s1=${f.score1}&s2=${f.score2}&t1=${encodeURIComponent(f.team1)}&t2=${encodeURIComponent(f.team2)}${season ? `&season=${encodeURIComponent(season)}` : ''}`
+            ? `/fixtures/${gw}/${matchSlug}?s1=${f.score1}&s2=${f.score2}&t1=${encodeURIComponent(f.team1)}&t2=${encodeURIComponent(f.team2)}&season=${encodeURIComponent(season.name)}`
             : undefined
 
           const card = (
