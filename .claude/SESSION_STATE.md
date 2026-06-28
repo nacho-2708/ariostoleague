@@ -1,6 +1,6 @@
 # Foco actual — Ariosto League
 _Actualizado: 2026-06-28_
 
-- **En qué estaba:** Documenté el "Modelo de orquestación" en CLAUDE.md (Notion/Claude AI/Claude Code/Zapia + regla de push-a-main) y creé las skills `session-start` y `session-end`, conectadas vía este archivo. Todo pusheado a `main` (último commit `e51eb50`).
-- **Próximo paso:** Volver al desarrollo de producto. Candidatas de "Lo que queda" en CLAUDE.md: completar el módulo de Foro, arrancar el asistente de CM para Instagram, o poblar `team_name` en `team_seasons`. Confirmar prioridad contra la vista 🔥 Now de Notion.
-- **Notas:** `design/01-brand-brief.md` quedó sin trackear a propósito (decisión de Nacho, no versionar todavía).
+- **En qué estaba:** Cerré una cadena de 4 tarjetas de Cimientos sobre los datos de jugador de la 25/26: auditoría → diagnóstico del fallo silencioso del sync → fix del pipeline (completitud + 422 + rango fijo + reintentos, en `fpl-sync.ts` / `fpl-sync-guards.ts` / `api/sync`) → resync por tramos. Resultado: las 38 GW de la 25/26 completas (6840 filas verificadas). Más dos tareas previas: corregí "Acceso a Notion" en CLAUDE.md y verifiqué la app end-to-end. Todo pusheado a `main` (último de trabajo: `3382f43`).
+- **Próximo paso:** Confirmar prioridad en la vista 🔥 Now de Notion. La columna Now quedó vacía tras esta sesión; candidatas que dejó servidas el trabajo de hoy viven en el board (finalizar/cerrar tarjetas ya satisfechas, módulo Foro, asistente de CM). Que Nacho priorice.
+- **Notas:** `design/` sigue sin trackear — es una decisión PENDIENTE, no resuelta: está como tarjeta en el Inbox de Notion ("Decidir dónde vive el material del design system", Tool=Nacho). No versionar ni borrar hasta que se decida. Gotcha fresco a tener presente: Supabase `.select()` trunca a 1000 filas — para contar usar `count:exact` (ver NOTEBOOK).
