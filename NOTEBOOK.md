@@ -70,4 +70,4 @@ Cosas que necesito resolver pero no tengo respuesta todavía.
 
 Archivo histórico de cosas que estuvieron acá y se resolvieron. Útil para auditoría y para no repetir discusiones.
 
-_(vacío por ahora)_
+- **2026-06-28 — Verificación end-to-end de la app (chequeo cero de Cimientos)** — `npm run dev` levanta limpio (Next 16.2.2 / Turbopack, ready en ~350ms). Las 4 páginas principales responden HTTP 200 y renderizan datos reales de Supabase: `/` → 307 a `/standings` (OK), `/standings`, `/fixtures`, `/managers`, `/stats/records` (aparecen nombres de managers/campeones: Intocables, Cunha, Marculi, RG, Bebito, Jagger). Sin overlay de error de Next, sin warnings en consola. **Hallazgo lateral:** el `NEXT_PUBLIC_SUPABASE_ANON_KEY` mide 46 chars (corto vs. el JWT clásico de ~200) — NO está truncado, es el formato nuevo de key publicable de Supabase; la conexión funciona, confirmado por los datos que cargan. Tarjeta Notion: "Verificar que la app corre end-to-end (npm run dev)".
