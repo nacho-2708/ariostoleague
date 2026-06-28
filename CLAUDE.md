@@ -125,6 +125,37 @@ curl -X POST http://localhost:3000/api/sync -H "Authorization: Bearer $SYNC_SECR
 
 ---
 
+## Modelo de orquestación
+
+Este proyecto se trabaja con cuatro herramientas, cada una en su carril:
+
+- **Notion** (board "Ariosto League") — única fuente de verdad del roadmap y el backlog. El qué, el porqué y el cuándo.
+- **Claude AI** (claude.ai) — orquestador estratégico. Roadmap, priorización, diseño de módulos, decisiones grandes. NO escribe código de producción.
+- **Claude Code** (vos, en Cursor) — ejecución de ingeniería. Código, backend, frontend, Supabase. Respondés a GitHub como fuente de verdad.
+- **Zapia** — captura ideas desde el celular y las tira al Inbox de Notion.
+
+**Regla anti-drift:** cada herramienta responde a UNA sola fuente de verdad. Claude Code responde a GitHub. Todo lo demás responde a Notion.
+
+**Ruteo en el board de Notion** — tres campos:
+- **Tool** — quién ejecuta.
+- **Módulo** — a qué parte de la plataforma pertenece.
+- **Prioridad** — Now / Next / Later, lo define Nacho.
+
+Una tarjeta lista para vos tiene `Tool = "Claude Code"` y la spec adentro.
+
+**Carriles de escritura en Notion** (los dos escriben, pero en cosas distintas, para no pisarse):
+- **Claude Code escribe RESULTADOS** — mueve la tarjeta a Done y deja la referencia del commit. Nunca crea ni reprioriza tarjetas; solo cierra lo que ejecutó.
+- **Claude AI escribe PLANES** — tarjetas nuevas, grooming, prioridades.
+
+**Acceso a Notion:** Claude Code tiene el MCP de Notion conectado y puede editar tarjetas. Limitación del plan actual: NO puede listar/buscar tarjetas por query, así que para cerrar una tarjeta necesita su ID o URL.
+
+**Flujo de una tarea:**
+idea (Zapia → Inbox) → Claude AI la groomea (Módulo, Tool, spec) → Nacho prioriza → Nacho pega la spec en Cursor → commit a GitHub → Claude Code cierra la tarjeta en Notion.
+
+**Convención de commits:** además de los prefijos `feat:` / `fix:` / `docs:` / `chore:` / `refactor:` ya documentados, cada commit que cierra una tarea debe incluir una referencia a la tarjeta de Notion que lo originó (por ejemplo, la URL o el nombre de la tarjeta en el cuerpo del commit). Esto permite cruzar cada tarjeta marcada como hecha contra el commit que la respalda. Trabajamos directo en `main`.
+
+---
+
 ## Estado actual del proyecto (2026-05-24)
 
 Lo que está hecho:
