@@ -150,9 +150,9 @@ Una tarjeta lista para vos tiene `Tool = "Claude Code"` y la spec adentro.
 **Acceso a Notion:** Claude Code tiene el MCP de Notion conectado y puede editar tarjetas. Limitación del plan actual: NO puede listar/buscar tarjetas por query, así que para cerrar una tarjeta necesita su ID o URL.
 
 **Flujo de una tarea:**
-idea (Zapia → Inbox) → Claude AI la groomea (Módulo, Tool, spec) → Nacho prioriza → Nacho pega la spec en Cursor → commit a GitHub → Claude Code cierra la tarjeta en Notion.
+idea (Zapia → Inbox) → Claude AI la groomea (Módulo, Tool, spec) → Nacho prioriza → Nacho pega la spec en Cursor → commit Y PUSH a GitHub → Claude Code cierra la tarjeta en Notion. El push va antes de cerrar la tarjeta, nunca después.
 
-**Convención de commits:** además de los prefijos `feat:` / `fix:` / `docs:` / `chore:` / `refactor:` ya documentados, cada commit que cierra una tarea debe incluir una referencia a la tarjeta de Notion que lo originó (por ejemplo, la URL o el nombre de la tarjeta en el cuerpo del commit). Esto permite cruzar cada tarjeta marcada como hecha contra el commit que la respalda. Trabajamos directo en `main`.
+**Convención de commits:** además de los prefijos `feat:` / `fix:` / `docs:` / `chore:` / `refactor:` ya documentados, cada commit que cierra una tarea debe incluir una referencia a la tarjeta de Notion que lo originó (por ejemplo, la URL o el nombre de la tarjeta en el cuerpo del commit). Esto permite cruzar cada tarjeta marcada como hecha contra el commit que la respalda. Trabajamos directo en `main`. Todo commit que cierra una tarea debe pushearse a `main` inmediatamente — el trabajo no se considera hecho hasta que está en GitHub, que es la fuente de verdad. Commit local sin push no cuenta.
 
 ---
 
