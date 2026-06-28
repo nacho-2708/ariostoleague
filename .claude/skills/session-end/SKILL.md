@@ -73,10 +73,20 @@ El modelo de trabajo completo está en la sección **"Modelo de orquestación"**
    Esto es lo que `session-start` lee la próxima vez para que Nacho no tenga que
    acordarse de nada.
 
+7. **Commit + push del foco** — paso final, SIEMPRE después de cerrar Notion.
+   - `.claude/SESSION_STATE.md` está versionado, así que el foco viaja con el repo.
+   - Es un **commit aparte, de cierre**, que NO se mezcla con el commit del trabajo de la
+     sesión (paso 3): `chore: update session state`. Como no sale de una tarjeta, **sin
+     referencia a Notion**.
+   - `git -C /Users/ignacioferrer/Proyectos/ariostoleague add .claude/SESSION_STATE.md`
+     → commit → `git push origin main`.
+   - Si el push de este commit falla, avisá en castellano simple — pero el trabajo de la
+     sesión ya está a salvo (se pusheó en el paso 4); esto es solo el foco.
+
 ## Notas
 
-- El orden es sagrado: **commit → push → recién ahí Notion.** Si el push no salió, la
-  tarjeta queda abierta. Punto.
+- El orden es sagrado: **trabajo → push → Notion → y recién al final, commit+push del
+  foco.** Si el push del paso 4 no salió, la tarjeta queda abierta. Punto.
 - Si no hay nada para commitear (working tree limpio), no fuerces un commit vacío:
   avisá que no hubo cambios y pasá directo a escribir el foco actual (paso 6).
 - Esta skill es el espejo de `session-start`. Si cambia un path o una convención en una,
