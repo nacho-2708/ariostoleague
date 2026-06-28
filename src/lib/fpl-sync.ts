@@ -1,5 +1,8 @@
 import { createAdminClient } from '@/lib/supabase/admin'
 import { getLeagueFixtures } from '@/lib/fpl-api'
+import { expectedRowsPerGW, isGWComplete, type GWSyncReport } from '@/lib/fpl-sync-guards'
+
+export type { GWSyncReport }
 
 const FPL_API = 'https://draft.premierleague.com/api'
 export const LEAGUE_ID = 1722
@@ -21,6 +24,33 @@ const ENTRY_ID_TO_ALIAS: Record<number, string> = {
 }
 
 const POSITION_MAP: Record<number, string> = { 1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD' }
+
+// Cuántos managers tiene la liga (= entries mapeados). Con SQUAD_SIZE define la
+// completitud esperada de cada GW.
+const EXPECTED_MANAGERS = Object.keys(ENTRY_ID_TO_ALIAS).length // 12
+const EXPECTED_ROWS_PER_GW = expectedRowsPerGW(EXPECTED_MANAGERS) // 180
+
+// ─── Retry para fallos transitorios de la FPL API ────────────────────────────
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+
+// Reintenta ante errores de red y respuestas 5xx/429. Devuelve la Response para
+// que el caller decida sobre 404 (p.ej. "sin picks"). Lanza si agota reintentos
+// — así un fallo transitorio NO se confunde con un dato ausente (la raíz del
+// fallo silencioso del diagnóstico).
+async function fetchWithRetry(url: string, retries = 3, label = url): Promise<Response> {
+  let lastErr: unknown
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, { next: { revalidate: 0 } })
+      if (res.ok || res.status === 404) return res
+      lastErr = new Error(`${label}: HTTP ${res.status}`)
+    } catch (err) {
+      lastErr = err
+    }
+    if (attempt < retries) await sleep(300 * attempt)
+  }
+  throw lastErr instanceof Error ? lastErr : new Error(`${label}: falló tras ${retries} intentos`)
+}
 
 // ─── Tipos API ────────────────────────────────────────────────────────────────
 
@@ -85,21 +115,25 @@ export type SyncResult = {
 // ─── Fetchers ─────────────────────────────────────────────────────────────────
 
 async function fetchBootstrap(): Promise<{ elements: BootstrapElement[]; teams: BootstrapTeam[] }> {
-  const res = await fetch(`${FPL_API}/bootstrap-static`, { next: { revalidate: 0 } })
+  const res = await fetchWithRetry(`${FPL_API}/bootstrap-static`, 3, 'bootstrap-static')
   if (!res.ok) throw new Error(`bootstrap-static error: ${res.status}`)
   return res.json()
 }
 
 async function fetchLive(gw: number): Promise<Record<string, LiveElement>> {
-  const res = await fetch(`${FPL_API}/event/${gw}/live`, { next: { revalidate: 0 } })
+  const res = await fetchWithRetry(`${FPL_API}/event/${gw}/live`, 3, `event/${gw}/live`)
   if (!res.ok) throw new Error(`event/${gw}/live error: ${res.status}`)
   const data = await res.json()
   return data.elements
 }
 
+// Devuelve null SOLO ante 404 (no hay picks para ese entry/gw — caso legítimo).
+// Un fallo transitorio (5xx/red) ya se reintentó en fetchWithRetry y, si persiste,
+// lanza: nunca se devuelve null por un error de red (eso era el fallo silencioso).
 async function fetchPicks(entryId: number, gw: number): Promise<Pick[] | null> {
-  const res = await fetch(`${FPL_API}/entry/${entryId}/event/${gw}`, { next: { revalidate: 0 } })
-  if (!res.ok) return null
+  const res = await fetchWithRetry(`${FPL_API}/entry/${entryId}/event/${gw}`, 3, `entry/${entryId}/event/${gw}`)
+  if (res.status === 404) return null
+  if (!res.ok) throw new Error(`entry/${entryId}/event/${gw} error: ${res.status}`)
   const data = await res.json()
   return data.picks ?? null
 }
@@ -143,7 +177,14 @@ export async function syncGW(gw: number, seasonName = '2025/26'): Promise<SyncRe
       continue
     }
 
-    const picks = await fetchPicks(Number(entryId), gw)
+    let picks: Pick[] | null
+    try {
+      picks = await fetchPicks(Number(entryId), gw)
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'error desconocido'
+      results.push({ gw, alias, playersUpserted: 0, error: `Picks GW${gw} falló: ${message}` })
+      continue
+    }
     if (!picks) {
       results.push({ gw, alias, playersUpserted: 0, error: `Sin picks para GW${gw}` })
       continue
@@ -239,15 +280,73 @@ async function upsertPlayerGW(
   })
 }
 
-// ─── Sync de múltiples GWs ───────────────────────────────────────────────────
+// ─── Verificación de completitud ─────────────────────────────────────────────
 
-export async function syncAllGWs(upToGW: number, seasonName = '2025/26'): Promise<SyncResult[]> {
-  const all: SyncResult[] = []
+// Cuenta las filas REALMENTE guardadas en la DB para una GW (no lo que el loop
+// cree que escribió). Es la base del chequeo de completitud: deja en evidencia
+// los upserts que fallaron en silencio.
+async function countSavedRows(
+  supabase: ReturnType<typeof createAdminClient>,
+  seasonId: string,
+  gw: number,
+): Promise<number> {
+  const { count, error } = await supabase
+    .from('player_gameweeks')
+    .select('*', { count: 'exact', head: true })
+    .eq('season_id', seasonId)
+    .eq('gameweek', gw)
+  if (error) throw new Error(`No se pudo verificar GW${gw}: ${error.message}`)
+  return count ?? 0
+}
+
+// Sincroniza una GW y la verifica contra lo esperado (~180 filas). Devuelve un
+// reporte con complete=false si quedó corta o si hubo errores por manager — el
+// caller (route) lo traduce a ok:false / HTTP no-200, en vez de seguir verde.
+export async function syncGWChecked(gw: number, seasonName = '2025/26'): Promise<GWSyncReport> {
+  const supabase = createAdminClient()
+
+  const { data: season } = await supabase
+    .from('seasons')
+    .select('id')
+    .eq('name', seasonName)
+    .single()
+  if (!season) throw new Error(`Temporada ${seasonName} no encontrada en DB`)
+
+  const results = await syncGW(gw, seasonName)
+  const playersUpserted = results.reduce((sum, r) => sum + r.playersUpserted, 0)
+  const errors = results
+    .filter((r) => r.error)
+    .map((r) => ({ alias: r.alias, error: r.error as string }))
+
+  const savedRows = await countSavedRows(supabase, season.id, gw)
+  const complete = isGWComplete(savedRows, EXPECTED_ROWS_PER_GW, errors.length)
+
+  return { gw, expectedRows: EXPECTED_ROWS_PER_GW, savedRows, complete, playersUpserted, errors }
+}
+
+// ─── Sync de múltiples GWs ───────────────────────────────────────────────────
+// NO se detiene en silencio: sincroniza todo el rango y devuelve un reporte por
+// GW. El caller decide el status según completitud (ningún ok:true a ciegas).
+export async function syncAllGWs(upToGW: number, seasonName = '2025/26'): Promise<GWSyncReport[]> {
+  const reports: GWSyncReport[] = []
   for (let gw = 1; gw <= upToGW; gw++) {
-    const results = await syncGW(gw, seasonName)
-    all.push(...results)
+    reports.push(await syncGWChecked(gw, seasonName))
   }
-  return all
+  return reports
+}
+
+// ─── Metadata de temporada ───────────────────────────────────────────────────
+// Para decidir el rango de sync: una temporada terminada (is_current=false) se
+// sincroniza por rango fijo 1..38 (ver resolveUpTo en fpl-sync-guards).
+export async function getSeasonMeta(seasonName: string): Promise<{ id: string; isCurrent: boolean }> {
+  const supabase = createAdminClient()
+  const { data: season } = await supabase
+    .from('seasons')
+    .select('id, is_current')
+    .eq('name', seasonName)
+    .single()
+  if (!season) throw new Error(`Temporada ${seasonName} no encontrada en DB`)
+  return { id: season.id, isCurrent: season.is_current }
 }
 
 // ─── Finalización de temporada ───────────────────────────────────────────────

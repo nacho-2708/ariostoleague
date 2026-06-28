@@ -1,12 +1,30 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getGameInfo } from '@/lib/fpl-api'
 import {
-  syncGW as doSyncGW,
+  syncGWChecked as doSyncGWChecked,
   syncAllGWs as doSyncAllGWs,
+  getSeasonMeta,
   backfillFixtures,
   backfillTeamSeasons,
   finalizeSeason,
 } from '@/lib/fpl-sync'
+import { resolveUpTo, summarizeReports, type GWSyncReport } from '@/lib/fpl-sync-guards'
+
+// Traduce los reportes por GW a una respuesta HTTP: ok:false + 422 si alguna GW
+// quedó incompleta (en vez del viejo ok:true + 200 a ciegas).
+function buildSyncResponse(reports: GWSyncReport[]) {
+  const summary = summarizeReports(reports)
+  return NextResponse.json(
+    {
+      ok: summary.ok,
+      gwsSynced: reports.map((r) => r.gw),
+      totalSavedRows: summary.totalSavedRows,
+      incompleteGws: summary.incompleteGws,
+      reports,
+    },
+    { status: summary.status },
+  )
+}
 
 // Protección básica con secret — configurar SYNC_SECRET en .env.local
 function isAuthorized(req: NextRequest): boolean {
@@ -44,22 +62,24 @@ export async function POST(req: NextRequest) {
     }
 
     if (all) {
-      // Sincronizar todas las GWs hasta la actual
-      const gameInfo = await getGameInfo()
-      const upTo = gameInfo.currentGwFinished ? gameInfo.currentGw : gameInfo.currentGw - 1
+      // Temporada en curso → hasta la última GW finalizada (en vivo). Temporada
+      // terminada → rango fijo 1..38 (no dependemos de getGameInfo, que tras la
+      // rotación devolvería una GW baja de la temporada siguiente).
+      const meta = await getSeasonMeta(season)
+      const live = meta.isCurrent
+        ? await getGameInfo()
+        : { currentGw: 0, currentGwFinished: false }
+      const upTo = resolveUpTo(meta.isCurrent, live)
       if (upTo < 1) {
         return NextResponse.json({ message: 'Ninguna GW finalizada aún' })
       }
-      const results = await doSyncAllGWs(upTo, season)
-      const total = results.reduce((s, r) => s + r.playersUpserted, 0)
-      const errors = results.filter((r) => r.error)
-      return NextResponse.json({ ok: true, gwsSynced: upTo, playersUpserted: total, errors })
+      const reports = await doSyncAllGWs(upTo, season)
+      return buildSyncResponse(reports)
     }
 
     if (gw) {
-      const results = await doSyncGW(Number(gw), season)
-      const total = results.reduce((s, r) => s + r.playersUpserted, 0)
-      return NextResponse.json({ ok: true, gw, playersUpserted: total, results })
+      const report = await doSyncGWChecked(Number(gw), season)
+      return buildSyncResponse([report])
     }
 
     // Sin parámetros: sincronizar la última GW finalizada
@@ -68,9 +88,8 @@ export async function POST(req: NextRequest) {
     if (targetGW < 1) {
       return NextResponse.json({ message: 'Ninguna GW finalizada aún' })
     }
-    const results = await doSyncGW(targetGW, season)
-    const total = results.reduce((s, r) => s + r.playersUpserted, 0)
-    return NextResponse.json({ ok: true, gw: targetGW, playersUpserted: total, results })
+    const report = await doSyncGWChecked(targetGW, season)
+    return buildSyncResponse([report])
 
   } catch (err) {
     const message = err instanceof Error ? err.message : 'Error desconocido'
