@@ -72,6 +72,10 @@ El modelo de trabajo completo está en la sección **"Modelo de orquestación"**
    ```
    Esto es lo que `session-start` lee la próxima vez para que Nacho no tenga que
    acordarse de nada.
+   - **No pidas confirmación para esto.** Escribí el foco y seguí de largo al paso 7
+     (el commit de cierre) automáticamente. Es una nota que se sobrescribe, no una
+     acción de riesgo. El freno de esta skill está donde se escribe en GitHub
+     (el paso 1, antes del commit/push del trabajo), NO acá.
 
 7. **Commit + push del foco** — paso final, SIEMPRE después de cerrar Notion.
    - `.claude/SESSION_STATE.md` está versionado, así que el foco viaja con el repo.
