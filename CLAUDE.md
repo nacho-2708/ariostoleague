@@ -147,7 +147,7 @@ Una tarjeta lista para vos tiene `Tool = "Claude Code"` y la spec adentro.
 - **Claude Code escribe RESULTADOS** — mueve la tarjeta a Done y deja la referencia del commit. Nunca crea ni reprioriza tarjetas; solo cierra lo que ejecutó.
 - **Claude AI escribe PLANES** — tarjetas nuevas, grooming, prioridades.
 
-**Acceso a Notion:** Claude Code tiene el MCP de Notion conectado y puede editar tarjetas. Limitación del plan actual: NO puede listar/buscar tarjetas por query, así que para cerrar una tarjeta necesita su ID o URL.
+**Acceso a Notion:** Claude Code tiene el MCP de Notion conectado. PUEDE leer el board (buscar tarjetas con notion-search y leerlas enteras con notion-fetch) y editar tarjetas. Lo ÚNICO bloqueado por el plan actual es la query filtrada del lado del servidor (query-data-sources / query-database-view, que piden Business + Notion AI); el workaround es search + fetch y reconstruir el filtro a mano, sin costo. Para cerrar una tarjeta puntual conviene igual pasar su ID o URL si se conoce, pero ya no es obligatorio.
 
 **Flujo de una tarea:**
 idea (Zapia → Inbox) → Claude AI la groomea (Módulo, Tool, spec) → Nacho prioriza → Nacho pega la spec en Cursor → commit Y PUSH a GitHub → Claude Code cierra la tarjeta en Notion. El push va antes de cerrar la tarjeta, nunca después.
