@@ -14,6 +14,8 @@ Cuadernola viva del proyecto. No es documentación, es el lugar donde caen las c
 
 Cosas que funcionan pero deberían arreglarse en algún momento. No urgentes.
 
+- **2025/26 — `player_gameweeks` incompleto (8 de 38 GW).** La temporada está terminada (`is_current=false`, campeón RG) y tiene los 38 GW de fixtures (228 filas), pero `player_gameweeks` solo cubre 8 gameweeks distintos (GW1 a GW18, 5760 filas). La 24/25 sí tiene los 38 GW (6270 filas). El sync de datos de jugadores parece haberse cortado a mitad de temporada (~GW18). Hasta resolverlo, /stats y los perfiles de manager muestran la 25/26 con datos de jugador parciales. Arreglo: resync de las GW faltantes vía `/api/sync`. _Detectado: 2026-06-28 (auditoría de datos)._
+
 - **`src/lib/stats/manager-compare.ts` líneas 184-200** — Fallback de defensa redundante: si `scope === "season"` y hay exactamente 1 season sin fixtures, intenta llamar a la API. Pero la API solo devuelve la current season, así que si la pedida no es la current, no trae nada útil. Probablemente código muerto. Revisar y simplificar cuando se toque ese archivo. _Detectado: 2026-05-24._
 
 - **Comillas mezcladas en `src/lib/stats/manager-compare.ts`** — Línea 184 usa dobles, el resto simples. Cosmético, Prettier/ESLint debería normalizar. Verificar que la config esté activa. _Detectado: 2026-05-24._
@@ -69,5 +71,17 @@ Cosas que necesito resolver pero no tengo respuesta todavía.
 ## ✅ Resueltas
 
 Archivo histórico de cosas que estuvieron acá y se resolvieron. Útil para auditoría y para no repetir discusiones.
+
+- **2026-06-28 — Auditoría de datos reales por temporada (solo lectura).** Foto exacta de la DB, conteos por temporada:
+
+  | Temporada | is_current | full_data | campeón | fixtures | player_gw (GW distintos) | team_seasons (nombres) |
+  |---|---|---|---|---|---|---|
+  | 2025/26 | false | true | RG | 228 | 5760 (8 GW: 1–18) | 12/12 |
+  | 2024/25 | false | true | RG | 228 | 6270 (38 GW) | 12/12 |
+  | 2023/24 | false | true | Papezar | 228 | 0 | 12/12 |
+  | 2022/23 | false | false | Cunha | 0 | 0 | 0 |
+  | 2021/22 | false | false | Marculi | 0 | 0 | 0 |
+
+  Totales: 684 fixtures, 12030 player_gameweeks, 36 team_seasons, 12 managers, 522 players. **Cruce vs. esperado:** 2024/25, 2023/24, 2022/23 y 2021/22 coinciden con lo previsto. **Gap detectado:** 2025/26 con `player_gameweeks` parcial (ver Deuda técnica). **Hallazgo de proceso:** la tarjeta Notion "Finalizar temporada 2025/26" (Next) ya está satisfecha por los datos (is_current=false, campeón RG, 12 nombres) — la finalizó el commit `2eb00dd`; queda a criterio de Nacho cerrarla. Nota: el "24 vs 60" de team_seasons era falso problema y quedó confirmado: 36 filas (3 temporadas full-data × 12), todas con nombre.
 
 - **2026-06-28 — Verificación end-to-end de la app (chequeo cero de Cimientos)** — `npm run dev` levanta limpio (Next 16.2.2 / Turbopack, ready en ~350ms). Las 4 páginas principales responden HTTP 200 y renderizan datos reales de Supabase: `/` → 307 a `/standings` (OK), `/standings`, `/fixtures`, `/managers`, `/stats/records` (aparecen nombres de managers/campeones: Intocables, Cunha, Marculi, RG, Bebito, Jagger). Sin overlay de error de Next, sin warnings en consola. **Hallazgo lateral:** el `NEXT_PUBLIC_SUPABASE_ANON_KEY` mide 46 chars (corto vs. el JWT clásico de ~200) — NO está truncado, es el formato nuevo de key publicable de Supabase; la conexión funciona, confirmado por los datos que cargan. Tarjeta Notion: "Verificar que la app corre end-to-end (npm run dev)".
