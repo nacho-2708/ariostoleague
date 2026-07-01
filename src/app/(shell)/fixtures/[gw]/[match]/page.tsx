@@ -8,23 +8,23 @@ import { slugToAlias } from "@/lib/fpl-api"
 const POSITION_ORDER = { GKP: 0, DEF: 1, MID: 2, FWD: 3 }
 const POSITION_LABEL: Record<string, string> = { GKP: 'POR', DEF: 'DEF', MID: 'MED', FWD: 'DEL' }
 const POSITION_COLOR: Record<string, string> = {
-  GKP: 'bg-amber-100 text-amber-700',
-  DEF: 'bg-blue-100 text-blue-700',
-  MID: 'bg-emerald-100 text-emerald-700',
-  FWD: 'bg-rose-100 text-rose-700',
+  GKP: 'bg-amber-500/20 text-amber-300',
+  DEF: 'bg-blue-500/20 text-blue-300',
+  MID: 'bg-emerald-500/20 text-emerald-300',
+  FWD: 'bg-rose-500/20 text-rose-300',
 }
 
 function PlayerCard({ player, isMOTM }: { player: PlayerRow; isMOTM: boolean }) {
   return (
     <div className={`flex items-center gap-3 rounded-xl border px-4 py-3 transition-colors ${
       isMOTM
-        ? "border-amber-300 bg-amber-50"
+        ? "border-amber-400/40 bg-amber-400/10"
         : player.is_starter
-          ? "border-border bg-white"
-          : "border-border/50 bg-muted/20 opacity-70"
+          ? "border-white/10 bg-ink-2"
+          : "border-white/10 bg-white/5 opacity-70"
     }`}>
       {/* Posición */}
-      <span className={`shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-bold ${POSITION_COLOR[player.position]}`}>
+      <span className={`shrink-0 rounded-md px-1.5 py-0.5 font-meta text-[10px] font-bold ${POSITION_COLOR[player.position]}`}>
         {POSITION_LABEL[player.position]}
       </span>
 
@@ -32,23 +32,23 @@ function PlayerCard({ player, isMOTM }: { player: PlayerRow; isMOTM: boolean }) 
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-1.5">
           {isMOTM && <Star className="h-3 w-3 shrink-0 fill-amber-400 text-amber-400" />}
-          <span className="truncate text-sm font-semibold text-foreground">{player.name}</span>
+          <span className="truncate text-sm font-semibold text-chalk">{player.name}</span>
           {!player.is_starter && (
-            <span className="shrink-0 text-[10px] text-muted-foreground">(suplente)</span>
+            <span className="shrink-0 font-meta text-[10px] text-gray">(suplente)</span>
           )}
         </div>
         {player.labels.length > 0 && (
           <div className="mt-0.5 flex flex-wrap gap-1">
             {player.labels.map((l, i) => (
-              <span key={i} className="text-[10px] font-medium text-muted-foreground">{l}</span>
+              <span key={i} className="font-meta text-[10px] font-medium text-gray">{l}</span>
             ))}
           </div>
         )}
       </div>
 
       {/* Puntos */}
-      <span className={`shrink-0 text-base font-black tabular-nums ${
-        isMOTM ? "text-amber-600" : player.pts > 0 ? "text-foreground" : "text-muted-foreground"
+      <span className={`shrink-0 font-meta text-base font-black tabular-nums ${
+        isMOTM ? "text-amber-300" : player.pts > 0 ? "text-chalk" : "text-gray"
       }`}>
         {player.pts}
       </span>
@@ -79,17 +79,17 @@ function TeamColumn({
   return (
     <div className="flex-1 space-y-3">
       {/* Header equipo */}
-      <div className={`rounded-2xl p-4 text-center ${isWinner ? "bg-[#3e1a5b]" : "bg-muted/50 border border-border"}`}>
-        <p className={`text-xs font-semibold uppercase tracking-wider ${isWinner ? "text-white/60" : "text-muted-foreground"}`}>
+      <div className={`rounded-2xl p-4 text-center ${isWinner ? "bg-blue" : "border border-white/10 bg-ink-2"}`}>
+        <p className={`font-meta text-xs font-semibold uppercase tracking-wider ${isWinner ? "text-white/70" : "text-gray"}`}>
           {alias}
         </p>
-        <p className={`mt-0.5 text-base font-bold ${isWinner ? "text-white" : "text-foreground"}`}>
+        <p className={`mt-0.5 text-base font-bold ${isWinner ? "text-white" : "text-chalk"}`}>
           {teamName}
         </p>
-        <p className={`mt-1 text-4xl font-black tabular-nums ${isWinner ? "text-white" : "text-foreground"}`}>
+        <p className={`mt-1 font-display text-4xl tabular-nums ${isWinner ? "text-white" : "text-chalk"}`}>
           {score}
         </p>
-        <p className={`mt-1 text-xs ${isWinner ? "text-white/60" : "text-muted-foreground"}`}>
+        <p className={`mt-1 font-meta text-xs ${isWinner ? "text-white/70" : "text-gray"}`}>
           {totalPts} pts totales
         </p>
       </div>
@@ -104,7 +104,7 @@ function TeamColumn({
       {/* Suplentes */}
       {bench.length > 0 && (
         <div className="space-y-2">
-          <p className="px-1 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+          <p className="px-1 font-meta text-[10px] font-bold uppercase tracking-widest text-gray">
             Banco
           </p>
           {bench.map((p) => (
@@ -140,16 +140,16 @@ function LineComparison({ players1, players2, position, label, icon: Icon }: {
   return (
     <div className="space-y-1.5">
       <div className="flex items-center gap-2">
-        <Icon className="h-3.5 w-3.5 text-muted-foreground" />
-        <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">{label}</span>
+        <Icon className="h-3.5 w-3.5 text-gray" />
+        <span className="font-meta text-xs font-semibold uppercase tracking-wider text-gray">{label}</span>
       </div>
       <div className="flex items-center gap-2 text-sm">
-        <span className="w-8 text-right font-bold tabular-nums text-[#3e1a5b]">{pts1}</span>
-        <div className="flex h-2 flex-1 overflow-hidden rounded-full bg-muted">
-          <div className="bg-[#3e1a5b] transition-all" style={{ width: `${pct1}%` }} />
-          <div className="bg-rose-400 transition-all" style={{ width: `${pct2}%` }} />
+        <span className="w-8 text-right font-meta font-bold tabular-nums text-blue">{pts1}</span>
+        <div className="flex h-2 flex-1 overflow-hidden rounded-full bg-white/10">
+          <div className="bg-blue transition-all" style={{ width: `${pct1}%` }} />
+          <div className="bg-lime transition-all" style={{ width: `${pct2}%` }} />
         </div>
-        <span className="w-8 font-bold tabular-nums text-rose-500">{pts2}</span>
+        <span className="w-8 font-meta font-bold tabular-nums text-lime">{pts2}</span>
       </div>
     </div>
   )
@@ -202,7 +202,7 @@ export default async function MatchDetailPage({
       <div>
         <Link
           href={`/fixtures/${gw}${gwQs}`}
-          className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground"
+          className="flex items-center gap-1 font-meta text-xs font-medium text-gray transition-colors hover:text-chalk"
         >
           <ChevronLeft className="h-3.5 w-3.5" />
           Jornada {gw}
@@ -210,35 +210,35 @@ export default async function MatchDetailPage({
         <h1 className="mt-2 text-2xl font-bold tracking-tight text-chalk">
           {team1Name} vs {team2Name}
         </h1>
-        <p className="text-sm text-muted-foreground">Jornada {gw} · Temporada {seasonName}</p>
+        <p className="font-meta text-sm text-gray">Jornada {gw} · Temporada {seasonName}</p>
       </div>
 
       {/* Score central */}
-      <div className="flex items-center justify-center gap-6 rounded-2xl border border-border bg-white py-6 shadow-sm">
+      <div className="flex items-center justify-center gap-6 rounded-2xl border border-white/10 bg-ink-2 py-6">
         <div className="text-center">
-          <p className="text-xs font-medium text-muted-foreground">{alias1}</p>
-          <p className="text-lg font-bold">{team1Name}</p>
+          <p className="font-meta text-xs font-medium text-gray">{alias1}</p>
+          <p className="text-lg font-bold text-chalk">{team1Name}</p>
         </div>
         <div className="flex items-center gap-3">
-          <span className={`text-5xl font-black tabular-nums ${win1 ? "text-[#3e1a5b]" : "text-muted-foreground"}`}>
+          <span className={`font-display text-5xl tabular-nums ${win1 ? "text-lime" : "text-gray"}`}>
             {score1}
           </span>
-          <span className="text-2xl font-bold text-muted-foreground">–</span>
-          <span className={`text-5xl font-black tabular-nums ${win2 ? "text-[#3e1a5b]" : "text-muted-foreground"}`}>
+          <span className="font-display text-2xl text-gray">–</span>
+          <span className={`font-display text-5xl tabular-nums ${win2 ? "text-lime" : "text-gray"}`}>
             {score2}
           </span>
         </div>
         <div className="text-center">
-          <p className="text-xs font-medium text-muted-foreground">{alias2}</p>
-          <p className="text-lg font-bold">{team2Name}</p>
+          <p className="font-meta text-xs font-medium text-gray">{alias2}</p>
+          <p className="text-lg font-bold text-chalk">{team2Name}</p>
         </div>
       </div>
 
       {!detail ? (
         /* Sin datos de jugadores */
-        <div className="rounded-2xl border border-border bg-white px-6 py-10 text-center shadow-sm">
-          <p className="font-semibold text-foreground">Datos de jugadores no disponibles</p>
-          <p className="mt-1 text-sm text-muted-foreground">
+        <div className="rounded-2xl border border-white/10 bg-ink-2 px-6 py-10 text-center">
+          <p className="font-semibold text-chalk">Datos de jugadores no disponibles</p>
+          <p className="mt-1 font-meta text-sm text-gray">
             El desglose por jugadores está disponible para la temporada 2024/25.
           </p>
         </div>
@@ -246,16 +246,16 @@ export default async function MatchDetailPage({
         <>
           {/* MOTM */}
           {detail.motm && (
-            <div className="flex items-center gap-4 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 shadow-sm">
+            <div className="flex items-center gap-4 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-5 py-4">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-amber-400">
                 <Star className="h-5 w-5 fill-white text-white" />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-amber-700">
+                <p className="font-meta text-xs font-bold uppercase tracking-wider text-amber-300">
                   Man of the Match
                 </p>
-                <p className="mt-0.5 font-bold text-foreground">{detail.motm.name}</p>
-                <p className="text-xs text-amber-700">
+                <p className="mt-0.5 font-bold text-chalk">{detail.motm.name}</p>
+                <p className="font-meta text-xs text-amber-300/80">
                   {detail.motm.team} · {detail.motm.pts} puntos
                   {detail.motm.labels.length > 0 && ` · ${detail.motm.labels.join(', ')}`}
                 </p>
@@ -264,8 +264,8 @@ export default async function MatchDetailPage({
           )}
 
           {/* Comparación por línea */}
-          <div className="rounded-2xl border border-border bg-white px-5 py-5 shadow-sm space-y-4">
-            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <div className="space-y-4 rounded-2xl border border-white/10 bg-ink-2 px-5 py-5">
+            <p className="font-meta text-xs font-bold uppercase tracking-widest text-gray">
               Batalla por línea
             </p>
             <LineComparison players1={detail.players1} players2={detail.players2} position="GKP" label="Portería" icon={Shield} />
