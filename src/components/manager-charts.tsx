@@ -44,15 +44,15 @@ function CustomTooltip({ active, payload, label, inverted }: any) {
     inverted ? a.value - b.value : b.value - a.value
   )
   return (
-    <div className="rounded-xl border border-border bg-white px-3 py-2.5 shadow-lg text-xs">
-      <p className="mb-1.5 font-bold text-muted-foreground uppercase tracking-wider">GW {label}</p>
+    <div className="rounded-xl border border-white/10 bg-ink-3 px-3 py-2.5 shadow-lg text-xs">
+      <p className="mb-1.5 font-meta font-bold uppercase tracking-wider text-gray">GW {label}</p>
       {sorted.map((entry: any) => (
         <div key={entry.dataKey} className="flex items-center justify-between gap-4">
           <span className="flex items-center gap-1.5">
             <span className="inline-block h-2 w-2 rounded-full" style={{ background: entry.color }} />
-            <span className="font-medium text-foreground">{entry.name}</span>
+            <span className="font-medium text-chalk">{entry.name}</span>
           </span>
-          <span className="font-bold tabular-nums text-foreground">
+          <span className="font-meta font-bold tabular-nums text-chalk">
             {inverted ? `${entry.value}°` : entry.value}
           </span>
         </div>
@@ -65,12 +65,12 @@ function CustomTooltip({ active, payload, label, inverted }: any) {
 
 function RankingChart({ gwData, alias }: { gwData: GWDataPoint[]; alias: string }) {
   if (!gwData.length) return <EmptyState />
-  const color = ALIAS_COLORS[alias] ?? '#3e1a5b'
+  const color = ALIAS_COLORS[alias] ?? '#2230FF'
 
   return (
     <ResponsiveContainer width="100%" height={280}>
       <LineChart data={gwData} margin={{ top: 8, right: 8, bottom: 0, left: -20 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.08)" />
         <XAxis
           dataKey="gw"
           tick={{ fontSize: 11, fill: '#9ca3af' }}
@@ -88,7 +88,7 @@ function RankingChart({ gwData, alias }: { gwData: GWDataPoint[]; alias: string 
           tickFormatter={(v) => `${v}°`}
         />
         <Tooltip content={<CustomTooltip inverted />} />
-        <ReferenceLine y={4} stroke="#3e1a5b" strokeDasharray="4 4" strokeWidth={1} opacity={0.4} />
+        <ReferenceLine y={4} stroke="#2230FF" strokeDasharray="4 4" strokeWidth={1} opacity={0.4} />
         <Line
           type="monotone"
           dataKey="pos"
@@ -107,12 +107,12 @@ function RankingChart({ gwData, alias }: { gwData: GWDataPoint[]; alias: string 
 
 function PointsChart({ gwData, alias }: { gwData: GWDataPoint[]; alias: string }) {
   if (!gwData.length) return <EmptyState />
-  const color = ALIAS_COLORS[alias] ?? '#3e1a5b'
+  const color = ALIAS_COLORS[alias] ?? '#2230FF'
 
   return (
     <ResponsiveContainer width="100%" height={280}>
       <LineChart data={gwData} margin={{ top: 8, right: 8, bottom: 0, left: -20 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.08)" />
         <XAxis
           dataKey="gw"
           tick={{ fontSize: 11, fill: '#9ca3af' }}
@@ -191,7 +191,7 @@ function CompareChart({
               className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold transition-all ${
                 active
                   ? 'border-transparent text-white shadow-sm'
-                  : 'border-border bg-white text-muted-foreground hover:border-foreground/20'
+                  : 'border-white/10 bg-ink-2 text-gray hover:border-white/25'
               }`}
               style={active ? { background: color } : {}}
             >
@@ -203,7 +203,7 @@ function CompareChart({
 
       <ResponsiveContainer width="100%" height={280}>
         <LineChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: -20 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.08)" />
           <XAxis
             dataKey="gw"
             tick={{ fontSize: 11, fill: '#9ca3af' }}
@@ -220,15 +220,15 @@ function CompareChart({
             tickFormatter={(v) => `${v}°`}
           />
           <Tooltip content={<CustomTooltip inverted />} />
-          <ReferenceLine y={4} stroke="#3e1a5b" strokeDasharray="4 4" strokeWidth={1} opacity={0.4} />
+          <ReferenceLine y={4} stroke="#2230FF" strokeDasharray="4 4" strokeWidth={1} opacity={0.4} />
           {/* This manager — always shown, thicker */}
           <Line
             key={myAlias}
             type="monotone"
             dataKey={myAlias}
-            stroke={ALIAS_COLORS[myAlias] ?? '#3e1a5b'}
+            stroke={ALIAS_COLORS[myAlias] ?? '#2230FF'}
             strokeWidth={3}
-            dot={{ fill: ALIAS_COLORS[myAlias] ?? '#3e1a5b', r: 3, strokeWidth: 0 }}
+            dot={{ fill: ALIAS_COLORS[myAlias] ?? '#2230FF', r: 3, strokeWidth: 0 }}
             activeDot={{ r: 5, strokeWidth: 0 }}
             name={myAlias}
             connectNulls
@@ -256,7 +256,7 @@ function CompareChart({
 function EmptyState() {
   return (
     <div className="flex h-[200px] items-center justify-center">
-      <p className="text-sm text-muted-foreground">Sin datos de jornadas finalizadas</p>
+      <p className="font-meta text-sm text-gray">Sin datos de jornadas finalizadas</p>
     </div>
   )
 }
@@ -281,17 +281,17 @@ export function ManagerCharts({
   ]
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
+    <div className="overflow-hidden rounded-2xl border border-white/10 bg-ink-2">
       {/* Tab bar */}
-      <div className="flex border-b border-border">
+      <div className="flex border-b border-white/10">
         {tabs.map((t) => (
           <button
             key={t.key}
             onClick={() => setTab(t.key)}
-            className={`flex-1 px-4 py-3 text-xs font-semibold uppercase tracking-wider transition-colors ${
+            className={`flex-1 px-4 py-3 font-meta text-xs font-semibold uppercase tracking-wider transition-colors ${
               tab === t.key
-                ? 'border-b-2 border-[#3e1a5b] text-[#3e1a5b]'
-                : 'text-muted-foreground hover:text-foreground'
+                ? 'border-b-2 border-lime text-lime'
+                : 'text-gray hover:text-chalk'
             }`}
           >
             {t.label}
@@ -301,7 +301,7 @@ export function ManagerCharts({
 
       {/* Tab descriptions */}
       <div className="px-5 pt-4 pb-1">
-        <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+        <p className="font-meta text-[10px] font-semibold uppercase tracking-wider text-gray">
           {tab === 'ranking' && 'Evolución del ranking — temporada 2025/26'}
           {tab === 'points' && 'Puntos de liga acumulados — temporada 2025/26'}
           {tab === 'compare' && 'Comparación de ranking jornada a jornada'}
@@ -318,7 +318,7 @@ export function ManagerCharts({
       </div>
 
       {tab === 'ranking' && gwData.length > 0 && (
-        <p className="px-5 pb-4 text-[10px] text-muted-foreground">
+        <p className="px-5 pb-4 font-meta text-[10px] text-gray">
           — La línea punteada indica el umbral de clasificación (Top 4)
         </p>
       )}
