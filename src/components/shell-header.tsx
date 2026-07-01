@@ -21,6 +21,10 @@ export default function ShellHeader({ seasons }: { seasons: Season[] }) {
   const router = useRouter()
   const searchParams = useSearchParams()
   const currentSeason = searchParams.get("season") ?? seasons[0]?.name ?? ""
+  // El Home (/) es cross-temporada: el selector confunde, así que se oculta
+  // pero se reserva su espacio (invisible + inerte) para que el nav quede en la
+  // misma posición horizontal que en el resto de las secciones.
+  const onHome = pathname === "/"
 
   function onSeasonChange(name: string) {
     const params = new URLSearchParams(searchParams.toString())
@@ -65,11 +69,16 @@ export default function ShellHeader({ seasons }: { seasons: Season[] }) {
           })}
         </nav>
 
-        {/* Season selector */}
+        {/* Season selector — oculto (pero reservando su ancho) en el Home */}
         <select
           value={currentSeason}
           onChange={(e) => onSeasonChange(e.target.value)}
-          className="rounded-[5px] border border-white/10 bg-ink-2 px-3 py-1.5 font-meta text-xs font-semibold uppercase tracking-[0.06em] text-chalk focus:outline-none focus:ring-2 focus:ring-lime/40"
+          disabled={onHome}
+          aria-hidden={onHome}
+          tabIndex={onHome ? -1 : undefined}
+          className={`rounded-[5px] border border-white/10 bg-ink-2 px-3 py-1.5 font-meta text-xs font-semibold uppercase tracking-[0.06em] text-chalk focus:outline-none focus:ring-2 focus:ring-lime/40 ${
+            onHome ? "invisible" : ""
+          }`}
         >
           {seasons.map((s) => (
             <option key={s.id} value={s.name} className="bg-ink-2 text-chalk">

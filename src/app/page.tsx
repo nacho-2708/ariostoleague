@@ -12,7 +12,10 @@ import {
   getSeasonTopAssister,
   getSeasonTopScorer,
 } from "@/lib/stats/season-awards"
-import HomeNav from "@/components/home/home-nav"
+import { Suspense } from "react"
+import ShellHeader from "@/components/shell-header"
+import MobileTabs from "@/components/mobile-tabs"
+import { getShellSeasons } from "@/lib/seasons"
 import HomeHero, { type HeroData, type HeroPill, type HeroStat } from "@/components/home/home-hero"
 import BlockHead from "@/components/broadcast/block-head"
 import ChampionsStrip, { type ChampionCell } from "@/components/home/champions-strip"
@@ -54,10 +57,11 @@ function awardOrEmpty(label: string, award: Award | null): Award {
 export default async function HomePage() {
   const supabase = await createClient()
 
-  const [leagueState, championsHistory, ranking] = await Promise.all([
+  const [leagueState, championsHistory, ranking, seasons] = await Promise.all([
     getLeagueState(),
     getChampionsHistory(),
     getHomeRankingHistorico(),
+    getShellSeasons(),
   ])
 
   // Última temporada de la historia (orden ascendente → última = la más nueva).
@@ -232,8 +236,10 @@ export default async function HomePage() {
   const next = nextSeasonLabels(latestName)
 
   return (
-    <div className="flex min-h-screen flex-col bg-ink font-ui text-chalk">
-      <HomeNav seasonName={hero.seasonName} statusLabel={statusLabel} />
+    <div className="flex min-h-screen flex-col bg-ink pb-16 font-ui text-chalk md:pb-0">
+      <Suspense>
+        <ShellHeader seasons={seasons} />
+      </Suspense>
 
       <main>
         <HomeHero hero={hero} />
@@ -278,6 +284,10 @@ export default async function HomePage() {
 
       <HomeCloser seasonLabel={next.label} seasonName={next.name} countdown={countdown} />
       <HomeFooter />
+
+      <Suspense>
+        <MobileTabs />
+      </Suspense>
     </div>
   )
 }
