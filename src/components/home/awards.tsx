@@ -1,5 +1,5 @@
-import ClubCrest from "./club-crest"
-import Roundel from "./roundel"
+import ClubCrest from "@/components/broadcast/club-crest"
+import Roundel from "@/components/broadcast/roundel"
 
 // Componente 4 · Award card + bento. Grid de 4 columnas; el MVP featured ocupa 2
 // columnas con la cifra grande y watermark del león. Premios sin manager (bota /

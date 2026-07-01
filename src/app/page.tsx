@@ -14,7 +14,7 @@ import {
 } from "@/lib/stats/season-awards"
 import HomeNav from "@/components/home/home-nav"
 import HomeHero, { type HeroData, type HeroPill, type HeroStat } from "@/components/home/home-hero"
-import BlockHead from "@/components/home/block-head"
+import BlockHead from "@/components/broadcast/block-head"
 import ChampionsStrip, { type ChampionCell } from "@/components/home/champions-strip"
 import AwardsGrid, { type Award } from "@/components/home/awards"
 import RankingTable from "@/components/home/ranking-table"

@@ -76,8 +76,12 @@
   --brand:       oklch(0.27 0.155 308);
   --brand-light: oklch(0.37 0.155 308);
 
-  /* Base */
-  --background:        oklch(1 0 0);
+  /* Superficie base Broadcast: el FONDO de la app pasa a ink (oscuro). El resto
+     de los tokens se mantienen claros a propósito → las páginas de contenido
+     (tablas/tarjetas blancas con texto oscuro) siguen 100% legibles como "islas"
+     hasta su reskin por página. Los títulos/labels que quedan directamente sobre
+     el fondo oscuro se parchean a colores Broadcast claros en cada página. */
+  --background:        var(--color-ink);
   --foreground:        oklch(0.15 0.02 308);
   --card:              oklch(1 0 0);
   --card-foreground:   oklch(0.15 0.02 308);

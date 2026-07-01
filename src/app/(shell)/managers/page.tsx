@@ -54,10 +54,10 @@ export default async function ManagersPage() {
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray">
           Temporada 2025/26
         </p>
-        <h1 className="mt-1 text-3xl font-bold tracking-tight">Managers</h1>
+        <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">Managers</h1>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

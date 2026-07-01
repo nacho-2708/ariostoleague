@@ -1,8 +1,8 @@
-import ClubCrest from "./club-crest"
-import Eyebrow from "./eyebrow"
-import ManagerPhoto from "./manager-photo"
-import Pill from "./pill"
-import Roundel from "./roundel"
+import ClubCrest from "@/components/broadcast/club-crest"
+import Eyebrow from "@/components/broadcast/eyebrow"
+import ManagerPhoto from "@/components/broadcast/manager-photo"
+import Pill from "@/components/broadcast/pill"
+import Roundel from "@/components/broadcast/roundel"
 
 // Componente 2 · Hero campeón. Panel oscuro con degradé sutil de "luz de estudio"
 // + roundel watermark del león. En offseason muestra al último campeón, sin

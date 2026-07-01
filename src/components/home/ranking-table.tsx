@@ -1,4 +1,4 @@
-import ManagerPhoto from "./manager-photo"
+import ManagerPhoto from "@/components/broadcast/manager-photo"
 
 // Componente 5 · Ranking / lower-third. Ranking histórico (todas las temporadas)
 // ordenado por títulos y luego % de victorias. El líder lleva wash azul.

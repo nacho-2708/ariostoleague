@@ -42,11 +42,11 @@ export default async function StatsComparePage({
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray">
           {cmpAll ? "Todas las temporadas con datos" : `Temporada ${selected.name}`}
         </p>
-        <h2 className="mt-1 text-xl font-bold text-foreground">Comparar dos managers</h2>
-        <p className="mt-1 text-sm text-muted-foreground">
+        <h2 className="mt-1 text-xl font-bold text-chalk">Comparar dos managers</h2>
+        <p className="mt-1 text-sm text-gray">
           Estadísticas acumuladas y cara a cara directo. El ámbito «temporada» usa el selector global de temporada
           arriba; «todas las temporadas» ignora ese selector para los totales.
         </p>

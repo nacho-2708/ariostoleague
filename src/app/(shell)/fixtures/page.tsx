@@ -47,10 +47,10 @@ export default async function FixturesPage({
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray">
           Temporada {season.name}
         </p>
-        <h1 className="mt-1 text-3xl font-bold tracking-tight">Fixtures</h1>
+        <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">Fixtures</h1>
       </div>
 
       {/* Info de estado */}

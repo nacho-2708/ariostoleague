@@ -101,7 +101,7 @@ export default async function ManagerProfilePage({
 
       {/* Stats all-time */}
       <div>
-        <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+        <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-gray">
           Estadísticas all-time
         </h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -119,11 +119,11 @@ export default async function ManagerProfilePage({
       {/* Temporada actual */}
       {profile.current_pts !== null && (
         <div>
-          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-gray">
             Temporada actual — 2025/26
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
-            <div className="rounded-xl border border-[#3e1a5b]/20 bg-[#3e1a5b]/5 p-4 text-center shadow-sm">
+            <div className="rounded-xl border border-[#3e1a5b]/20 bg-white p-4 text-center shadow-sm">
               <p className="text-[10px] font-semibold uppercase tracking-wider text-[#3e1a5b]/70">Posición</p>
               <p className="mt-1 text-2xl font-black text-[#3e1a5b]">{currentPos}°</p>
             </div>
@@ -138,7 +138,7 @@ export default async function ManagerProfilePage({
       {/* Historial por temporada */}
       {profile.seasons.length > 0 && (
         <div>
-          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-gray">
             Historial por temporada
           </h2>
           <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
@@ -188,7 +188,7 @@ export default async function ManagerProfilePage({
       {/* Analytics charts */}
       {profile.gwData.length > 0 && (
         <div>
-          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray">
             <BarChart2 className="h-3.5 w-3.5" />
             Análisis temporada 2025/26
           </h2>
@@ -203,7 +203,7 @@ export default async function ManagerProfilePage({
       {/* H2H */}
       {profile.h2h.length > 0 && (
         <div>
-          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray">
             <Swords className="h-3.5 w-3.5" />
             Head to head
           </h2>

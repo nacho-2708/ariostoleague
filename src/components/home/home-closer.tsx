@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Eyebrow from "./eyebrow"
+import Eyebrow from "@/components/broadcast/eyebrow"
 
 // Componente 7 · Closer / CTA band. Franja full-bleed lima con la mirada a la
 // próxima temporada. Sin fecha confiable (getNextSeasonCountdown → null) el copy

@@ -207,7 +207,7 @@ export default async function MatchDetailPage({
           <ChevronLeft className="h-3.5 w-3.5" />
           Jornada {gw}
         </Link>
-        <h1 className="mt-2 text-2xl font-bold tracking-tight">
+        <h1 className="mt-2 text-2xl font-bold tracking-tight text-chalk">
           {team1Name} vs {team2Name}
         </h1>
         <p className="text-sm text-muted-foreground">Jornada {gw} · Temporada {seasonName}</p>

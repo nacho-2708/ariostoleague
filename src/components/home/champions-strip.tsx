@@ -1,4 +1,4 @@
-import ClubCrest from "./club-crest"
+import ClubCrest from "@/components/broadcast/club-crest"
 
 // Componente 3 · Franja / timeline de campeones (una celda por temporada).
 // La temporada vigente se rellena en azul; el asterisco lima marca el guiño de

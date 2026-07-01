@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Roundel from "./roundel"
+import LeagueLogo from "@/components/broadcast/league-logo"
 
 // Componente 8 · Footer. Roundel + wordmark + divisa de la liga, links, y la nota
 // al pie del asterisco (el guiño de Marculi, "campeón de la primera, cuando
@@ -17,15 +17,10 @@ export default function HomeFooter() {
   return (
     <footer className="border-t border-white/10 bg-ink">
       <div className="mx-auto flex max-w-[1200px] flex-wrap items-start gap-8 px-6 pb-8 pt-10 md:px-10">
-        <div className="flex items-center gap-3.5">
-          <Roundel size={52} ring="#C6FF3A" />
-          <div>
-            <div className="font-display text-[22px] uppercase text-chalk">
-              Ariosto <span className="text-blue">League</span>
-            </div>
-            <div className="mt-1 font-meta text-[10px] font-semibold uppercase tracking-[0.2em] text-gray-2">
-              Fundada · MMXXI · Doce clubes
-            </div>
+        <div className="flex flex-col gap-1.5 text-chalk">
+          <LeagueLogo height={44} className="text-[22px]" />
+          <div className="font-meta text-[10px] font-semibold uppercase tracking-[0.2em] text-gray-2">
+            Fundada · MMXXI · Doce clubes
           </div>
         </div>
 

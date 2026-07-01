@@ -35,11 +35,11 @@ export default async function StatsRecordsPage({
       <div className="space-y-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray">
               {scopeAll ? "Todas las temporadas con datos" : `Temporada ${selected.name}`}
             </p>
-            <h2 className="mt-1 text-xl font-bold text-foreground">Récords H2H</h2>
-            <p className="mt-1 text-sm text-muted-foreground">
+            <h2 className="mt-1 text-xl font-bold text-chalk">Récords H2H</h2>
+            <p className="mt-1 text-sm text-gray">
               Partidos a doble enfrentamiento y tabla de duelos entre managers.
             </p>
           </div>

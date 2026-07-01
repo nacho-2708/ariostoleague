@@ -64,10 +64,10 @@ export default async function GameweekPage({
             <ChevronLeft className="h-3.5 w-3.5" />
             Todos los fixtures
           </Link>
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-xs font-semibold uppercase tracking-widest text-gray">
             Temporada {season.name}
           </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight">Jornada {gw}</h1>
+          <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">Jornada {gw}</h1>
         </div>
 
         <div className="flex items-center gap-2">

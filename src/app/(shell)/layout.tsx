@@ -21,7 +21,7 @@ export default async function ShellLayout({
   const seasons = await getSeasons()
 
   return (
-    <div className="flex min-h-full flex-col bg-muted/30">
+    <div className="flex min-h-full flex-col bg-background">
       <Suspense>
         <ShellHeader seasons={seasons} />
       </Suspense>

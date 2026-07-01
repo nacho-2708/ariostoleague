@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Roundel from "./roundel"
+import LeagueLogo from "@/components/broadcast/league-logo"
 
 // Componente 1 · Shell / nav Broadcast del Home. Barra sticky con roundel +
 // wordmark y links hacia el resto de la app (que conserva su shell violeta).
@@ -23,11 +23,8 @@ export default function HomeNav({
   return (
     <header className="sticky top-0 z-20 border-b border-white/10 bg-ink/[0.86] backdrop-blur-md backdrop-saturate-150">
       <div className="mx-auto flex h-[68px] max-w-[1200px] items-center gap-4 px-6 md:gap-7 md:px-10">
-        <Link href="/" className="flex shrink-0 items-center gap-3">
-          <Roundel size={38} ring="#C6FF3A" />
-          <span className="hidden font-display text-[19px] uppercase tracking-[0.01em] text-chalk sm:inline">
-            Ariosto <span className="text-blue">League</span>
-          </span>
+        <Link href="/" className="flex shrink-0 items-center gap-3 text-chalk">
+          <LeagueLogo height={30} className="text-[19px]" />
         </Link>
 
         <nav className="flex flex-1 items-center gap-1 overflow-x-auto md:ml-2 md:flex-none [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">

@@ -5,9 +5,9 @@ export default function StatsLayout({ children }: { children: React.ReactNode })
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Estadísticas</p>
-        <h1 className="mt-1 text-3xl font-bold tracking-tight text-foreground">Ariosto League</h1>
-        <p className="mt-1 text-sm text-muted-foreground">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray">Estadísticas</p>
+        <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">Ariosto League</h1>
+        <p className="mt-1 text-sm text-gray">
           Récords de liga, jugadores fantasy y comparador H2H entre managers.
         </p>
       </div>

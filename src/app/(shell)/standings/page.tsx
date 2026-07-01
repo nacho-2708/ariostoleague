@@ -58,10 +58,10 @@ export default async function StandingsPage({
       {/* Page header */}
       <div className="flex items-end justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-xs font-semibold uppercase tracking-widest text-gray">
             Temporada {season.name}
           </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight text-foreground">
+          <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">
             Tabla de posiciones
           </h1>
         </div>
