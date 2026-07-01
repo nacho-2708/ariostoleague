@@ -32,11 +32,11 @@ export default async function StatsPlayersPage({
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray">
           Temporada {selected.name}
         </p>
-        <h2 className="mt-1 text-xl font-bold text-foreground">Jugadores fantasy</h2>
-        <p className="mt-1 text-sm text-muted-foreground">
+        <h2 className="mt-1 text-xl font-bold text-chalk">Jugadores fantasy</h2>
+        <p className="mt-1 text-sm text-gray">
           Elige el tipo de listado arriba: actuaciones por jornada (jugadores repetibles), totales de temporada, mejor GW
           por jugador o top de la liga. Mismo reglamento FPL que en el detalle de partidos.
         </p>

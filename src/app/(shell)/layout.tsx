@@ -1,27 +1,17 @@
 import { Suspense } from "react"
-import { createClient } from "@/lib/supabase/server"
 import ShellHeader from "@/components/shell-header"
 import MobileTabs from "@/components/mobile-tabs"
-
-async function getSeasons() {
-  const supabase = await createClient()
-  const { data } = await supabase
-    .from("seasons")
-    .select("id, name")
-    .eq("has_full_data", true)
-    .order("start_year", { ascending: false })
-  return data ?? []
-}
+import { getShellSeasons } from "@/lib/seasons"
 
 export default async function ShellLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  const seasons = await getSeasons()
+  const seasons = await getShellSeasons()
 
   return (
-    <div className="flex min-h-full flex-col bg-muted/30">
+    <div className="flex min-h-full flex-col bg-background">
       <Suspense>
         <ShellHeader seasons={seasons} />
       </Suspense>

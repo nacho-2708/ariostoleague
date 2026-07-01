@@ -4,6 +4,27 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ── Tokens Broadcast (Home) ─────────────────────────────────────────────
+   Sistema del handoff "Home Broadcast": tinta nocturna + azul señal + verde
+   destello, sobre la marca del León de Ariosto. Registrados en @theme para que
+   Tailwind genere las utilidades (bg-ink, text-lime, font-display, etc.) y a la
+   vez queden como custom properties en :root para gradientes / clip-paths. */
+@theme {
+  --color-ink:       #0B0F1A; /* fondo base — tinta nocturna */
+  --color-ink-2:     #12172A; /* panel elevado / card */
+  --color-ink-3:     #1B2136; /* card destacada / hover */
+  --color-blue:      #2230FF; /* azul señal — posiciones, activos, acento */
+  --color-blue-deep: #1A24C9; /* azul en sombra / gradiente */
+  --color-lime:      #C6FF3A; /* verde destello — eyebrows, estrellas, CTA */
+  --color-gray:      #8A92A6; /* texto muted sobre oscuro */
+  --color-gray-2:    #5B617A; /* meta / dim */
+  --color-chalk:     #F3F4F8; /* texto claro / superficie tiza */
+
+  --font-display: var(--font-anton);          /* SOLO mayúsculas: hero, cifras */
+  --font-ui:      var(--font-archivo);         /* nombres de club, body, botones */
+  --font-meta:    var(--font-space-grotesk);   /* eyebrows, labels, numerales */
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -55,8 +76,12 @@
   --brand:       oklch(0.27 0.155 308);
   --brand-light: oklch(0.37 0.155 308);
 
-  /* Base */
-  --background:        oklch(1 0 0);
+  /* Superficie base Broadcast: el FONDO de la app pasa a ink (oscuro). El resto
+     de los tokens se mantienen claros a propósito → las páginas de contenido
+     (tablas/tarjetas blancas con texto oscuro) siguen 100% legibles como "islas"
+     hasta su reskin por página. Los títulos/labels que quedan directamente sobre
+     el fondo oscuro se parchean a colores Broadcast claros en cada página. */
+  --background:        var(--color-ink);
   --foreground:        oklch(0.15 0.02 308);
   --card:              oklch(1 0 0);
   --card-foreground:   oklch(0.15 0.02 308);

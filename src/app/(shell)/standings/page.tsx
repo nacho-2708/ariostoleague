@@ -58,18 +58,18 @@ export default async function StandingsPage({
       {/* Page header */}
       <div className="flex items-end justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-xs font-semibold uppercase tracking-widest text-gray">
             Temporada {season.name}
           </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight text-foreground">
+          <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">
             Tabla de posiciones
           </h1>
         </div>
         {season.is_current && leader && (
-          <div className="hidden rounded-xl border border-border bg-white p-3 text-right shadow-sm sm:block">
-            <p className="text-xs font-medium text-muted-foreground">Líder actual</p>
-            <p className="mt-0.5 font-bold text-foreground">{leader.team_name}</p>
-            <p className="text-xs text-muted-foreground">{leader.pts} pts · {leader.pj} jornadas</p>
+          <div className="hidden rounded-xl border border-white/10 bg-ink-2 p-3 text-right sm:block">
+            <p className="font-meta text-xs font-medium text-gray">Líder actual</p>
+            <p className="mt-0.5 font-bold text-chalk">{leader.team_name}</p>
+            <p className="font-meta text-xs text-gray">{leader.pts} pts · {leader.pj} jornadas</p>
           </div>
         )}
       </div>

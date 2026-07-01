@@ -59,26 +59,26 @@ export default async function GameweekPage({
         <div>
           <Link
             href={`/fixtures${qs}`}
-            className="mb-2 flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground"
+            className="mb-2 flex items-center gap-1 font-meta text-xs font-medium text-gray transition-colors hover:text-chalk"
           >
             <ChevronLeft className="h-3.5 w-3.5" />
             Todos los fixtures
           </Link>
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-xs font-semibold uppercase tracking-widest text-gray">
             Temporada {season.name}
           </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight">Jornada {gw}</h1>
+          <h1 className="mt-1 text-3xl font-bold tracking-tight text-chalk">Jornada {gw}</h1>
         </div>
 
         <div className="flex items-center gap-2">
           {prevGw ? (
-            <Link href={`/fixtures/${prevGw}${qs}`} className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-white shadow-sm transition-colors hover:bg-muted/40">
+            <Link href={`/fixtures/${prevGw}${qs}`} className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 bg-ink-2 text-gray transition-colors hover:bg-white/5 hover:text-chalk">
               <ChevronLeft className="h-4 w-4" />
             </Link>
           ) : <div className="h-9 w-9" />}
-          <span className="min-w-[4rem] text-center text-sm font-semibold">GW {gw}</span>
+          <span className="min-w-[4rem] text-center font-meta text-sm font-semibold text-chalk">GW {gw}</span>
           {nextGw ? (
-            <Link href={`/fixtures/${nextGw}${qs}`} className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-white shadow-sm transition-colors hover:bg-muted/40">
+            <Link href={`/fixtures/${nextGw}${qs}`} className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 bg-ink-2 text-gray transition-colors hover:bg-white/5 hover:text-chalk">
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : <div className="h-9 w-9" />}
@@ -86,10 +86,10 @@ export default async function GameweekPage({
       </div>
 
       {/* Badge estado */}
-      <span className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${
-        group.finished ? "bg-emerald-50 text-emerald-700"
-          : isCurrent ? "bg-[#3e1a5b]/10 text-[#3e1a5b]"
-          : "bg-muted text-muted-foreground"
+      <span className={`inline-flex rounded-full px-3 py-1 font-meta text-xs font-semibold ${
+        group.finished ? "bg-emerald-500/15 text-emerald-300"
+          : isCurrent ? "bg-lime/15 text-lime"
+          : "bg-white/10 text-gray"
       }`}>
         {group.finished ? "Jornada finalizada" : isCurrent ? "En curso" : "Pendiente"}
       </span>
@@ -106,38 +106,38 @@ export default async function GameweekPage({
             : undefined
 
           const card = (
-            <div className={`overflow-hidden rounded-2xl border bg-white shadow-sm transition-all ${
-              group.finished ? "cursor-pointer hover:-translate-y-0.5 hover:shadow-md hover:border-[#3e1a5b]/30" : ""
-            } border-border`}>
+            <div className={`overflow-hidden rounded-2xl border border-white/10 bg-ink-2 transition-all ${
+              group.finished ? "cursor-pointer hover:-translate-y-0.5 hover:border-white/25" : ""
+            }`}>
               <div className="flex items-stretch">
                 {/* Equipo 1 */}
-                <div className={`flex flex-1 flex-col items-center justify-center px-4 py-5 text-center ${win1 && group.finished ? "bg-[#3e1a5b]/5" : ""}`}>
-                  <span className="text-xs font-medium text-muted-foreground mb-1">{f.team1_alias}</span>
-                  <span className={`text-sm font-semibold leading-tight ${group.finished && !win1 && !draw ? "text-muted-foreground" : "text-foreground"}`}>
+                <div className={`flex flex-1 flex-col items-center justify-center px-4 py-5 text-center ${win1 && group.finished ? "bg-white/5" : ""}`}>
+                  <span className="mb-1 font-meta text-xs font-medium text-gray">{f.team1_alias}</span>
+                  <span className={`text-sm font-semibold leading-tight ${group.finished && !win1 && !draw ? "text-gray" : "text-chalk"}`}>
                     {f.team1}
                   </span>
                   {group.finished && (
-                    <span className={`mt-2 text-3xl font-black tabular-nums ${win1 ? "text-[#3e1a5b]" : "text-muted-foreground"}`}>
+                    <span className={`mt-2 font-display text-3xl tabular-nums ${win1 ? "text-lime" : "text-gray"}`}>
                       {f.score1}
                     </span>
                   )}
                 </div>
 
                 {/* Centro */}
-                <div className="flex flex-col items-center justify-center border-x border-border px-3 py-5">
-                  <span className="text-xs font-bold text-muted-foreground">
+                <div className="flex flex-col items-center justify-center border-x border-white/10 px-3 py-5">
+                  <span className="font-meta text-xs font-bold text-gray">
                     {group.finished ? "–" : "vs"}
                   </span>
                 </div>
 
                 {/* Equipo 2 */}
-                <div className={`flex flex-1 flex-col items-center justify-center px-4 py-5 text-center ${win2 && group.finished ? "bg-[#3e1a5b]/5" : ""}`}>
-                  <span className="text-xs font-medium text-muted-foreground mb-1">{f.team2_alias}</span>
-                  <span className={`text-sm font-semibold leading-tight ${group.finished && !win2 && !draw ? "text-muted-foreground" : "text-foreground"}`}>
+                <div className={`flex flex-1 flex-col items-center justify-center px-4 py-5 text-center ${win2 && group.finished ? "bg-white/5" : ""}`}>
+                  <span className="mb-1 font-meta text-xs font-medium text-gray">{f.team2_alias}</span>
+                  <span className={`text-sm font-semibold leading-tight ${group.finished && !win2 && !draw ? "text-gray" : "text-chalk"}`}>
                     {f.team2}
                   </span>
                   {group.finished && (
-                    <span className={`mt-2 text-3xl font-black tabular-nums ${win2 ? "text-[#3e1a5b]" : "text-muted-foreground"}`}>
+                    <span className={`mt-2 font-display text-3xl tabular-nums ${win2 ? "text-lime" : "text-gray"}`}>
                       {f.score2}
                     </span>
                   )}
@@ -145,16 +145,16 @@ export default async function GameweekPage({
               </div>
 
               {/* Footer */}
-              <div className="border-t border-border bg-muted/30 px-4 py-2 text-center">
+              <div className="border-t border-white/10 bg-white/5 px-4 py-2 text-center">
                 {group.finished ? (
-                  <span className="text-[11px] font-semibold text-muted-foreground">
+                  <span className="font-meta text-[11px] font-semibold text-gray">
                     {win1 ? `Victoria ${f.team1} · +${f.score1 - f.score2} pts`
                       : win2 ? `Victoria ${f.team2} · +${f.score2 - f.score1} pts`
                       : `Empate · ${f.score1} pts`}
-                    <span className="ml-2 text-[#3e1a5b]">Ver detalle →</span>
+                    <span className="ml-2 text-lime">Ver detalle →</span>
                   </span>
                 ) : (
-                  <span className="text-[11px] text-muted-foreground">Pendiente</span>
+                  <span className="font-meta text-[11px] text-gray">Pendiente</span>
                 )}
               </div>
             </div>

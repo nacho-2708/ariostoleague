@@ -4,28 +4,14 @@ import { ChevronLeft, Trophy, Swords, BarChart2 } from "lucide-react"
 import { getManagerProfile } from "@/lib/manager-stats"
 import { FormaTooltip } from "@/components/forma-tooltip"
 import { ManagerCharts } from "@/components/manager-charts"
-
-const ALIAS_COLORS: Record<string, string> = {
-  Comandante: "bg-violet-600",
-  Marculi:    "bg-blue-600",
-  Varela:     "bg-emerald-600",
-  Ignagoat:   "bg-orange-500",
-  Manoloto:   "bg-cyan-600",
-  Papezar:    "bg-rose-600",
-  Bebito:     "bg-pink-500",
-  Cunha:      "bg-teal-600",
-  Wawri:      "bg-indigo-500",
-  "Sir Jagger": "bg-amber-600",
-  Canter:     "bg-red-600",
-  RG:         "bg-lime-600",
-}
+import ManagerPhoto from "@/components/broadcast/manager-photo"
 
 function StatCard({ label, value, sub }: { label: string; value: string | number; sub?: string }) {
   return (
-    <div className="rounded-xl border border-border bg-white p-4 shadow-sm">
-      <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">{label}</p>
-      <p className="mt-1 text-2xl font-black text-foreground">{value}</p>
-      {sub && <p className="mt-0.5 text-xs text-muted-foreground">{sub}</p>}
+    <div className="rounded-xl border border-white/10 bg-ink-2 p-4">
+      <p className="font-meta text-[10px] font-semibold uppercase tracking-wider text-gray">{label}</p>
+      <p className="mt-1 text-2xl font-black text-chalk">{value}</p>
+      {sub && <p className="mt-0.5 font-meta text-xs text-gray">{sub}</p>}
     </div>
   )
 }
@@ -49,9 +35,6 @@ export default async function ManagerProfilePage({
 
   const currentPos = profile.current_pos
 
-  const color = ALIAS_COLORS[profile.alias] ?? "bg-zinc-500"
-  const initials = profile.alias.slice(0, 2).toUpperCase()
-
   return (
     <div className="space-y-6">
 
@@ -59,7 +42,7 @@ export default async function ManagerProfilePage({
       <div>
         <Link
           href="/managers"
-          className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground"
+          className="flex items-center gap-1 font-meta text-xs font-medium text-gray transition-colors hover:text-chalk"
         >
           <ChevronLeft className="h-3.5 w-3.5" />
           Managers
@@ -67,26 +50,24 @@ export default async function ManagerProfilePage({
       </div>
 
       {/* Hero card */}
-      <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
-        <div className="h-2 w-full bg-[#3e1a5b]" />
+      <div className="overflow-hidden rounded-2xl border border-white/10 bg-ink-2">
+        <div className="h-2 w-full" style={{ background: "linear-gradient(90deg,var(--color-blue),var(--color-blue-deep))" }} />
         <div className="flex items-start gap-5 p-6">
-          <div className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl ${color} text-xl font-black text-white`}>
-            {initials}
-          </div>
+          <ManagerPhoto alias={profile.alias} size={64} />
           <div className="flex-1">
             <div className="flex items-start justify-between">
               <div>
-                <h1 className="text-2xl font-black tracking-tight text-foreground">
+                <h1 className="text-2xl font-black tracking-tight text-chalk">
                   {profile.current_team}
                 </h1>
-                <p className="text-sm text-muted-foreground">
+                <p className="font-meta text-sm text-gray">
                   {profile.full_name} · {profile.alias}
                 </p>
               </div>
               {profile.titulos > 0 && (
-                <div className="flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1.5 border border-amber-200">
-                  <Trophy className="h-4 w-4 text-amber-500" />
-                  <span className="text-sm font-bold text-amber-700">
+                <div className="flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/10 px-3 py-1.5">
+                  <Trophy className="h-4 w-4 text-lime" />
+                  <span className="text-sm font-bold text-amber-300">
                     {profile.titulos} {profile.titulos === 1 ? "título" : "títulos"}
                   </span>
                 </div>
@@ -101,7 +82,7 @@ export default async function ManagerProfilePage({
 
       {/* Stats all-time */}
       <div>
-        <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+        <h2 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-gray">
           Estadísticas all-time
         </h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -119,13 +100,13 @@ export default async function ManagerProfilePage({
       {/* Temporada actual */}
       {profile.current_pts !== null && (
         <div>
-          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-gray">
             Temporada actual — 2025/26
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
-            <div className="rounded-xl border border-[#3e1a5b]/20 bg-[#3e1a5b]/5 p-4 text-center shadow-sm">
-              <p className="text-[10px] font-semibold uppercase tracking-wider text-[#3e1a5b]/70">Posición</p>
-              <p className="mt-1 text-2xl font-black text-[#3e1a5b]">{currentPos}°</p>
+            <div className="rounded-xl border border-blue/30 bg-ink-2 p-4 text-center">
+              <p className="font-meta text-[10px] font-semibold uppercase tracking-wider text-gray">Posición</p>
+              <p className="mt-1 font-display text-2xl text-lime">{currentPos}°</p>
             </div>
             <StatCard label="Puntos" value={profile.current_pts} />
             <StatCard label="PJ" value={profile.seasons.find(s => s.name === '2025/26')?.pj ?? '—'} />
@@ -138,42 +119,42 @@ export default async function ManagerProfilePage({
       {/* Historial por temporada */}
       {profile.seasons.length > 0 && (
         <div>
-          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-gray">
             Historial por temporada
           </h2>
-          <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
+          <div className="overflow-hidden rounded-2xl border border-white/10 bg-ink-2">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border bg-muted/50">
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-muted-foreground">Temporada</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-muted-foreground">Equipo</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">Pos</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PJ</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PG</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PE</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PP</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PF</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-[#3e1a5b]">Pts</th>
+                <tr className="border-b border-white/10 bg-white/5">
+                  <th className="px-4 py-3 text-left font-meta text-xs font-semibold uppercase tracking-wider text-gray">Temporada</th>
+                  <th className="px-4 py-3 text-left font-meta text-xs font-semibold uppercase tracking-wider text-gray">Equipo</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">Pos</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PJ</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PG</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PE</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PP</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PF</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-lime">Pts</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-border">
+              <tbody className="divide-y divide-white/10">
                 {[...profile.seasons].reverse().map((s) => (
-                  <tr key={s.name} className={`hover:bg-muted/30 transition-colors ${s.champion ? "bg-amber-50/60" : ""}`}>
-                    <td className="px-4 py-3 font-semibold text-foreground">
+                  <tr key={s.name} className={`transition-colors hover:bg-white/5 ${s.champion ? "bg-amber-400/10" : ""}`}>
+                    <td className="px-4 py-3 font-semibold text-chalk">
                       <div className="flex items-center gap-2">
                         {s.name}
-                        {s.champion && <Trophy className="h-3.5 w-3.5 text-amber-500" />}
+                        {s.champion && <Trophy className="h-3.5 w-3.5 text-lime" />}
                       </div>
                     </td>
-                    <td className="px-4 py-3 text-muted-foreground">{s.team_name}</td>
-                    <td className="px-3 py-3 text-center font-mono font-bold text-foreground">{s.pos}°</td>
-                    <td className="px-3 py-3 text-center font-mono text-muted-foreground">{s.pj}</td>
-                    <td className="px-3 py-3 text-center font-mono text-foreground">{s.pg}</td>
-                    <td className="px-3 py-3 text-center font-mono text-muted-foreground">{s.pe}</td>
-                    <td className="px-3 py-3 text-center font-mono text-muted-foreground">{s.pp}</td>
-                    <td className="px-3 py-3 text-center font-mono text-muted-foreground">{s.pf}</td>
+                    <td className="px-4 py-3 text-gray">{s.team_name}</td>
+                    <td className="px-3 py-3 text-center font-mono font-bold text-chalk">{s.pos}°</td>
+                    <td className="px-3 py-3 text-center font-mono text-gray">{s.pj}</td>
+                    <td className="px-3 py-3 text-center font-mono text-chalk">{s.pg}</td>
+                    <td className="px-3 py-3 text-center font-mono text-gray">{s.pe}</td>
+                    <td className="px-3 py-3 text-center font-mono text-gray">{s.pp}</td>
+                    <td className="px-3 py-3 text-center font-mono text-gray">{s.pf}</td>
                     <td className="px-3 py-3 text-center">
-                      <span className="inline-flex h-7 min-w-[2rem] items-center justify-center rounded-lg bg-[#3e1a5b] px-2 font-bold text-white text-xs">
+                      <span className="inline-flex h-7 min-w-[2rem] items-center justify-center rounded-lg bg-lime px-2 text-xs font-bold text-ink">
                         {s.pts}
                       </span>
                     </td>
@@ -188,7 +169,7 @@ export default async function ManagerProfilePage({
       {/* Analytics charts */}
       {profile.gwData.length > 0 && (
         <div>
-          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 flex items-center gap-2 font-meta text-xs font-bold uppercase tracking-widest text-gray">
             <BarChart2 className="h-3.5 w-3.5" />
             Análisis temporada 2025/26
           </h2>
@@ -203,23 +184,23 @@ export default async function ManagerProfilePage({
       {/* H2H */}
       {profile.h2h.length > 0 && (
         <div>
-          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+          <h2 className="mb-3 flex items-center gap-2 font-meta text-xs font-bold uppercase tracking-widest text-gray">
             <Swords className="h-3.5 w-3.5" />
             Head to head
           </h2>
-          <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
+          <div className="overflow-hidden rounded-2xl border border-white/10 bg-ink-2">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border bg-muted/50">
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-muted-foreground">Rival</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PG</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PE</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">PP</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">DP</th>
-                  <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">Balance</th>
+                <tr className="border-b border-white/10 bg-white/5">
+                  <th className="px-4 py-3 text-left font-meta text-xs font-semibold uppercase tracking-wider text-gray">Rival</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PG</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PE</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">PP</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">DP</th>
+                  <th className="px-3 py-3 text-center font-meta text-xs font-semibold uppercase tracking-wider text-gray">Balance</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-border">
+              <tbody className="divide-y divide-white/10">
                 {profile.h2h.map((h) => {
                   const total = h.pg + h.pe + h.pp
                   const winPct = total > 0 ? Math.round((h.pg / total) * 100) : 0
@@ -227,24 +208,24 @@ export default async function ManagerProfilePage({
                   const isPositive = h.pg > h.pp
                   const isNegative = h.pg < h.pp
                   return (
-                    <tr key={h.rival_alias} className="hover:bg-muted/30 transition-colors">
+                    <tr key={h.rival_alias} className="transition-colors hover:bg-white/5">
                       <td className="px-4 py-3">
-                        <Link href={`/managers/${h.rival_alias.toLowerCase()}`} className="hover:text-[#3e1a5b]">
-                          <p className="font-semibold text-foreground">{h.rival_team}</p>
-                          <p className="text-xs text-muted-foreground">{h.rival_alias}</p>
+                        <Link href={`/managers/${h.rival_alias.toLowerCase()}`} className="transition-colors hover:text-lime">
+                          <p className="font-semibold text-chalk">{h.rival_team}</p>
+                          <p className="font-meta text-xs text-gray">{h.rival_alias}</p>
                         </Link>
                       </td>
-                      <td className="px-3 py-3 text-center font-mono font-bold text-emerald-600">{h.pg}</td>
-                      <td className="px-3 py-3 text-center font-mono text-muted-foreground">{h.pe}</td>
-                      <td className="px-3 py-3 text-center font-mono text-rose-500">{h.pp}</td>
-                      <td className={`px-3 py-3 text-center font-mono font-semibold ${dp > 0 ? "text-emerald-600" : dp < 0 ? "text-rose-500" : "text-muted-foreground"}`}>
+                      <td className="px-3 py-3 text-center font-mono font-bold text-emerald-400">{h.pg}</td>
+                      <td className="px-3 py-3 text-center font-mono text-gray">{h.pe}</td>
+                      <td className="px-3 py-3 text-center font-mono text-rose-400">{h.pp}</td>
+                      <td className={`px-3 py-3 text-center font-mono font-semibold ${dp > 0 ? "text-emerald-400" : dp < 0 ? "text-rose-400" : "text-gray"}`}>
                         {dp > 0 ? `+${dp}` : dp}
                       </td>
                       <td className="px-3 py-3 text-center">
-                        <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
-                          isPositive ? "bg-emerald-50 text-emerald-700"
-                          : isNegative ? "bg-rose-50 text-rose-600"
-                          : "bg-muted text-muted-foreground"
+                        <span className={`rounded-full px-2 py-0.5 font-meta text-[10px] font-bold ${
+                          isPositive ? "bg-emerald-500/15 text-emerald-300"
+                          : isNegative ? "bg-rose-500/15 text-rose-300"
+                          : "bg-white/10 text-gray"
                         }`}>
                           {winPct}%
                         </span>
