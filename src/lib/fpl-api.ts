@@ -50,7 +50,7 @@ type ApiStanding = {
 type ApiGame = {
   current_event: number
   current_event_finished: boolean
-  next_event: number
+  next_event: number | null
 }
 
 type LeagueDetails = {
@@ -79,7 +79,8 @@ export type GameweekGroup = {
 export type GameInfo = {
   currentGw: number
   currentGwFinished: boolean
-  nextGw: number
+  // null cuando la temporada terminó y la FPL API todavía no publicó la siguiente GW
+  nextGw: number | null
 }
 
 // ─── Fetcher compartido (cachea 5 min) ───────────────────────────────────────
