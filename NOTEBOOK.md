@@ -32,6 +32,8 @@ Decisiones de diseño/arquitectura/proceso, con su porqué. Esto es lo más vali
 
 - **2026-05-24 — Mergear branch `2026-04-07-wond` a main directamente** — La branch tenía 4 commits de trabajo continuo (stats subnav + helpers), sin trabajo paralelo en main. Merge fast-forward, sin conflictos. Razón: cerrar el ciclo abierto antes de seguir.
 
+- **2026-07-01 — Capa de datos del Home separada de la UI, en 4 archivos por tema** (`src/lib/league-state.ts`, `season-champions.ts`, `stats/season-awards.ts`, `home-ranking.ts`). Razón: es el paso 1 de un pipeline de 4 pasos (ver tarjeta Notion "🧭 Home · orden de trabajo") donde el diseño visual todavía no existe — separar datos de UI deja esta capa reusable sin importar cómo termine viéndose el Home. "Bestia negra" (premio de temporada) exige mínimo 2 cruces entre el mismo par de managers para no premiar un enfrentamiento de un solo partido — umbral elegido, no medido.
+
 ---
 
 ## ⚠️ Gotchas del stack
@@ -59,6 +61,8 @@ Cosas no obvias de las herramientas que usamos. Esto sirve para no volver a trop
   4. **Señal de éxito engañosa.** El handler `POST /api/sync` (path `all`) devuelve `ok:true` + HTTP 200 aunque el array `errors` venga lleno o `playersUpserted` sea 0 para algunos managers. Quien mira solo el status ve verde.
   **Veredicto: SISTEMÁTICO, no puntual.** Antes de la Fase 2 (resync) hay que: (a) chequeo de completitud por GW (assert ~180 filas, fallar fuerte si falta); (b) hacer ruidosos los fallos (que `ok:false`/non-200 cuando una GW queda corta); (c) para temporada terminada, sincronizar rango fijo 1..38, no `currentGw`; (d) reintento ante fallos transitorios de `event/{gw}/live` y `entry/{id}/event/{gw}`. La fuente está viva hoy (`/game` = event 38 finished, `next_event:null`; `event/25/live` y `entry/5642/event/25` responden 200) pero la ventana se cierra cuando la API rote a 26/27. Nota: re-syncar GW1-6,16,18 es idempotente (upsert por `player_id,manager_id,season_id,gameweek`) y de paso completaría sus filas faltantes.
   **→ RESUELTO el 2026-06-28: las cuatro capas (a/b/c/d) ya están tapadas en el pipeline (ver Resueltas). Falta la Fase 2 (resync de las GW faltantes), que es otra tarjeta.**
+
+- **La FPL Draft API usa DOS IDs distintos para el mismo manager, según la familia de endpoint.** El id que identifica a un manager en `/league/{id}/details` (mapeado en `ENTRY_ALIAS` dentro de `src/lib/fpl-api.ts`) NO es el mismo número que lo identifica en `/entry/{entry_id}/event/{gw}` (mapeado en `ENTRY_ID_TO_ALIAS` dentro de `src/lib/fpl-sync.ts`). Son valores parecidos pero no intercambiables (ej. RG es `5644` en un mapa y `5642` en el otro). Si se agrega un manager nuevo o se depura un alias mal mapeado, hay que tocar los DOS mapas. Documentado en detalle en la skill `ariosto-ref`. _Anotado: 2026-07-01, detectado armando esa skill._
 
 ---
 
