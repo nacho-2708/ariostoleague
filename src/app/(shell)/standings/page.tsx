@@ -66,10 +66,10 @@ export default async function StandingsPage({
           </h1>
         </div>
         {season.is_current && leader && (
-          <div className="hidden rounded-xl border border-border bg-white p-3 text-right shadow-sm sm:block">
-            <p className="text-xs font-medium text-muted-foreground">Líder actual</p>
-            <p className="mt-0.5 font-bold text-foreground">{leader.team_name}</p>
-            <p className="text-xs text-muted-foreground">{leader.pts} pts · {leader.pj} jornadas</p>
+          <div className="hidden rounded-xl border border-white/10 bg-ink-2 p-3 text-right sm:block">
+            <p className="font-meta text-xs font-medium text-gray">Líder actual</p>
+            <p className="mt-0.5 font-bold text-chalk">{leader.team_name}</p>
+            <p className="font-meta text-xs text-gray">{leader.pts} pts · {leader.pj} jornadas</p>
           </div>
         )}
       </div>
