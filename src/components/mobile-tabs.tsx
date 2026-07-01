@@ -2,9 +2,10 @@
 
 import Link from "next/link"
 import { usePathname, useSearchParams } from "next/navigation"
-import { Trophy, CalendarDays, Users, BarChart3, MessageCircle } from "lucide-react"
+import { Home, Trophy, CalendarDays, Users, BarChart3, MessageCircle } from "lucide-react"
 
 const TABS = [
+  { label: "Inicio", href: "/", icon: Home },
   { label: "Tabla", href: "/standings", icon: Trophy },
   { label: "Fixtures", href: "/fixtures", icon: CalendarDays },
   { label: "Managers", href: "/managers", icon: Users },
@@ -23,15 +24,18 @@ export default function MobileTabs() {
       <div className="flex h-16 items-center justify-around">
         {TABS.map((tab) => {
           const active =
-            tab.href === "/stats/records"
-              ? pathname.startsWith("/stats")
-              : pathname.startsWith(tab.href)
+            tab.href === "/"
+              ? pathname === "/"
+              : tab.href === "/stats/records"
+                ? pathname.startsWith("/stats")
+                : pathname.startsWith(tab.href)
           const Icon = tab.icon
+          const href = tab.href === "/" ? "/" : `${tab.href}${qs}`
           return (
             <Link
               key={tab.href}
-              href={`${tab.href}${qs}`}
-              className="flex flex-col items-center gap-1 px-3"
+              href={href}
+              className="flex flex-col items-center gap-1 px-2"
             >
               <div className={`flex h-8 w-8 items-center justify-center rounded-lg transition-colors ${
                 active ? "bg-[#3e1a5b]" : "bg-transparent"

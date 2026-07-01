@@ -3,9 +3,10 @@
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { Trophy, CalendarDays, Users, BarChart3, MessageCircle } from "lucide-react"
+import { Home, Trophy, CalendarDays, Users, BarChart3, MessageCircle } from "lucide-react"
 
 const NAV_ITEMS = [
+  { label: "Inicio", href: "/", icon: Home },
   { label: "Standings", href: "/standings", icon: Trophy },
   { label: "Fixtures", href: "/fixtures", icon: CalendarDays },
   { label: "Managers", href: "/managers", icon: Users },
@@ -32,7 +33,7 @@ export default function ShellHeader({ seasons }: { seasons: Season[] }) {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
 
         {/* Logo + nombre */}
-        <Link href="/standings" className="flex shrink-0 items-center gap-3">
+        <Link href="/" className="flex shrink-0 items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10">
             <Image src="/logo.svg" alt="Ariosto League" width={26} height={26} />
           </div>
@@ -48,13 +49,17 @@ export default function ShellHeader({ seasons }: { seasons: Season[] }) {
         <nav className="hidden items-center md:flex">
           {NAV_ITEMS.map((item) => {
             const active =
-              item.href === "/stats/records"
-                ? pathname.startsWith("/stats")
-                : pathname.startsWith(item.href)
+              item.href === "/"
+                ? pathname === "/"
+                : item.href === "/stats/records"
+                  ? pathname.startsWith("/stats")
+                  : pathname.startsWith(item.href)
+            const href =
+              item.href === "/" ? "/" : `${item.href}?season=${encodeURIComponent(currentSeason)}`
             return (
               <Link
                 key={item.href}
-                href={`${item.href}?season=${encodeURIComponent(currentSeason)}`}
+                href={href}
                 className={`relative flex items-center gap-1.5 px-4 py-5 text-sm font-medium transition-colors ${
                   active
                     ? "text-white after:absolute after:bottom-0 after:inset-x-4 after:h-0.5 after:rounded-full after:bg-white"
