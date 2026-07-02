@@ -24,16 +24,16 @@ export default function RecordsScopeToggle() {
     <div className="flex flex-wrap gap-2">
       <Link
         href={hrefSeason}
-        className={`rounded-lg px-4 py-2 text-sm font-semibold ${
-          !scopeAll ? "bg-[#3e1a5b] text-white" : "border border-border bg-white text-muted-foreground hover:bg-muted"
+        className={`rounded-lg px-4 py-2 font-meta text-sm font-semibold ${
+          !scopeAll ? "bg-lime text-ink" : "border border-white/10 bg-ink-2 text-gray hover:bg-white/5"
         }`}
       >
         Esta temporada
       </Link>
       <Link
         href={hrefAll}
-        className={`rounded-lg px-4 py-2 text-sm font-semibold ${
-          scopeAll ? "bg-[#3e1a5b] text-white" : "border border-border bg-white text-muted-foreground hover:bg-muted"
+        className={`rounded-lg px-4 py-2 font-meta text-sm font-semibold ${
+          scopeAll ? "bg-lime text-ink" : "border border-white/10 bg-ink-2 text-gray hover:bg-white/5"
         }`}
       >
         All-time
