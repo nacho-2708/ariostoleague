@@ -26,7 +26,7 @@ export default function FplPlayerPhoto({ fplCode, name, className = "" }: Props)
   if (!src || failed) {
     return (
       <div
-        className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-muted text-[10px] font-bold leading-none text-muted-foreground ${className}`}
+        className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 font-meta text-[10px] font-bold leading-none text-gray ${className}`}
         title={name}
       >
         {initials(name)}
@@ -35,7 +35,7 @@ export default function FplPlayerPhoto({ fplCode, name, className = "" }: Props)
   }
 
   return (
-    <div className={`relative h-11 w-11 shrink-0 overflow-hidden rounded-full bg-muted ${className}`}>
+    <div className={`relative h-11 w-11 shrink-0 overflow-hidden rounded-full bg-white/10 ${className}`}>
       <Image
         src={src}
         alt=""

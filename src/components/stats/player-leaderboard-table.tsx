@@ -50,64 +50,64 @@ type Props = {
 
 function RowTotal({ row, rank }: { row: PlayerRowForManager; rank: number }) {
   return (
-    <tr className="border-b border-border/60 last:border-0">
-      <td className="px-2 py-2 align-middle font-medium tabular-nums text-muted-foreground sm:px-3">{rank}</td>
+    <tr className="border-b border-white/10 last:border-0">
+      <td className="px-2 py-2 align-middle font-mono font-medium tabular-nums text-gray sm:px-3">{rank}</td>
       <td className="px-1 py-2 align-middle">
         <FplPlayerPhoto fplCode={row.fplCode} name={row.name} />
       </td>
-      <td className="px-2 py-2 align-middle font-semibold text-foreground sm:px-3">{row.name}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground sm:table-cell sm:px-3">{row.club}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground md:table-cell md:px-3">{row.position}</td>
-      <td className="px-2 py-2 text-right align-middle font-bold tabular-nums sm:px-3">{row.totalPoints}</td>
-      <td className="px-2 py-2 text-right align-middle tabular-nums text-muted-foreground sm:px-3">{row.gameweeks}</td>
+      <td className="px-2 py-2 align-middle font-semibold text-chalk sm:px-3">{row.name}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray sm:table-cell sm:px-3">{row.club}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray md:table-cell md:px-3">{row.position}</td>
+      <td className="px-2 py-2 text-right align-middle font-mono font-bold tabular-nums text-lime sm:px-3">{row.totalPoints}</td>
+      <td className="px-2 py-2 text-right align-middle font-mono tabular-nums text-gray sm:px-3">{row.gameweeks}</td>
     </tr>
   )
 }
 
 function RowBestGw({ row, rank }: { row: PlayerBestGwForManager; rank: number }) {
   return (
-    <tr className="border-b border-border/60 last:border-0">
-      <td className="px-2 py-2 align-middle font-medium tabular-nums text-muted-foreground sm:px-3">{rank}</td>
+    <tr className="border-b border-white/10 last:border-0">
+      <td className="px-2 py-2 align-middle font-mono font-medium tabular-nums text-gray sm:px-3">{rank}</td>
       <td className="px-1 py-2 align-middle">
         <FplPlayerPhoto fplCode={row.fplCode} name={row.name} />
       </td>
-      <td className="px-2 py-2 align-middle font-semibold text-foreground sm:px-3">{row.name}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground sm:table-cell sm:px-3">{row.club}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground md:table-cell md:px-3">{row.position}</td>
-      <td className="px-2 py-2 text-right align-middle font-bold tabular-nums sm:px-3">{row.bestPoints}</td>
-      <td className="px-2 py-2 align-middle tabular-nums text-muted-foreground sm:px-3">J{row.gameweek}</td>
+      <td className="px-2 py-2 align-middle font-semibold text-chalk sm:px-3">{row.name}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray sm:table-cell sm:px-3">{row.club}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray md:table-cell md:px-3">{row.position}</td>
+      <td className="px-2 py-2 text-right align-middle font-mono font-bold tabular-nums text-lime sm:px-3">{row.bestPoints}</td>
+      <td className="px-2 py-2 align-middle font-mono tabular-nums text-gray sm:px-3">J{row.gameweek}</td>
     </tr>
   )
 }
 
 function RowGwStar({ row, rank }: { row: PlayerGwPerformanceRow; rank: number }) {
   return (
-    <tr className="border-b border-border/60 last:border-0">
-      <td className="px-2 py-2 align-middle font-medium tabular-nums text-muted-foreground sm:px-3">{rank}</td>
+    <tr className="border-b border-white/10 last:border-0">
+      <td className="px-2 py-2 align-middle font-mono font-medium tabular-nums text-gray sm:px-3">{rank}</td>
       <td className="px-1 py-2 align-middle">
         <FplPlayerPhoto fplCode={row.fplCode} name={row.name} />
       </td>
-      <td className="px-2 py-2 align-middle font-semibold text-foreground sm:px-3">{row.name}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground sm:table-cell sm:px-3">{row.club}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground md:table-cell md:px-3">{row.position}</td>
-      <td className="px-2 py-2 text-right align-middle font-bold tabular-nums sm:px-3">{row.points}</td>
-      <td className="px-2 py-2 align-middle tabular-nums text-muted-foreground sm:px-3">J{row.gameweek}</td>
+      <td className="px-2 py-2 align-middle font-semibold text-chalk sm:px-3">{row.name}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray sm:table-cell sm:px-3">{row.club}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray md:table-cell md:px-3">{row.position}</td>
+      <td className="px-2 py-2 text-right align-middle font-mono font-bold tabular-nums text-lime sm:px-3">{row.points}</td>
+      <td className="px-2 py-2 align-middle font-mono tabular-nums text-gray sm:px-3">J{row.gameweek}</td>
     </tr>
   )
 }
 
 function RowLeagueStar({ row, rank }: { row: LeagueGwStarRow; rank: number }) {
   return (
-    <tr className="border-b border-border/60 last:border-0">
-      <td className="px-2 py-2 align-middle font-medium tabular-nums text-muted-foreground sm:px-3">{rank}</td>
+    <tr className="border-b border-white/10 last:border-0">
+      <td className="px-2 py-2 align-middle font-mono font-medium tabular-nums text-gray sm:px-3">{rank}</td>
       <td className="px-1 py-2 align-middle">
         <FplPlayerPhoto fplCode={row.fplCode} name={row.name} />
       </td>
-      <td className="px-2 py-2 align-middle font-semibold text-foreground sm:px-3">{row.name}</td>
-      <td className="px-2 py-2 align-middle text-sm text-[#3e1a5b] sm:px-3">{row.managerAlias}</td>
-      <td className="hidden px-2 py-2 align-middle text-muted-foreground sm:table-cell sm:px-3">{row.club}</td>
-      <td className="px-2 py-2 text-right align-middle font-bold tabular-nums sm:px-3">{row.points}</td>
-      <td className="px-2 py-2 align-middle tabular-nums text-muted-foreground sm:px-3">J{row.gameweek}</td>
+      <td className="px-2 py-2 align-middle font-semibold text-chalk sm:px-3">{row.name}</td>
+      <td className="px-2 py-2 align-middle font-meta text-sm text-blue sm:px-3">{row.managerAlias}</td>
+      <td className="hidden px-2 py-2 align-middle text-gray sm:table-cell sm:px-3">{row.club}</td>
+      <td className="px-2 py-2 text-right align-middle font-mono font-bold tabular-nums text-lime sm:px-3">{row.points}</td>
+      <td className="px-2 py-2 align-middle font-mono tabular-nums text-gray sm:px-3">J{row.gameweek}</td>
     </tr>
   )
 }
@@ -141,49 +141,49 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
     <div className="space-y-6">
       <div className="flex flex-wrap items-end gap-3">
         <div className="min-w-[min(100%,280px)] flex-1">
-          <label className="mb-1 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          <label className="mb-1 block font-meta text-xs font-semibold uppercase tracking-wider text-gray">
             Listado
           </label>
           <select
             value={validList}
             onChange={(e) => setParam("list", e.target.value)}
-            className="w-full max-w-md rounded-lg border border-border bg-white px-3 py-2 text-sm shadow-sm"
+            className="w-full max-w-md rounded-lg border border-white/10 bg-ink-2 px-3 py-2 text-sm text-chalk"
           >
             {LIST_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>
+              <option key={o.value} value={o.value} className="bg-ink-2 text-chalk">
                 {o.label}
               </option>
             ))}
           </select>
         </div>
         <div>
-          <label className="mb-1 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          <label className="mb-1 block font-meta text-xs font-semibold uppercase tracking-wider text-gray">
             Posición
           </label>
           <select
             value={pos}
             onChange={(e) => setParam("pos", e.target.value)}
-            className="rounded-lg border border-border bg-white px-3 py-2 text-sm shadow-sm"
+            className="rounded-lg border border-white/10 bg-ink-2 px-3 py-2 text-sm text-chalk"
           >
             {POSITIONS.map((o) => (
-              <option key={o.value} value={o.value}>
+              <option key={o.value} value={o.value} className="bg-ink-2 text-chalk">
                 {o.label}
               </option>
             ))}
           </select>
         </div>
         <div>
-          <label className="mb-1 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          <label className="mb-1 block font-meta text-xs font-semibold uppercase tracking-wider text-gray">
             Manager
           </label>
           <select
             value={mgrFilter}
             onChange={(e) => setParam("mgr", e.target.value)}
-            className="min-w-[180px] rounded-lg border border-border bg-white px-3 py-2 text-sm shadow-sm"
+            className="min-w-[180px] rounded-lg border border-white/10 bg-ink-2 px-3 py-2 text-sm text-chalk"
           >
-            <option value="">Todos</option>
+            <option value="" className="bg-ink-2 text-chalk">Todos</option>
             {managers.map((m) => (
-              <option key={m.managerId} value={m.alias}>
+              <option key={m.managerId} value={m.alias} className="bg-ink-2 text-chalk">
                 {m.alias}
               </option>
             ))}
@@ -192,16 +192,16 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
       </div>
 
       {listMeta && (
-        <p className="text-xs leading-relaxed text-muted-foreground">
-          <span className="font-medium text-foreground">{listMeta.label}.</span> {listMeta.hint}
+        <p className="font-meta text-xs leading-relaxed text-gray">
+          <span className="font-medium text-chalk">{listMeta.label}.</span> {listMeta.hint}
         </p>
       )}
 
       {validList === "league_stars" ? (
-        <section className="rounded-xl border border-border bg-white shadow-sm">
-          <div className="border-b border-border bg-[#3e1a5b]/5 px-4 py-3">
-            <h3 className="text-base font-bold text-foreground">Liga — mejores actuaciones sueltas</h3>
-            <p className="text-xs text-muted-foreground">
+        <section className="rounded-xl border border-white/10 bg-ink-2">
+          <div className="border-b border-white/10 bg-white/5 px-4 py-3">
+            <h3 className="text-base font-bold text-chalk">Liga — mejores actuaciones sueltas</h3>
+            <p className="font-meta text-xs text-gray">
               {leagueFiltered.length} entradas
               {mgrFilter ? ` (filtrado: ${mgrFilter})` : ""}
             </p>
@@ -209,7 +209,7 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
           <div className="overflow-x-auto">
             <table className="w-full min-w-[380px] text-sm">
               <thead>
-                <tr className="border-b border-border bg-muted/40 text-left text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+                <tr className="border-b border-white/10 bg-white/5 text-left font-meta text-[10px] font-bold uppercase tracking-wider text-gray">
                   <th className="px-2 py-2 sm:px-3">#</th>
                   <th className="px-1 py-2" aria-hidden />
                   <th className="px-2 py-2 sm:px-3">Jugador</th>
@@ -231,7 +231,7 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
             </table>
           </div>
           {leagueFiltered.length === 0 && (
-            <p className="px-4 py-6 text-center text-sm text-muted-foreground">Sin datos para este filtro.</p>
+            <p className="px-4 py-6 text-center font-meta text-sm text-gray">Sin datos para este filtro.</p>
           )}
         </section>
       ) : (
@@ -251,15 +251,15 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
                   : `${rows.length} jugadores (solo su mejor GW)`
 
             return (
-              <section key={block.managerId} className="rounded-xl border border-border bg-white shadow-sm">
-                <div className="border-b border-border bg-[#3e1a5b]/5 px-4 py-3">
-                  <h3 className="text-base font-bold text-foreground">{block.alias}</h3>
-                  <p className="text-xs text-muted-foreground">{subtitle}</p>
+              <section key={block.managerId} className="rounded-xl border border-white/10 bg-ink-2">
+                <div className="border-b border-white/10 bg-white/5 px-4 py-3">
+                  <h3 className="text-base font-bold text-chalk">{block.alias}</h3>
+                  <p className="font-meta text-xs text-gray">{subtitle}</p>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full min-w-[340px] text-sm">
                     <thead>
-                      <tr className="border-b border-border bg-muted/40 text-left text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+                      <tr className="border-b border-white/10 bg-white/5 text-left font-meta text-[10px] font-bold uppercase tracking-wider text-gray">
                         <th className="px-2 py-2 sm:px-3">#</th>
                         <th className="px-1 py-2" aria-hidden />
                         <th className="px-2 py-2 sm:px-3">Jugador</th>
@@ -295,7 +295,7 @@ export default function PlayerLeaderboardTable({ managers, leagueStars }: Props)
                   </table>
                 </div>
                 {rows.length === 0 && (
-                  <p className="px-4 py-6 text-center text-sm text-muted-foreground">Sin datos para este filtro.</p>
+                  <p className="px-4 py-6 text-center font-meta text-sm text-gray">Sin datos para este filtro.</p>
                 )}
               </section>
             )

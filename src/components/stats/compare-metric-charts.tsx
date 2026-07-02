@@ -12,8 +12,14 @@ import {
 } from "recharts"
 import type { ManagerCompareResult } from "@/lib/stats/manager-compare"
 
-const COLOR_A = "#7c3aed"
-const COLOR_B = "#0891b2"
+// Mismo par que la "batalla por línea" de Fixtures (match-detail): A = azul
+// señal, B = verde destello. Hex literal porque recharts pinta SVG (fill/
+// stroke), no admite clases Tailwind — deben coincidir con --color-blue /
+// --color-lime de globals.css si esos tokens cambian.
+const COLOR_A = "#2230FF"
+const COLOR_B = "#C6FF3A"
+const AXIS_TICK = { fontSize: 10, fill: "#8A92A6" } // --color-gray
+const GRID_STROKE = "rgba(255,255,255,0.08)"
 
 function MiniCompareBar({
   title,
@@ -41,9 +47,9 @@ function MiniCompareBar({
   ]
 
   return (
-    <div className="rounded-xl border border-border bg-white p-3 shadow-sm">
-      <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">{title}</p>
-      {subtitle && <p className="mt-0.5 text-[10px] leading-tight text-muted-foreground">{subtitle}</p>}
+    <div className="rounded-xl border border-white/10 bg-ink-2 p-3">
+      <p className="font-meta text-[10px] font-bold uppercase tracking-wider text-gray">{title}</p>
+      {subtitle && <p className="mt-0.5 font-meta text-[10px] leading-tight text-gray">{subtitle}</p>}
       <div className="h-[132px] w-full pt-2">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
@@ -52,18 +58,24 @@ function MiniCompareBar({
             margin={{ top: 2, right: 8, left: 2, bottom: 2 }}
             barCategoryGap="22%"
           >
-            <CartesianGrid strokeDasharray="3 3" horizontal={false} className="stroke-muted/80" />
+            <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke={GRID_STROKE} />
             <XAxis
               type="number"
               domain={[0, domainMax]}
-              tick={{ fontSize: 10 }}
+              tick={AXIS_TICK}
               tickFormatter={(v) => formatValue(Number(v))}
             />
-            <YAxis type="category" dataKey="name" width={76} tick={{ fontSize: 10 }} interval={0} />
+            <YAxis type="category" dataKey="name" width={76} tick={AXIS_TICK} interval={0} />
             <Tooltip
               formatter={(v) => [formatValue(Number(v ?? 0)), ""]}
               labelFormatter={(l) => String(l)}
-              contentStyle={{ borderRadius: 12, border: "1px solid var(--border)", fontSize: 12 }}
+              contentStyle={{
+                borderRadius: 12,
+                border: "1px solid rgba(255,255,255,0.1)",
+                background: "#1B2136",
+                color: "#F3F4F8",
+                fontSize: 12,
+              }}
             />
             <Bar dataKey="v" radius={[0, 4, 4, 0]} maxBarSize={26}>
               {data.map((entry, i) => (
@@ -84,10 +96,10 @@ export function ManagerCompareCharts({ data }: { data: ManagerCompareResult }) {
   return (
     <div className="space-y-8">
       <div>
-        <h3 className="mb-3 text-xs font-bold uppercase tracking-widest text-foreground">
+        <h3 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-chalk">
           Partidos y balance
         </h3>
-        <p className="mb-3 text-xs text-muted-foreground">
+        <p className="mb-3 font-meta text-xs text-gray">
           Cada gráfico usa su propia escala; las barras son comparables solo dentro de esa métrica.
         </p>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -123,7 +135,7 @@ export function ManagerCompareCharts({ data }: { data: ManagerCompareResult }) {
       </div>
 
       <div>
-        <h3 className="mb-3 text-xs font-bold uppercase tracking-widest text-foreground">
+        <h3 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-chalk">
           Puntos fantasy acumulados
         </h3>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -155,7 +167,7 @@ export function ManagerCompareCharts({ data }: { data: ManagerCompareResult }) {
       </div>
 
       <div>
-        <h3 className="mb-3 text-xs font-bold uppercase tracking-widest text-foreground">
+        <h3 className="mb-3 font-meta text-xs font-bold uppercase tracking-widest text-chalk">
           Clasificación
         </h3>
         <div className="grid gap-3 sm:grid-cols-2">

@@ -16,17 +16,17 @@ export default function StatsSubnav() {
   const suffix = qs ? `?${qs}` : ""
 
   return (
-    <nav className="flex flex-wrap gap-2 border-b border-border pb-3">
+    <nav className="flex flex-wrap gap-2 border-b border-white/10 pb-3">
       {TABS.map((tab) => {
         const active = pathname === tab.href || pathname.startsWith(`${tab.href}/`)
         return (
           <Link
             key={tab.href}
             href={`${tab.href}${suffix}`}
-            className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
+            className={`rounded-lg px-4 py-2 font-meta text-sm font-semibold transition-colors ${
               active
-                ? "bg-[#3e1a5b] text-white"
-                : "bg-white text-muted-foreground hover:bg-muted hover:text-foreground"
+                ? "bg-lime text-ink"
+                : "bg-ink-2 text-gray hover:bg-white/5 hover:text-chalk"
             }`}
           >
             {tab.label}

@@ -43,13 +43,13 @@ export default async function StatsRecordsPage({
               Partidos a doble enfrentamiento y tabla de duelos entre managers.
             </p>
           </div>
-          <Suspense fallback={<div className="h-10 w-56 animate-pulse rounded-lg bg-muted" />}>
+          <Suspense fallback={<div className="h-10 w-56 animate-pulse rounded-lg bg-white/5" />}>
             <RecordsScopeToggle />
           </Suspense>
         </div>
 
         {!records ? (
-          <p className="text-sm text-muted-foreground">No hay partidos suficientes para calcular récords.</p>
+          <p className="font-meta text-sm text-gray">No hay partidos suficientes para calcular récords.</p>
         ) : (
           <RecordHighlights data={records} />
         )}
