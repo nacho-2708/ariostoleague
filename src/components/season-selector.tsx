@@ -17,10 +17,10 @@ export default function SeasonSelector({
     <select
       value={current}
       onChange={(e) => router.push(`?season=${encodeURIComponent(e.target.value)}`)}
-      className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-sm text-zinc-700 shadow-sm focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300"
+      className="rounded-lg border border-white/10 bg-ink-2 px-3 py-1.5 font-meta text-sm text-chalk focus:outline-none focus:ring-2 focus:ring-lime/40"
     >
       {seasons.map((s) => (
-        <option key={s.id} value={s.name}>
+        <option key={s.id} value={s.name} className="bg-ink-2 text-chalk">
           {s.name}
         </option>
       ))}
