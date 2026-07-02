@@ -11,7 +11,7 @@ export default function StatsLayout({ children }: { children: React.ReactNode })
           Récords de liga, jugadores fantasy y comparador H2H entre managers.
         </p>
       </div>
-      <Suspense fallback={<div className="h-11 animate-pulse rounded-lg bg-muted/80" aria-hidden />}>
+      <Suspense fallback={<div className="h-11 animate-pulse rounded-lg bg-white/5" aria-hidden />}>
         <StatsSubnav />
       </Suspense>
       {children}

@@ -52,7 +52,7 @@ export default async function StatsComparePage({
         </p>
       </div>
 
-      <Suspense fallback={<div className="h-48 animate-pulse rounded-xl bg-muted" />}>
+      <Suspense fallback={<div className="h-48 animate-pulse rounded-xl bg-white/5" />}>
         <ManagerCompareClient managers={managerOptions} data={compareData} />
       </Suspense>
     </div>

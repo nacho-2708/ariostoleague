@@ -43,14 +43,14 @@ export default async function StatsPlayersPage({
       </div>
 
       {!board.hasData ? (
-        <div className="rounded-xl border border-dashed border-border bg-muted/30 px-6 py-10 text-center">
-          <p className="font-medium text-foreground">Sin datos de jugadores para esta temporada.</p>
-          <p className="mt-2 text-sm text-muted-foreground">
+        <div className="rounded-xl border border-dashed border-white/10 bg-white/5 px-6 py-10 text-center">
+          <p className="font-medium text-chalk">Sin datos de jugadores para esta temporada.</p>
+          <p className="mt-2 font-meta text-sm text-gray">
             Cuando se sincronicen las jornadas en Supabase, aparecerán los leaderboards.
           </p>
         </div>
       ) : (
-        <Suspense fallback={<div className="h-40 animate-pulse rounded-xl bg-muted" />}>
+        <Suspense fallback={<div className="h-40 animate-pulse rounded-xl bg-white/5" />}>
           <PlayerLeaderboardTable managers={board.managers} leagueStars={board.leagueStars} />
         </Suspense>
       )}
